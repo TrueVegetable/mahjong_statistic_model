@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/iishanten-validation.schema.json",
+  "title": "Statistical Mahjong iishanten simulation result",
+  "description": "Shared JSON contract. Hero is South, immediately after the hero's ninth discard. River lengths are East/dealer 9, South/hero 9, West/side1 8, North/side2 8; the live wall has 36 tiles and hero has 88 unseen positions.",
+  "type": "object",
+  "required": ["engine_version", "engine", "seed", "trials", "config", "results", "calibration"],
+  "properties": {
+    "engine_version": {"type": "string", "minLength": 1},
+    "engine": {"enum": ["python", "cpp"]},
+    "seed": {"type": "integer", "minimum": 0},
+    "trials": {"type": "integer", "minimum": 1},
+    "config": {
+      "type": "object",
+      "required": ["seat_map", "river_lengths", "live_wall_tiles", "hero_unseen_positions", "action_order"],
+      "properties": {
+        "seat_map": {
+          "type": "object",
+          "required": ["dealer", "hero", "side1", "side2"],
+          "properties": {
+            "dealer": {"const": "east"},
+            "hero": {"const": "south"},
+            "side1": {"const": "west"},
+            "side2": {"const": "north"}
+          },
+          "additionalProperties": false
+        },
+        "river_lengths": {
+          "type": "object",
+          "required": ["dealer", "hero", "side1", "side2"],
+          "properties": {
+            "dealer": {"const": 9},
+            "hero": {"const": 9},
+            "side1": {"const": 8},
+            "side2": {"const": 8}
+          },
+          "additionalProperties": false
+        },
+        "live_wall_tiles": {"const": 36},
+        "hero_unseen_positions": {"const": 88},
+        "action_order": {
+          "type": "array",
+          "prefixItems": [
+            {"const": "hero_current_discard_check"},
+            {"const": "west_draw_discard"},
+            {"const": "north_draw_discard"},
+            {"const": "dealer_draw"}
+          ],
+          "items": false,
+          "minItems": 4,
+          "maxItems": 4
+        }
+      },
+      "additionalProperties": true
+    },
+    "results": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/result"}},
+    "calibration": {"$ref": "#/$defs/calibration"}
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "nonnegativeInteger": {"type": "integer", "minimum": 0},
+    "rate": {"type": "number", "minimum": 0, "maximum": 1},
+    "residual": {
+      "type": "object",
+      "required": ["target", "fitted", "difference", "standard_error"],
+      "properties": {
+        "target": {"$ref": "#/$defs/rate"},
+        "fitted": {"$ref": "#/$defs/rate"},
+        "difference": {"type": "number"},
+        "standard_error": {"type": "number", "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "calibration": {
+      "type": "object",
+      "required": ["residuals"],
+      "properties": {
+        "residuals": {"type": "object", "minProperties": 1, "additionalProperties": {"$ref": "#/$defs/residual"}},
+        "weighted_rmse": {"type": "number", "minimum": 0}
+      },
+      "additionalProperties": true
+    },
+    "result": {
+      "type": "object",
+      "required": [
+        "shape", "strategy", "current_category", "ev", "se", "fold_ev", "fold_se",
+        "ev_difference", "paired_ev_difference_se", "break_even_danger", "event_counts",
+        "event_rates", "route_counts", "wait_kind_counts", "current_hit_rates",
+        "current_dealer_ippatsu_contribution", "continuation_ev_after_safe"
+      ],
+      "properties": {
+        "shape": {"enum": ["ryanmen_ryanmen", "ryanmen_ryankan", "ryanmen_kanchan"]},
+        "strategy": {"enum": ["suji37", "nosuji2378", "allout", "fixed05", "fixed10", "fixed15", "fold"]},
+        "current_category": {"enum": ["genbutsu", "suji37", "nosuji2378", "nosuji456", "fold"]},
+        "ev": {"type": "number"},
+        "se": {"type": "number", "minimum": 0},
+        "fold_ev": {"type": "number"},
+        "fold_se": {"type": "number", "minimum": 0},
+        "ev_difference": {"type": "number"},
+        "paired_ev_difference_se": {"type": "number", "minimum": 0},
+        "break_even_danger": {"type": "number", "description": "May lie outside [0,1] when no physical danger rate makes the branches equal."},
+        "event_counts": {"type": "object", "minProperties": 1, "additionalProperties": {"$ref": "#/$defs/nonnegativeInteger"}},
+        "event_rates": {"type": "object", "additionalProperties": {"$ref": "#/$defs/rate"}},
+        "route_counts": {"type": "object", "additionalProperties": {"$ref": "#/$defs/nonnegativeInteger"}},
+        "wait_kind_counts": {
+          "type": "object",
+          "required": ["ryanmen", "kanchan", "penchan", "shanpon", "tanki"],
+          "properties": {
+            "ryanmen": {"$ref": "#/$defs/nonnegativeInteger"}, "kanchan": {"$ref": "#/$defs/nonnegativeInteger"},
+            "penchan": {"$ref": "#/$defs/nonnegativeInteger"}, "shanpon": {"$ref": "#/$defs/nonnegativeInteger"},
+            "tanki": {"$ref": "#/$defs/nonnegativeInteger"}
+          },
+          "additionalProperties": false
+        },
+        "current_hit_rates": {
+          "type": "object", "required": ["dealer", "initial_side", "any"],
+          "properties": {"dealer": {"$ref": "#/$defs/rate"}, "initial_side": {"$ref": "#/$defs/rate"}, "any": {"$ref": "#/$defs/rate"}},
+          "additionalProperties": false
+        },
+        "current_dealer_ippatsu_contribution": {"type": "number"},
+        "continuation_ev_after_safe": {"type": "number"}
+      },
+      "additionalProperties": true
+    }
+  }
+}

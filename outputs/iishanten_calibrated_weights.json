@@ -1,0 +1,211 @@
+{
+  "engine_version": "python-legal-wall-1",
+  "source": {
+    "hanchan": 171650,
+    "riichi": 1300316,
+    "condition": "after riichi declaration discard; excludes furiten and kokushi riichi"
+  },
+  "targets": {
+    "honor.tanki": 0.0056,
+    "honor.shanpon": 0.012,
+    "one_nine.tanki": 0.0047,
+    "one_nine.shanpon": 0.0101,
+    "one_nine.ryanmen": 0.0461,
+    "two_eight.tanki": 0.0048,
+    "two_eight.shanpon": 0.0089,
+    "two_eight.kanchan": 0.0118,
+    "two_eight.ryanmen": 0.0466,
+    "three_seven.tanki": 0.0038,
+    "three_seven.shanpon": 0.0066,
+    "three_seven.kanchan": 0.0118,
+    "three_seven.penchan": 0.0097,
+    "three_seven.ryanmen": 0.0474,
+    "four_five_six.tanki": 0.0044,
+    "four_five_six.shanpon": 0.0067,
+    "four_five_six.kanchan": 0.0083,
+    "four_five_six.ryanmen": 0.0762,
+    "honor.total": 0.0176,
+    "one_nine.total": 0.0609,
+    "two_eight.total": 0.072,
+    "three_seven.total": 0.0794,
+    "four_five_six.total": 0.0956
+  },
+  "weights": {
+    "kind_log_weights": {
+      "ryanmen": 2.103018709966594,
+      "kanchan": 0.7931893428052499,
+      "penchan": 0.5155417096676611,
+      "shanpon": -2.3198482669846596,
+      "tanki": 0.0
+    },
+    "position_log_weights": {},
+    "regularization": 0.0005,
+    "source": "three-stage constrained fit: 3x20000 legal states; independent n=20000 validation",
+    "internal_log_weights": {},
+    "location_log_weights": {
+      "ryanmen:2": 0.0015405314187024607,
+      "ryanmen:3": 0.0329485265810187,
+      "kanchan:3": -0.00028869099824344594,
+      "kanchan:4": -0.13696828240052153,
+      "kanchan:5": -1.4625905725590236,
+      "tanki:one_nine": -0.14524019480503936,
+      "tanki:two_eight": -0.13309023220683117,
+      "tanki:three_seven": -0.29201299611410114,
+      "tanki:four_five_six": -0.21129329045558723,
+      "shanpon:one_nine": -0.18418856738816006,
+      "shanpon:two_eight": -0.28592479100670826,
+      "shanpon:three_seven": -0.5103770898962516,
+      "shanpon:four_five_six": -0.5505124453465684
+    }
+  },
+  "residuals": {
+    "honor.tanki": {
+      "target": 0.0056,
+      "fitted": 0.005310855123274208,
+      "difference": -0.00028914487672579165,
+      "standard_error": 0.00022059428302150612
+    },
+    "honor.shanpon": {
+      "target": 0.012,
+      "fitted": 0.012265996352330822,
+      "difference": 0.00026599635233082175,
+      "standard_error": 0.0003706026779560319
+    },
+    "honor.total": {
+      "target": 0.0176,
+      "fitted": 0.017576851475605032,
+      "difference": -2.3148524394969033e-05,
+      "standard_error": 0.00043128665943888714
+    },
+    "one_nine.tanki": {
+      "target": 0.0047,
+      "fitted": 0.004664423665122782,
+      "difference": -3.5576334877217806e-05,
+      "standard_error": 0.00022316528105675523
+    },
+    "one_nine.shanpon": {
+      "target": 0.0101,
+      "fitted": 0.010410294503189723,
+      "difference": 0.0003102945031897234,
+      "standard_error": 0.00035862901646536294
+    },
+    "one_nine.ryanmen": {
+      "target": 0.0461,
+      "fitted": 0.04131346674823036,
+      "difference": -0.004786533251769642,
+      "standard_error": 0.0006030025269382469
+    },
+    "one_nine.total": {
+      "target": 0.0609,
+      "fitted": 0.05638818491654286,
+      "difference": -0.004511815083457139,
+      "standard_error": 0.0007362265694838548
+    },
+    "two_eight.tanki": {
+      "target": 0.0048,
+      "fitted": 0.004485281309876328,
+      "difference": -0.00031471869012367117,
+      "standard_error": 0.00021859319377225752
+    },
+    "two_eight.shanpon": {
+      "target": 0.0089,
+      "fitted": 0.009122975091447483,
+      "difference": 0.00022297509144748352,
+      "standard_error": 0.0003286168171230516
+    },
+    "two_eight.kanchan": {
+      "target": 0.0118,
+      "fitted": 0.01155068803344365,
+      "difference": -0.00024931196655634917,
+      "standard_error": 0.0003446684120773785
+    },
+    "two_eight.ryanmen": {
+      "target": 0.0466,
+      "fitted": 0.04165215119317192,
+      "difference": -0.004947848806828081,
+      "standard_error": 0.0006040978106467116
+    },
+    "two_eight.total": {
+      "target": 0.072,
+      "fitted": 0.06681109562793938,
+      "difference": -0.005188904372060613,
+      "standard_error": 0.0007996889870266644
+    },
+    "three_seven.tanki": {
+      "target": 0.0038,
+      "fitted": 0.003839979172994316,
+      "difference": 3.9979172994315804e-05,
+      "standard_error": 0.00020225074453237944
+    },
+    "three_seven.shanpon": {
+      "target": 0.0066,
+      "fitted": 0.007061656614743784,
+      "difference": 0.00046165661474378405,
+      "standard_error": 0.0002917011408677534
+    },
+    "three_seven.kanchan": {
+      "target": 0.0118,
+      "fitted": 0.010587061222718791,
+      "difference": -0.0012129387772812084,
+      "standard_error": 0.0003303089702252966
+    },
+    "three_seven.penchan": {
+      "target": 0.0097,
+      "fitted": 0.008743003427778019,
+      "difference": -0.0009569965722219815,
+      "standard_error": 0.0003015419519323806
+    },
+    "three_seven.ryanmen": {
+      "target": 0.0474,
+      "fitted": 0.0431834945979954,
+      "difference": -0.004216505402004599,
+      "standard_error": 0.0006104817056291894
+    },
+    "three_seven.total": {
+      "target": 0.0794,
+      "fitted": 0.07341519503623031,
+      "difference": -0.005984804963769685,
+      "standard_error": 0.0008358913785545709
+    },
+    "four_five_six.tanki": {
+      "target": 0.0044,
+      "fitted": 0.003933695300420697,
+      "difference": -0.0004663046995793032,
+      "standard_error": 0.00016591389033503279
+    },
+    "four_five_six.shanpon": {
+      "target": 0.0067,
+      "fitted": 0.00642911078350293,
+      "difference": -0.0002708892164970701,
+      "standard_error": 0.00022737746658039093
+    },
+    "four_five_six.kanchan": {
+      "target": 0.0083,
+      "fitted": 0.006824637733271008,
+      "difference": -0.0014753622667289922,
+      "standard_error": 0.00021617505294646534
+    },
+    "four_five_six.ryanmen": {
+      "target": 0.0762,
+      "fitted": 0.08334112401567725,
+      "difference": 0.00714112401567725,
+      "standard_error": 0.0005045557209977696
+    },
+    "four_five_six.total": {
+      "target": 0.0956,
+      "fitted": 0.1005285678328719,
+      "difference": 0.004928567832871891,
+      "standard_error": 0.0006168760494804513
+    }
+  },
+  "weighted_rmse": 0.00260020096138818,
+  "validation_trials": 20000,
+  "acceptance": {
+    "basic_rmse_target": 0.0025,
+    "main_total_error_target": 0.005,
+    "observed_basic_rmse": 0.00260020096138818,
+    "observed_max_total_error": 0.005984804963769685,
+    "met": false
+  },
+  "note": "Targets are candidate-tile winning contributions, not per-hand wait-form shares. The compact mirror-symmetric model keeps its independent-sample residual instead of adding suit- or tile-specific parameters."
+}

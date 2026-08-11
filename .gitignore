@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+*.o
+outputs/iishanten_wall_sim_cpp
