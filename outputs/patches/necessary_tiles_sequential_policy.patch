@@ -1,0 +1,34 @@
+diff --git a/src/mkind.cpp b/src/mkind.cpp
+index d52e181..ef849e4 100644
+--- a/src/mkind.cpp
++++ b/src/mkind.cpp
+@@ -7,9 +7,9 @@
+ #include <utility>
+ #include <vector>
+ #ifdef ENABLE_PARALLEL
+-#define POLICY (std::execution::par)
++#define POLICY
+ #else
+-#define POLICY (std::execution::seq)
++#define POLICY
+ #endif
+ constexpr int MAX_SHT = 14;
+ constexpr int MAX_TILES = 14;
+@@ -130,7 +130,7 @@ int main()
+ 
+     std::vector<std::array<uint32_t, 10>> dists(hands.size(), std::array<uint32_t, 10>{});
+ 
+-    std::for_each(POLICY, hands.cbegin(), hands.cend(),
++    std::for_each(POLICY hands.cbegin(), hands.cend(),
+                   [&deltas, &dists](const auto& hand_hash) {
+                     dp<9>(hand_hash.first, deltas, dists[hand_hash.second]);
+                   });
+@@ -164,7 +164,7 @@ int main()
+ 
+     std::vector<std::array<uint32_t, 10>> dists(hands.size(), std::array<uint32_t, 10>{});
+ 
+-    std::for_each(POLICY, hands.cbegin(), hands.cend(),
++    std::for_each(POLICY hands.cbegin(), hands.cend(),
+                   [&deltas, &dists](const auto& hand_hash) {
+                     dp<7>(hand_hash.first, deltas, dists[hand_hash.second]);
+                   });

@@ -1,0 +1,757 @@
+{
+  "run": {
+    "engine": "native",
+    "binary": "/private/tmp/hand-efficiency-build/hand_efficiency_sim_cpp",
+    "engine_version": "closed-hand-efficiency-cpp-3",
+    "evaluator_backend": "necessary_tiles_masks",
+    "seed": 20260813,
+    "start_trial": 0,
+    "trials": 100000,
+    "seat_wind": "south",
+    "round_wind": "east",
+    "riichi_on_tenpai": true,
+    "score_assumes_riichi": true,
+    "ura_dora_sampled": true,
+    "ura_dora_hidden_from_discard_policy": true,
+    "policy": "shanten_then_value_ukeire",
+    "policy_parameters": {
+      "future_ukeire_weight": 0.5,
+      "improvement_weight": 0.1,
+      "advanced_shanten": [
+        1,
+        2
+      ],
+      "dora_ukeire_weight": 1.0,
+      "dora_tiebreak_weight": 1.0,
+      "dora_neighbor_weight": 1.0,
+      "yakuhai_weight": 1.0,
+      "tanyao_weight": 1.0
+    },
+    "scorer": "mahjong_repository_2",
+    "observations": null
+  },
+  "trials": 100000,
+  "outcomes": {
+    "exhausted": 28599,
+    "tenpai": 71401
+  },
+  "nondealer_ron_score": {
+    "definition": "each first-tenpai wait is scored as non-dealer ron; each hand first averages its waits by remaining physical-copy count",
+    "tenpai_hands": 71401,
+    "unseen_copy_weighted": {
+      "scored_hands": 71401,
+      "average_points": 5316.15563879727,
+      "average_points_standard_error": 12.671390230011328
+    },
+    "live_wall_weighted_diagnostic": {
+      "scored_hands": 47133,
+      "average_points": 5133.665584622244,
+      "average_points_standard_error": 15.009761140584994
+    },
+    "score_evaluations": 409862,
+    "invalid_visible_copy_weight": 0,
+    "invalid_live_copy_weight": 0,
+    "scoring_errors": {}
+  },
+  "score_distribution_definition": "each scored tenpai hand contributes total weight 1, divided among its winning physical copies by unseen count (four minus concealed and publicly visible copies)",
+  "han_distribution": {
+    "1": {
+      "count": 8778.676354849571,
+      "share": 0.12294892725381397
+    },
+    "2": {
+      "count": 18070.54424690523,
+      "share": 0.2530853103864824
+    },
+    "3": {
+      "count": 18736.75561622529,
+      "share": 0.2624158711534193
+    },
+    "4": {
+      "count": 12434.436310331339,
+      "share": 0.17414932998601335
+    },
+    "5": {
+      "count": 7646.154289921298,
+      "share": 0.10708749583228944
+    },
+    "6": {
+      "count": 3540.3178878013523,
+      "share": 0.04958358969484114
+    },
+    "7": {
+      "count": 1364.3984767210457,
+      "share": 0.01910895473062066
+    },
+    "8": {
+      "count": 503.3423944476554,
+      "share": 0.007049514634916253
+    },
+    "9": {
+      "count": 111.47254689754661,
+      "share": 0.0015612182868243666
+    },
+    "10": {
+      "count": 16.527958152958153,
+      "share": 0.0002314807657169809
+    },
+    "11": {
+      "count": 3.6428571428571423,
+      "share": 5.1019693601730264e-05
+    },
+    "12": {
+      "count": 0.4583333333333333,
+      "share": 6.419144456426847e-06
+    },
+    "13": {
+      "count": 193.00000000000006,
+      "share": 0.0027030433747426514
+    },
+    "14": {
+      "count": 0.857142857142857,
+      "share": 1.2004633788642413e-05
+    },
+    "15": {
+      "count": 0.14285714285714285,
+      "share": 2.0007722981070693e-06
+    },
+    "26": {
+      "count": 0.2727272727272727,
+      "share": 3.819656205477132e-06
+    }
+  },
+  "fu_distribution": {
+    "0": {
+      "count": 193.00000000000006,
+      "share": 0.0027030433747426514
+    },
+    "25": {
+      "count": 7255.999999997906,
+      "share": 0.10162322656542494
+    },
+    "30": {
+      "count": 15100.764011894396,
+      "share": 0.21149233220675337
+    },
+    "40": {
+      "count": 44323.63608832964,
+      "share": 0.6207705226583611
+    },
+    "50": {
+      "count": 4488.5793370029505,
+      "share": 0.06286437636731909
+    },
+    "60": {
+      "count": 39.02056277056278,
+      "share": 0.0005464988273352304
+    }
+  },
+  "han_fu_joint_distribution": {
+    "10han_25fu": {
+      "count": 6.666666666666664,
+      "share": 9.336937391166321e-05
+    },
+    "10han_30fu": {
+      "count": 3.8017676767676756,
+      "share": 5.324530016060945e-05
+    },
+    "10han_40fu": {
+      "count": 2.7738095238095233,
+      "share": 3.884832878824559e-05
+    },
+    "10han_50fu": {
+      "count": 2.285714285714285,
+      "share": 3.20123567697131e-05
+    },
+    "10han_60fu": {
+      "count": 1.0,
+      "share": 1.4005406086749485e-05
+    },
+    "11han_30fu": {
+      "count": 0.5535714285714286,
+      "share": 7.752992655164894e-06
+    },
+    "11han_40fu": {
+      "count": 0.5,
+      "share": 7.002703043374743e-06
+    },
+    "11han_50fu": {
+      "count": 2.589285714285714,
+      "share": 3.6263997903190624e-05
+    },
+    "12han_30fu": {
+      "count": 0.3333333333333333,
+      "share": 4.668468695583162e-06
+    },
+    "12han_50fu": {
+      "count": 0.125,
+      "share": 1.7506757608436857e-06
+    },
+    "13han_0fu": {
+      "count": 193.00000000000006,
+      "share": 0.0027030433747426514
+    },
+    "14han_60fu": {
+      "count": 0.857142857142857,
+      "share": 1.2004633788642413e-05
+    },
+    "15han_60fu": {
+      "count": 0.14285714285714285,
+      "share": 2.0007722981070693e-06
+    },
+    "1han_40fu": {
+      "count": 8038.449135173843,
+      "share": 0.11258174444578989
+    },
+    "1han_50fu": {
+      "count": 739.7272196757477,
+      "share": 0.010360180104980991
+    },
+    "1han_60fu": {
+      "count": 0.5,
+      "share": 7.002703043374743e-06
+    },
+    "26han_60fu": {
+      "count": 0.2727272727272727,
+      "share": 3.819656205477132e-06
+    },
+    "2han_30fu": {
+      "count": 2405.52466699963,
+      "share": 0.033690349813022644
+    },
+    "2han_40fu": {
+      "count": 14377.437578571897,
+      "share": 0.20136185177479163
+    },
+    "2han_50fu": {
+      "count": 1287.5820013319894,
+      "share": 0.01803310879864413
+    },
+    "3han_25fu": {
+      "count": 1652.499999999904,
+      "share": 0.02314393355835218
+    },
+    "3han_30fu": {
+      "count": 4743.078270048885,
+      "share": 0.06642873727327188
+    },
+    "3han_40fu": {
+      "count": 11355.645650092489,
+      "share": 0.15904042870677565
+    },
+    "3han_50fu": {
+      "count": 980.1031246531209,
+      "share": 0.013726742267659008
+    },
+    "3han_60fu": {
+      "count": 5.42857142857143,
+      "share": 7.602934732806865e-05
+    },
+    "4han_25fu": {
+      "count": 1359.499999999972,
+      "share": 0.019040349574935535
+    },
+    "4han_30fu": {
+      "count": 4232.271401977283,
+      "share": 0.05927467965402842
+    },
+    "4han_40fu": {
+      "count": 6160.910687575042,
+      "share": 0.08628605604368345
+    },
+    "4han_50fu": {
+      "count": 674.20064935065,
+      "share": 0.00944245387810605
+    },
+    "4han_60fu": {
+      "count": 7.553571428571429,
+      "share": 0.0001057908352624113
+    },
+    "5han_25fu": {
+      "count": 2027.8333333331548,
+      "share": 0.028400629309577662
+    },
+    "5han_30fu": {
+      "count": 2339.6253486880723,
+      "share": 0.03276740309922931
+    },
+    "5han_40fu": {
+      "count": 2837.5146014074467,
+      "share": 0.03974054426979239
+    },
+    "5han_50fu": {
+      "count": 430.71347402597604,
+      "share": 0.006032317110768421
+    },
+    "5han_60fu": {
+      "count": 10.46753246753247,
+      "share": 0.00014660204293402712
+    },
+    "6han_25fu": {
+      "count": 1261.6666666666608,
+      "share": 0.017670154012782185
+    },
+    "6han_30fu": {
+      "count": 949.2767059694579,
+      "share": 0.013295005755794146
+    },
+    "6han_40fu": {
+      "count": 1122.3590930869832,
+      "share": 0.015719094873839067
+    },
+    "6han_50fu": {
+      "count": 199.53165584415558,
+      "share": 0.00279452186725894
+    },
+    "6han_60fu": {
+      "count": 7.483766233766237,
+      "share": 0.00010481318516219992
+    },
+    "7han_25fu": {
+      "count": 626.8333333333348,
+      "share": 0.008779055382044158
+    },
+    "7han_30fu": {
+      "count": 310.86163790629803,
+      "share": 0.004353743475669781
+    },
+    "7han_40fu": {
+      "count": 312.7918171697585,
+      "share": 0.004380776420074768
+    },
+    "7han_50fu": {
+      "count": 109.80562770562767,
+      "share": 0.0015378724066277456
+    },
+    "7han_60fu": {
+      "count": 4.106060606060606,
+      "share": 5.7507046204683495e-05
+    },
+    "8han_25fu": {
+      "count": 263.3333333333357,
+      "share": 0.0036880902695107308
+    },
+    "8han_30fu": {
+      "count": 96.1157349959983,
+      "share": 0.001346139899945355
+    },
+    "8han_40fu": {
+      "count": 93.20284992784995,
+      "share": 0.0013053437616819086
+    },
+    "8han_50fu": {
+      "count": 49.482142857142904,
+      "share": 0.0006930175047568368
+    },
+    "8han_60fu": {
+      "count": 1.2083333333333333,
+      "share": 1.692319902148896e-05
+    },
+    "9han_25fu": {
+      "count": 57.666666666666806,
+      "share": 0.0008076450843358889
+    },
+    "9han_30fu": {
+      "count": 19.32157287157286,
+      "share": 0.0002706064743011003
+    },
+    "9han_40fu": {
+      "count": 22.050865800865797,
+      "share": 0.0003088313301055419
+    },
+    "9han_50fu": {
+      "count": 12.433441558441558,
+      "share": 0.0001741353980818414
+    }
+  },
+  "live_wall_weighted_han_distribution": {
+    "1": {
+      "count": 6119.1281746029335,
+      "share": 0.12982683416296298
+    },
+    "2": {
+      "count": 12375.677777778625,
+      "share": 0.2625692779534217
+    },
+    "3": {
+      "count": 12599.597619048503,
+      "share": 0.26732008611903557
+    },
+    "4": {
+      "count": 8072.271428570878,
+      "share": 0.17126581012392333
+    },
+    "5": {
+      "count": 4729.673412698375,
+      "share": 0.10034738745037182
+    },
+    "6": {
+      "count": 2102.948809523795,
+      "share": 0.04461733412945908
+    },
+    "7": {
+      "count": 743.9750000000031,
+      "share": 0.01578458829270369
+    },
+    "8": {
+      "count": 243.12777777777788,
+      "share": 0.005158334453096087
+    },
+    "9": {
+      "count": 49.51666666666667,
+      "share": 0.001050573200659128
+    },
+    "10": {
+      "count": 8.583333333333332,
+      "share": 0.00018210878436198272
+    },
+    "11": {
+      "count": 5.0,
+      "share": 0.00010608278700698025
+    },
+    "12": {
+      "count": 0.5,
+      "share": 1.0608278700698025e-05
+    },
+    "13": {
+      "count": 82.00000000000001,
+      "share": 0.0017397577069144764
+    },
+    "26": {
+      "count": 1.0,
+      "share": 2.121655740139605e-05
+    }
+  },
+  "live_wall_weighted_fu_distribution": {
+    "0": {
+      "count": 82.00000000000001,
+      "share": 0.0017397577069144764
+    },
+    "25": {
+      "count": 3268.0000000000146,
+      "share": 0.0693357095877626
+    },
+    "30": {
+      "count": 11289.963492064186,
+      "share": 0.23953415848904558
+    },
+    "40": {
+      "count": 29647.1873015842,
+      "share": 0.6290112511740013
+    },
+    "50": {
+      "count": 2823.274206349228,
+      "share": 0.059900159258889266
+    },
+    "60": {
+      "count": 22.575,
+      "share": 0.0004789637833365158
+    }
+  },
+  "wait_distribution": {
+    "definition": "first-tenpai wait-tile opportunities; multiple shape labels on one tile are split fractionally",
+    "categories": {
+      "ryanmen": {
+        "wait_tile_opportunities": 68760.0,
+        "wait_tile_share": 0.5800231131956102,
+        "visible_remaining_copies": 260963.6666666667,
+        "visible_copy_share": 0.6367110555910688,
+        "live_wall_remaining_copies": 55740.00000000001,
+        "live_wall_copy_share": 0.6044045411665203
+      },
+      "kanchan": {
+        "wait_tile_opportunities": 17152.833333333336,
+        "wait_tile_share": 0.1446922598912949,
+        "visible_remaining_copies": 65316.33333333334,
+        "visible_copy_share": 0.15936176892059603,
+        "live_wall_remaining_copies": 16758.833333333336,
+        "live_wall_copy_share": 0.1817207565719325
+      },
+      "penchan": {
+        "wait_tile_opportunities": 4970.166666666666,
+        "wait_tile_share": 0.041925705978781966,
+        "visible_remaining_copies": 18716.000000000004,
+        "visible_copy_share": 0.045664150372564424,
+        "live_wall_remaining_copies": 4863.999999999999,
+        "live_wall_copy_share": 0.05274172386497943
+      },
+      "shanpon": {
+        "wait_tile_opportunities": 17034.666666666668,
+        "wait_tile_share": 0.14369546818280232,
+        "visible_remaining_copies": 33416.833333333336,
+        "visible_copy_share": 0.0815319139938158,
+        "live_wall_remaining_copies": 7894.166666666666,
+        "live_wall_copy_share": 0.0855986756738196
+      },
+      "tanki": {
+        "wait_tile_opportunities": 3154.500000000001,
+        "wait_tile_share": 0.026609699106683433,
+        "visible_remaining_copies": 8963.666666666666,
+        "visible_copy_share": 0.021869962735424766,
+        "live_wall_remaining_copies": 2409.666666666667,
+        "live_wall_copy_share": 0.02612869530016012
+      },
+      "other": {
+        "wait_tile_opportunities": 7474.833333333333,
+        "wait_tile_share": 0.06305375364482722,
+        "visible_remaining_copies": 22485.5,
+        "visible_copy_share": 0.05486114838653009,
+        "live_wall_remaining_copies": 4556.333333333334,
+        "live_wall_copy_share": 0.049405607422588003
+      }
+    }
+  },
+  "average_wait_tiles_remaining_at_first_tenpai": {
+    "tenpai_hands": 71401,
+    "furiten_hands": 2385,
+    "dead_wait_hands": 24268,
+    "distinct_wait_tile_types": 1.6602988753658912,
+    "visible_remaining_copies": 5.740283749527317,
+    "live_wall_remaining_copies": 1.2916205655382977
+  },
+  "tile_hit_rate_by_wait": {
+    "definition": "probability that the next tile sampled uniformly from the remaining live wall completes each wait category; ambiguous shapes are split fractionally",
+    "overall_average_next_draw_hit_probability": 0.049054212090767754,
+    "categories": {
+      "ryanmen": {
+        "eligible_tenpai_hands": 34608,
+        "average_next_draw_hit_probability": 0.03096934286322095,
+        "average_next_draw_hit_probability_when_exposed": 0.0638939565931819
+      },
+      "kanchan": {
+        "eligible_tenpai_hands": 18952,
+        "average_next_draw_hit_probability": 0.00797593849172614,
+        "average_next_draw_hit_probability_when_exposed": 0.030049070506951152
+      },
+      "penchan": {
+        "eligible_tenpai_hands": 5704,
+        "average_next_draw_hit_probability": 0.0022493606138795684,
+        "average_next_draw_hit_probability_when_exposed": 0.028156836814799274
+      },
+      "shanpon": {
+        "eligible_tenpai_hands": 8719,
+        "average_next_draw_hit_probability": 0.004164081592152224,
+        "average_next_draw_hit_probability_when_exposed": 0.03410019380218614
+      },
+      "tanki": {
+        "eligible_tenpai_hands": 2787,
+        "average_next_draw_hit_probability": 0.0010799703708937515,
+        "average_next_draw_hit_probability_when_exposed": 0.02766808914681907
+      },
+      "other": {
+        "eligible_tenpai_hands": 7501,
+        "average_next_draw_hit_probability": 0.002615518158889658,
+        "average_next_draw_hit_probability_when_exposed": 0.024896762040112052
+      }
+    }
+  },
+  "raw": {
+    "visible_scored_hands": 71401,
+    "visible_hand_point_sum": 379578828.7657638,
+    "visible_hand_point_square_sum": 2836461109206.405,
+    "live_scored_hands": 47133,
+    "live_hand_point_sum": 241965060.00000024,
+    "live_hand_point_square_sum": 1742649761142.4087,
+    "distinct_wait_type_sum": 118547,
+    "visible_wait_copy_sum": 409862,
+    "live_wait_copy_sum": 92223,
+    "visible_han_counts": {
+      "1": 8778.676354849571,
+      "2": 18070.54424690523,
+      "3": 18736.75561622529,
+      "4": 12434.436310331339,
+      "5": 7646.154289921298,
+      "6": 3540.3178878013523,
+      "7": 1364.3984767210457,
+      "8": 503.3423944476554,
+      "9": 111.47254689754661,
+      "10": 16.527958152958153,
+      "11": 3.6428571428571423,
+      "12": 0.4583333333333333,
+      "13": 193.00000000000006,
+      "14": 0.857142857142857,
+      "15": 0.14285714285714285,
+      "26": 0.2727272727272727
+    },
+    "visible_fu_counts": {
+      "0": 193.00000000000006,
+      "25": 7255.999999997906,
+      "30": 15100.764011894396,
+      "40": 44323.63608832964,
+      "50": 4488.5793370029505,
+      "60": 39.02056277056278
+    },
+    "visible_han_fu_counts": {
+      "10han_25fu": 6.666666666666664,
+      "10han_30fu": 3.8017676767676756,
+      "10han_40fu": 2.7738095238095233,
+      "10han_50fu": 2.285714285714285,
+      "10han_60fu": 1.0,
+      "11han_30fu": 0.5535714285714286,
+      "11han_40fu": 0.5,
+      "11han_50fu": 2.589285714285714,
+      "12han_30fu": 0.3333333333333333,
+      "12han_50fu": 0.125,
+      "13han_0fu": 193.00000000000006,
+      "14han_60fu": 0.857142857142857,
+      "15han_60fu": 0.14285714285714285,
+      "1han_40fu": 8038.449135173843,
+      "1han_50fu": 739.7272196757477,
+      "1han_60fu": 0.5,
+      "26han_60fu": 0.2727272727272727,
+      "2han_30fu": 2405.52466699963,
+      "2han_40fu": 14377.437578571897,
+      "2han_50fu": 1287.5820013319894,
+      "3han_25fu": 1652.499999999904,
+      "3han_30fu": 4743.078270048885,
+      "3han_40fu": 11355.645650092489,
+      "3han_50fu": 980.1031246531209,
+      "3han_60fu": 5.42857142857143,
+      "4han_25fu": 1359.499999999972,
+      "4han_30fu": 4232.271401977283,
+      "4han_40fu": 6160.910687575042,
+      "4han_50fu": 674.20064935065,
+      "4han_60fu": 7.553571428571429,
+      "5han_25fu": 2027.8333333331548,
+      "5han_30fu": 2339.6253486880723,
+      "5han_40fu": 2837.5146014074467,
+      "5han_50fu": 430.71347402597604,
+      "5han_60fu": 10.46753246753247,
+      "6han_25fu": 1261.6666666666608,
+      "6han_30fu": 949.2767059694579,
+      "6han_40fu": 1122.3590930869832,
+      "6han_50fu": 199.53165584415558,
+      "6han_60fu": 7.483766233766237,
+      "7han_25fu": 626.8333333333348,
+      "7han_30fu": 310.86163790629803,
+      "7han_40fu": 312.7918171697585,
+      "7han_50fu": 109.80562770562767,
+      "7han_60fu": 4.106060606060606,
+      "8han_25fu": 263.3333333333357,
+      "8han_30fu": 96.1157349959983,
+      "8han_40fu": 93.20284992784995,
+      "8han_50fu": 49.482142857142904,
+      "8han_60fu": 1.2083333333333333,
+      "9han_25fu": 57.666666666666806,
+      "9han_30fu": 19.32157287157286,
+      "9han_40fu": 22.050865800865797,
+      "9han_50fu": 12.433441558441558
+    },
+    "live_han_counts": {
+      "1": 6119.1281746029335,
+      "2": 12375.677777778625,
+      "3": 12599.597619048503,
+      "4": 8072.271428570878,
+      "5": 4729.673412698375,
+      "6": 2102.948809523795,
+      "7": 743.9750000000031,
+      "8": 243.12777777777788,
+      "9": 49.51666666666667,
+      "10": 8.583333333333332,
+      "11": 5.0,
+      "12": 0.5,
+      "13": 82.00000000000001,
+      "26": 1.0
+    },
+    "live_fu_counts": {
+      "0": 82.00000000000001,
+      "25": 3268.0000000000146,
+      "30": 11289.963492064186,
+      "40": 29647.1873015842,
+      "50": 2823.274206349228,
+      "60": 22.575
+    },
+    "live_han_fu_counts": {
+      "10han_25fu": 4.0,
+      "10han_30fu": 1.9166666666666665,
+      "10han_40fu": 1.6666666666666665,
+      "10han_50fu": 1.0,
+      "11han_30fu": 1.0,
+      "11han_40fu": 1.0,
+      "11han_50fu": 3.0,
+      "12han_30fu": 0.5,
+      "13han_0fu": 82.00000000000001,
+      "1han_40fu": 5634.567063491883,
+      "1han_50fu": 484.56111111110977,
+      "26han_60fu": 1.0,
+      "2han_30fu": 1868.9190476190333,
+      "2han_40fu": 9708.80158730157,
+      "2han_50fu": 797.9571428571463,
+      "3han_25fu": 781.1666666666673,
+      "3han_30fu": 3623.6392857143233,
+      "3han_40fu": 7563.315476190088,
+      "3han_50fu": 628.9761904761912,
+      "3han_60fu": 2.5,
+      "4han_25fu": 596.9999999999998,
+      "4han_30fu": 3127.7119047619312,
+      "4han_40fu": 3900.509523809596,
+      "4han_50fu": 443.04999999999893,
+      "4han_60fu": 4.0,
+      "5han_25fu": 926.5000000000008,
+      "5han_30fu": 1699.7499999999943,
+      "5han_40fu": 1842.1936507936366,
+      "5han_50fu": 254.22976190476186,
+      "5han_60fu": 7.0,
+      "6han_25fu": 571.333333333333,
+      "6han_30fu": 673.1654761904776,
+      "6han_40fu": 737.766666666669,
+      "6han_50fu": 116.18333333333325,
+      "6han_60fu": 4.5,
+      "7han_25fu": 262.1666666666668,
+      "7han_30fu": 218.16666666666677,
+      "7han_40fu": 197.3333333333334,
+      "7han_50fu": 63.98333333333337,
+      "7han_60fu": 2.325,
+      "8han_25fu": 106.83333333333333,
+      "8han_30fu": 60.677777777777834,
+      "8han_40fu": 48.03333333333337,
+      "8han_50fu": 26.33333333333333,
+      "8han_60fu": 1.25,
+      "9han_25fu": 19.0,
+      "9han_30fu": 14.51666666666667,
+      "9han_40fu": 12.000000000000002,
+      "9han_50fu": 4.0
+    },
+    "wait_tile_opportunities": {
+      "ryanmen": 68760.0,
+      "kanchan": 17152.833333333336,
+      "penchan": 4970.166666666666,
+      "shanpon": 17034.666666666668,
+      "tanki": 3154.500000000001,
+      "other": 7474.833333333333
+    },
+    "wait_visible_copies": {
+      "ryanmen": 260963.6666666667,
+      "kanchan": 65316.33333333334,
+      "penchan": 18716.000000000004,
+      "shanpon": 33416.833333333336,
+      "tanki": 8963.666666666666,
+      "other": 22485.5
+    },
+    "wait_live_copies": {
+      "ryanmen": 55740.00000000001,
+      "kanchan": 16758.833333333336,
+      "penchan": 4863.999999999999,
+      "shanpon": 7894.166666666666,
+      "tanki": 2409.666666666667,
+      "other": 4556.333333333334
+    },
+    "eligible_hands_by_wait": {
+      "ryanmen": 34608,
+      "kanchan": 18952,
+      "penchan": 5704,
+      "shanpon": 8719,
+      "tanki": 2787,
+      "other": 7501
+    },
+    "next_draw_hit_probability_sum": {
+      "ryanmen": 2211.242049776839,
+      "kanchan": 569.4899842477382,
+      "penchan": 160.60659719161507,
+      "shanpon": 297.31958976126094,
+      "tanki": 77.11096445218475,
+      "other": 186.7506120628805
+    },
+    "overall_next_draw_hit_probability_sum": 3502.5197974929083
+  }
+}

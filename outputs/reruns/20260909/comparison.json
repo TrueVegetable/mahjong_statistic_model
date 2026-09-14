@@ -1,0 +1,561 @@
+[
+  {
+    "experiment": "hand_monte_carlo_value_reversal25_wait_matrix_100k.json",
+    "trials": 100000,
+    "outcomes": {
+      "exhausted": 29790,
+      "tenpai": 70210
+    },
+    "changes_to_existing_statistics": [
+      {
+        "path": "wait_distribution.categories.chiitoitsu_tanki.tenpai_hands_with_wait",
+        "old": 6775,
+        "new": 6774
+      },
+      {
+        "path": "wait_distribution.categories.chiitoitsu_tanki.hand_share",
+        "old": 0.09649622560888763,
+        "new": 0.0964819826235579
+      },
+      {
+        "path": "wait_distribution.categories.chiitoitsu_tanki.wait_tile_opportunities",
+        "old": 6777.0,
+        "new": 6774.0
+      },
+      {
+        "path": "wait_distribution.categories.chiitoitsu_tanki.wait_tile_share",
+        "old": 0.05643455523541462,
+        "new": 0.056409573139250206
+      },
+      {
+        "path": "wait_distribution.categories.chiitoitsu_tanki.visible_remaining_copies",
+        "old": 20192.0,
+        "new": 20183.0
+      },
+      {
+        "path": "wait_distribution.categories.chiitoitsu_tanki.visible_copy_share",
+        "old": 0.049570748544816697,
+        "new": 0.04954865381735516
+      },
+      {
+        "path": "wait_distribution.categories.chiitoitsu_tanki.live_wall_remaining_copies",
+        "old": 4100.0,
+        "new": 4098.0
+      },
+      {
+        "path": "wait_distribution.categories.chiitoitsu_tanki.live_wall_copy_share",
+        "old": 0.04949359601154046,
+        "new": 0.049469452793973856
+      },
+      {
+        "path": "wait_distribution.categories.other.tenpai_hands_with_wait",
+        "old": 6029,
+        "new": 2718
+      },
+      {
+        "path": "wait_distribution.categories.other.hand_share",
+        "old": 0.08587095855291269,
+        "new": 0.03871243412619285
+      },
+      {
+        "path": "wait_distribution.categories.other.wait_tile_opportunities",
+        "old": 17527.0,
+        "new": 7594.0
+      },
+      {
+        "path": "wait_distribution.categories.other.wait_tile_share",
+        "old": 0.1459537331579035,
+        "new": 0.06323801275752378
+      },
+      {
+        "path": "wait_distribution.categories.other.visible_remaining_copies",
+        "old": 54728.0,
+        "new": 20710.0
+      },
+      {
+        "path": "wait_distribution.categories.other.visible_copy_share",
+        "old": 0.1343555827238871,
+        "new": 0.050842422858714036
+      },
+      {
+        "path": "wait_distribution.categories.other.live_wall_remaining_copies",
+        "old": 11916.0,
+        "new": 4712.0
+      },
+      {
+        "path": "wait_distribution.categories.other.live_wall_copy_share",
+        "old": 0.14384529026183318,
+        "new": 0.05688142058692162
+      },
+      {
+        "path": "average_wait_tiles_remaining_at_first_tenpai.chiitoitsu_tenpai_hands",
+        "old": 6775,
+        "new": 6774
+      },
+      {
+        "path": "average_wait_tiles_remaining_at_first_tenpai.chiitoitsu_tenpai_rate",
+        "old": 0.09649622560888763,
+        "new": 0.0964819826235579
+      },
+      {
+        "path": "tile_hit_rate_by_wait.categories.chiitoitsu_tanki.eligible_tenpai_hands",
+        "old": 6775,
+        "new": 6774
+      },
+      {
+        "path": "tile_hit_rate_by_wait.categories.chiitoitsu_tanki.hand_share",
+        "old": 0.09649622560888763,
+        "new": 0.0964819826235579
+      },
+      {
+        "path": "tile_hit_rate_by_wait.categories.chiitoitsu_tanki.average_next_draw_hit_probability",
+        "old": 0.0024107191941601996,
+        "new": 0.0024099279171974366
+      },
+      {
+        "path": "tile_hit_rate_by_wait.categories.chiitoitsu_tanki.average_next_draw_hit_probability_when_exposed",
+        "old": 0.024982523191437286,
+        "new": 0.024978009900565697
+      },
+      {
+        "path": "tile_hit_rate_by_wait.categories.other.eligible_tenpai_hands",
+        "old": 6029,
+        "new": 2718
+      },
+      {
+        "path": "tile_hit_rate_by_wait.categories.other.hand_share",
+        "old": 0.08587095855291269,
+        "new": 0.03871243412619285
+      },
+      {
+        "path": "tile_hit_rate_by_wait.categories.other.average_next_draw_hit_probability",
+        "old": 0.0066184109224708635,
+        "new": 0.0025767245383396917
+      },
+      {
+        "path": "tile_hit_rate_by_wait.categories.other.average_next_draw_hit_probability_when_exposed",
+        "old": 0.07707391455741903,
+        "new": 0.0665606437957431
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.19.chiitoitsu_tanki.eligible_tenpai_hands",
+        "old": 284,
+        "new": 283
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.19.chiitoitsu_tanki.hand_share",
+        "old": 0.004045007833641931,
+        "new": 0.004030764848312206
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.19.chiitoitsu_tanki.average_next_draw_hit_probability_when_exposed",
+        "old": 0.02377852456025295,
+        "new": 0.02386254761523618
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.19.other.eligible_tenpai_hands",
+        "old": 3284,
+        "new": 1064
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.19.other.hand_share",
+        "old": 0.04677396382281726,
+        "new": 0.015154536390827518
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.19.other.average_next_draw_hit_probability",
+        "old": 0.0013444674458455565,
+        "new": 0.0003945670144526315
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.19.other.average_next_draw_hit_probability_when_exposed",
+        "old": 0.02874392794543743,
+        "new": 0.02603623128263088
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.28.other.eligible_tenpai_hands",
+        "old": 2304,
+        "new": 1213
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.28.other.hand_share",
+        "old": 0.032815838199686656,
+        "new": 0.01727674120495656
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.28.other.average_next_draw_hit_probability",
+        "old": 0.001466684468108242,
+        "new": 0.00046776384472592175
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.28.other.average_next_draw_hit_probability_when_exposed",
+        "old": 0.044694408205676946,
+        "new": 0.02707477290866197
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.37.chiitoitsu_tanki.eligible_tenpai_hands",
+        "old": 1629,
+        "new": 1628
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.37.chiitoitsu_tanki.hand_share",
+        "old": 0.023201823102122206,
+        "new": 0.02318758011679248
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.37.chiitoitsu_tanki.average_next_draw_hit_probability",
+        "old": 0.0005651845503718458,
+        "new": 0.0005643932734090833
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.37.chiitoitsu_tanki.average_next_draw_hit_probability_when_exposed",
+        "old": 0.024359488816210736,
+        "new": 0.02434032661305389
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.37.other.eligible_tenpai_hands",
+        "old": 3669,
+        "new": 1449
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.37.other.hand_share",
+        "old": 0.05225751317476143,
+        "new": 0.020638085742771685
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.37.other.average_next_draw_hit_probability",
+        "old": 0.0014859747831159162,
+        "new": 0.0005390347032332845
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.37.other.average_next_draw_hit_probability_when_exposed",
+        "old": 0.028435619929836054,
+        "new": 0.02611844479917799
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.456.chiitoitsu_tanki.eligible_tenpai_hands",
+        "old": 3080,
+        "new": 3079
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.456.chiitoitsu_tanki.hand_share",
+        "old": 0.04386839481555334,
+        "new": 0.04385415183022361
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.456.chiitoitsu_tanki.average_next_draw_hit_probability_when_exposed",
+        "old": 0.025094468797796685,
+        "new": 0.02510261899877031
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.456.other.eligible_tenpai_hands",
+        "old": 5928,
+        "new": 2617
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.456.other.hand_share",
+        "old": 0.08443241703461045,
+        "new": 0.037273892607890616
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.456.other.average_next_draw_hit_probability",
+        "old": 0.002261075419821344,
+        "new": 0.00111515017034802
+      },
+      {
+        "path": "tile_hit_rate_by_tile_type_and_wait.by_tile_type_and_wait.456.other.average_next_draw_hit_probability_when_exposed",
+        "old": 0.026779707359253804,
+        "new": 0.029917727726455668
+      },
+      {
+        "path": "raw.chiitoitsu_tenpai_hands",
+        "old": 6775,
+        "new": 6774
+      },
+      {
+        "path": "raw.wait_tile_opportunities.chiitoitsu_tanki",
+        "old": 6777.0,
+        "new": 6774.0
+      },
+      {
+        "path": "raw.wait_tile_opportunities.other",
+        "old": 17527.0,
+        "new": 7594.0
+      },
+      {
+        "path": "raw.wait_visible_copies.chiitoitsu_tanki",
+        "old": 20192.0,
+        "new": 20183.0
+      },
+      {
+        "path": "raw.wait_visible_copies.other",
+        "old": 54728.0,
+        "new": 20710.0
+      },
+      {
+        "path": "raw.wait_live_copies.chiitoitsu_tanki",
+        "old": 4100.0,
+        "new": 4098.0
+      },
+      {
+        "path": "raw.wait_live_copies.other",
+        "old": 11916.0,
+        "new": 4712.0
+      },
+      {
+        "path": "raw.eligible_hands_by_wait.chiitoitsu_tanki",
+        "old": 6775,
+        "new": 6774
+      },
+      {
+        "path": "raw.eligible_hands_by_wait.other",
+        "old": 6029,
+        "new": 2718
+      },
+      {
+        "path": "raw.eligible_hands_by_tile_and_wait.19|chiitoitsu_tanki",
+        "old": 284,
+        "new": 283
+      },
+      {
+        "path": "raw.eligible_hands_by_tile_and_wait.19|other",
+        "old": 3284,
+        "new": 1064
+      },
+      {
+        "path": "raw.eligible_hands_by_tile_and_wait.28|other",
+        "old": 2304,
+        "new": 1213
+      },
+      {
+        "path": "raw.eligible_hands_by_tile_and_wait.37|chiitoitsu_tanki",
+        "old": 1629,
+        "new": 1628
+      },
+      {
+        "path": "raw.eligible_hands_by_tile_and_wait.37|other",
+        "old": 3669,
+        "new": 1449
+      },
+      {
+        "path": "raw.eligible_hands_by_tile_and_wait.456|chiitoitsu_tanki",
+        "old": 3080,
+        "new": 3079
+      },
+      {
+        "path": "raw.eligible_hands_by_tile_and_wait.456|other",
+        "old": 5928,
+        "new": 2617
+      },
+      {
+        "path": "raw.next_draw_hit_probability_sum.chiitoitsu_tanki",
+        "old": 169.2565946219876,
+        "new": 169.20103906643203
+      },
+      {
+        "path": "raw.next_draw_hit_probability_sum.other",
+        "old": 464.6786308666793,
+        "new": 180.91182983682975
+      },
+      {
+        "path": "raw.next_draw_hit_probability_sum_by_tile_and_wait.19|other",
+        "old": 94.39505937281652,
+        "new": 27.702550084719256
+      },
+      {
+        "path": "raw.next_draw_hit_probability_sum_by_tile_and_wait.28|other",
+        "old": 102.97591650587968,
+        "new": 32.84169953820697
+      },
+      {
+        "path": "raw.next_draw_hit_probability_sum_by_tile_and_wait.37|chiitoitsu_tanki",
+        "old": 39.68160728160729,
+        "new": 39.626051726051735
+      },
+      {
+        "path": "raw.next_draw_hit_probability_sum_by_tile_and_wait.37|other",
+        "old": 104.33028952256848,
+        "new": 37.845626514008906
+      },
+      {
+        "path": "raw.next_draw_hit_probability_sum_by_tile_and_wait.456|other",
+        "old": 158.75010522565654,
+        "new": 78.29469346013448
+      }
+    ],
+    "unexpected_changes": [],
+    "reference_wait_regrouping": true,
+    "continued_rejected_tenpai": {
+      "tables_with_at_least_one_rejection": 0,
+      "rejected_tenpai_events": 0,
+      "eligible_tenpai_after_rejection": 0,
+      "dama_tsumo_after_rejection": 0,
+      "dama_ron_after_rejection": 0,
+      "exhausted_after_rejection": 0,
+      "shanten_reversals_after_rejection": 0
+    },
+    "unseen_copy_weighted_ron": {
+      "scored_hands": 70210,
+      "average_points": 5368.934469677947,
+      "average_points_standard_error": 12.894486260951517
+    }
+  },
+  {
+    "experiment": "shared_four_player_extremeA_dora1_continue_rejected_20k.json",
+    "trials": 20000,
+    "outcomes": {
+      "dama_tsumo": 84,
+      "exhausted": 148,
+      "tenpai": 19768
+    },
+    "changes_to_existing_statistics": [],
+    "unexpected_changes": [],
+    "reference_wait_regrouping": false,
+    "continued_rejected_tenpai": {
+      "tables_with_at_least_one_rejection": 1262,
+      "rejected_tenpai_events": 2765,
+      "eligible_tenpai_after_rejection": 1154,
+      "dama_tsumo_after_rejection": 84,
+      "dama_ron_after_rejection": 0,
+      "exhausted_after_rejection": 24,
+      "shanten_reversals_after_rejection": 528
+    },
+    "unseen_copy_weighted_ron": {
+      "scored_hands": 0,
+      "average_points": null,
+      "average_points_standard_error": null
+    }
+  },
+  {
+    "experiment": "shared_four_player_extremeA_valuable_dama_3han40fu_20k.json",
+    "trials": 20000,
+    "outcomes": {
+      "dama_ron": 133,
+      "dama_tsumo": 152,
+      "exhausted": 178,
+      "tenpai": 19537
+    },
+    "changes_to_existing_statistics": [
+      {
+        "path": "continued_rejected_tenpai.dama_tsumo_after_rejection",
+        "old": 104,
+        "new": 92
+      }
+    ],
+    "unexpected_changes": [],
+    "reference_wait_regrouping": false,
+    "continued_rejected_tenpai": {
+      "tables_with_at_least_one_rejection": 1284,
+      "rejected_tenpai_events": 2850,
+      "eligible_tenpai_after_rejection": 1149,
+      "dama_tsumo_after_rejection": 92,
+      "dama_ron_after_rejection": 12,
+      "exhausted_after_rejection": 31,
+      "shanten_reversals_after_rejection": 543
+    },
+    "unseen_copy_weighted_ron": {
+      "scored_hands": 0,
+      "average_points": null,
+      "average_points_standard_error": null
+    }
+  },
+  {
+    "experiment": "shared_four_player_extremeA_valuable_dama_4han40fu_20k.json",
+    "trials": 20000,
+    "outcomes": {
+      "dama_ron": 61,
+      "dama_tsumo": 118,
+      "exhausted": 162,
+      "tenpai": 19659
+    },
+    "changes_to_existing_statistics": [
+      {
+        "path": "continued_rejected_tenpai.dama_tsumo_after_rejection",
+        "old": 91,
+        "new": 87
+      }
+    ],
+    "unexpected_changes": [],
+    "reference_wait_regrouping": false,
+    "continued_rejected_tenpai": {
+      "tables_with_at_least_one_rejection": 1272,
+      "rejected_tenpai_events": 2803,
+      "eligible_tenpai_after_rejection": 1153,
+      "dama_tsumo_after_rejection": 87,
+      "dama_ron_after_rejection": 4,
+      "exhausted_after_rejection": 28,
+      "shanten_reversals_after_rejection": 533
+    },
+    "unseen_copy_weighted_ron": {
+      "scored_hands": 0,
+      "average_points": null,
+      "average_points_standard_error": null
+    }
+  },
+  {
+    "experiment": "shared_four_player_extremeA_valuable_dama_3han40fu_haneman_20k.json",
+    "trials": 20000,
+    "outcomes": {
+      "dama_ron": 207,
+      "dama_tsumo": 184,
+      "exhausted": 205,
+      "tenpai": 19404
+    },
+    "changes_to_existing_statistics": [
+      {
+        "path": "continued_rejected_tenpai.dama_tsumo_after_rejection",
+        "old": 115,
+        "new": 98
+      }
+    ],
+    "unexpected_changes": [],
+    "reference_wait_regrouping": false,
+    "continued_rejected_tenpai": {
+      "tables_with_at_least_one_rejection": 1303,
+      "rejected_tenpai_events": 2917,
+      "eligible_tenpai_after_rejection": 1150,
+      "dama_tsumo_after_rejection": 98,
+      "dama_ron_after_rejection": 17,
+      "exhausted_after_rejection": 38,
+      "shanten_reversals_after_rejection": 550
+    },
+    "unseen_copy_weighted_ron": {
+      "scored_hands": 0,
+      "average_points": null,
+      "average_points_standard_error": null
+    }
+  },
+  {
+    "experiment": "shared_four_player_extremeA_valuable_dama_4han40fu_haneman_20k.json",
+    "trials": 20000,
+    "outcomes": {
+      "dama_ron": 126,
+      "dama_tsumo": 149,
+      "exhausted": 187,
+      "tenpai": 19538
+    },
+    "changes_to_existing_statistics": [
+      {
+        "path": "continued_rejected_tenpai.dama_tsumo_after_rejection",
+        "old": 102,
+        "new": 93
+      }
+    ],
+    "unexpected_changes": [],
+    "reference_wait_regrouping": false,
+    "continued_rejected_tenpai": {
+      "tables_with_at_least_one_rejection": 1291,
+      "rejected_tenpai_events": 2870,
+      "eligible_tenpai_after_rejection": 1154,
+      "dama_tsumo_after_rejection": 93,
+      "dama_ron_after_rejection": 9,
+      "exhausted_after_rejection": 35,
+      "shanten_reversals_after_rejection": 540
+    },
+    "unseen_copy_weighted_ron": {
+      "scored_hands": 0,
+      "average_points": null,
+      "average_points_standard_error": null
+    }
+  }
+]

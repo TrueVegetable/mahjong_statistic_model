@@ -1,0 +1,472 @@
+{
+  "date": "2026-09-14",
+  "checks": {
+    "aggregate_tables": true,
+    "aggregate_trial_id_min": true,
+    "aggregate_trial_id_max": true,
+    "aggregate_diagnostics": true,
+    "aggregate_decision_modes": true,
+    "aggregate_source_policy": true,
+    "aggregate_source_metadata": true,
+    "aggregate_seat_outcomes": true,
+    "aggregate_riichi_wait_distribution": true,
+    "aggregate_riichi_wait_quality": true,
+    "aggregate_seat_mean_net_points": true,
+    "aggregate_seat_net_points_se": true,
+    "aggregate_realized_win_values": true,
+    "aggregate_danger_rows": true,
+    "aggregate_physical_conditioned_danger_rows": true,
+    "trial_metrics_byte_identical": true,
+    "raw_observations_byte_identical": true,
+    "honor_source_matches_raw": true,
+    "physical_counts_valid": true,
+    "seed_and_range": true,
+    "original_honor_reconciliation": true,
+    "coordinate_pool_(6, 'all')": true,
+    "coordinate_pool_(9, 'all')": true,
+    "coordinate_pool_(12, 'all')": true,
+    "coordinate_pool_(15, 'all')": true,
+    "coordinate_pool_(6, 1)": true,
+    "coordinate_pool_(6, 2)": true,
+    "coordinate_pool_(6, 3)": true,
+    "coordinate_pool_(6, 4)": true,
+    "coordinate_pool_(9, 1)": true,
+    "coordinate_pool_(9, 2)": true,
+    "coordinate_pool_(9, 3)": true,
+    "coordinate_pool_(9, 4)": true,
+    "coordinate_pool_(12, 1)": true,
+    "coordinate_pool_(12, 2)": true,
+    "coordinate_pool_(12, 3)": true,
+    "coordinate_pool_(12, 4)": true,
+    "coordinate_pool_(15, 1)": true,
+    "coordinate_pool_(15, 2)": true,
+    "coordinate_pool_(15, 3)": true,
+    "coordinate_pool_(15, 4)": true,
+    "statistical-mahjong-the-whys-cn.md_honor_table": true,
+    "statistical-mahjong-the-whys-cn.md_danger_table": true,
+    "statistical-mahjong-the-whys-cn.md_whitespace": true,
+    "statistical-mahjong-the-whys-cn.md_local_links": true,
+    "hand_efficiency_simulator_report_zh.md_honor_table": true,
+    "hand_efficiency_simulator_report_zh.md_danger_table": true,
+    "hand_efficiency_simulator_report_zh.md_whitespace": true,
+    "hand_efficiency_simulator_report_zh.md_local_links": true,
+    "section6_contiguous": true,
+    "removed_intermediate_sections": true
+  },
+  "checks_passed": 51,
+  "checks_failed": 0,
+  "baseline_sha256": "a351992a54a0e8701e7279e97f6d5ed69d1cd6f306ee12fb1fb95352af6bb580",
+  "raw_observations_sha256": "e5e29bc72940e14be18dc279317a2063d5bbe241c4cfc53cf8700cd29a12bf15",
+  "regeneration_run": {
+    "native_command": [
+      "/private/tmp/hand-efficiency-build-20260914/hand_efficiency_sim_cpp",
+      "simulate-table",
+      "--trials",
+      "20000",
+      "--seed",
+      "20260809",
+      "--start-trial",
+      "0",
+      "--round-wind",
+      "east",
+      "--policy",
+      "value",
+      "--observations",
+      "/private/tmp/push-fold-mixed-mean-20260914-20k.jsonl",
+      "--future-ukeire-weight",
+      "0.5",
+      "--future-ukeire-weight-1-shanten",
+      "2.0",
+      "--future-ukeire-weight-2-shanten",
+      "1.0",
+      "--improvement-weight",
+      "0.1",
+      "--dora-ukeire-weight",
+      "1.0",
+      "--shanten-reversal-penalty",
+      "25.0",
+      "--shanten-reversal-future-weight",
+      "0.5",
+      "--shanten-reversal-max-turn",
+      "9",
+      "--shanten-reversal-candidate-limit",
+      "2",
+      "--allow-shanten-reversal",
+      "--push-fold",
+      "--score-service",
+      "--push-fold-mode",
+      "mixed",
+      "--safety-strategy",
+      "mean_safety",
+      "--dora-danger-steps",
+      "1",
+      "--half-push-max-tier",
+      "5",
+      "--two-riichi-bad-wait-min-ron",
+      "7700"
+    ],
+    "native_summary": {
+      "engine_version": "closed-hand-efficiency-cpp-4",
+      "evaluator_backend": "necessary_tiles_masks",
+      "seed": 20260809,
+      "start_trial": 0,
+      "trials": 20000,
+      "policy": "shanten_then_value_ukeire",
+      "policy_parameters": {
+        "future_ukeire_weight": 0.5,
+        "future_ukeire_weights_by_shanten": {
+          "1": 2,
+          "2": 1,
+          "3_plus": 0
+        },
+        "improvement_weight": 0.1,
+        "advanced_shanten": [
+          1,
+          2
+        ],
+        "dora_ukeire_weight": 1,
+        "dora_tiebreak_weight": 1,
+        "dora_neighbor_weight": 1,
+        "yakuhai_weight": 1,
+        "tanyao_weight": 1,
+        "shanten_reversal": {
+          "enabled": true,
+          "penalty": 25,
+          "recovered_ukeire_weight": 0.5,
+          "max_turn": 9,
+          "candidate_limit": 2,
+          "max_per_hand": 1
+        }
+      },
+      "scorer": null,
+      "config": {
+        "stop_at": "table_terminal",
+        "riichi_on_tenpai": true,
+        "opponent_draws_per_turn": 3,
+        "player_wind": 28,
+        "round_wind": 27,
+        "tile_availability_turn": -1,
+        "push_fold": true,
+        "push_fold_mode": "mixed",
+        "safety_strategy": "mean_safety",
+        "dora_danger_steps": 1,
+        "half_push_max_tier": 5,
+        "two_riichi_bad_wait_min_ron": 7700
+      },
+      "outcomes": {
+        "exhaustive_draw": 7702,
+        "multiple_ron": 13,
+        "ron": 4914,
+        "tsumo": 7371
+      },
+      "tenpai": {
+        "hands": 0,
+        "rate": 0,
+        "rate_standard_error": 0,
+        "mean_first_turn": null,
+        "ron_eligible_hands": 0,
+        "furiten_hands": 0
+      },
+      "wins": {
+        "hands": 0,
+        "rate": 0,
+        "rate_standard_error": 0,
+        "mean_turn": null
+      },
+      "shanten_reversal": {
+        "opportunities": 0,
+        "selected": 0,
+        "selection_rate_per_opportunity": null,
+        "mean_selection_turn": null,
+        "recovered": 0,
+        "recovery_rate": null,
+        "mean_recovery_turns": null,
+        "transitions": {
+          "0->1": 0,
+          "1->2": 0
+        }
+      },
+      "wait_signatures": {},
+      "acceptance_copy_share_by_shape": {},
+      "tile_danger_at_first_tenpai": {
+        "1m": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "2m": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "3m": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "4m": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "5m": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "6m": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "7m": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "8m": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "9m": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "1p": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "2p": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "3p": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "4p": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "5p": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "6p": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "7p": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "8p": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "9p": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "1s": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "2s": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "3s": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "4s": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "5s": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "6s": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "7s": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "8s": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "9s": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "1z": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "2z": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "3z": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "4z": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "5z": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "6z": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        },
+        "7z": {
+          "wait_hands": 0,
+          "ron_eligible_tenpai_hands": 0,
+          "probability": null,
+          "standard_error": null,
+          "probability_by_shape_fractional": {}
+        }
+      },
+      "score_values_on_realized_winning_hands": null,
+      "raw": {
+        "tenpai_turn_sum": 0,
+        "win_turn_sum": 0,
+        "visible_wait_copies": 0,
+        "live_wait_copies": 0,
+        "reversal_opportunities": 0,
+        "reversals_selected": 0,
+        "reversals_recovered": 0,
+        "reversal_turn_sum": 0,
+        "reversal_recovery_turn_sum": 0,
+        "shanten_cache_entries": 0
+      }
+    },
+    "scoring_config": {
+      "cheap_max_total_han": 1,
+      "valuable_bad_wait_points": 5200,
+      "two_riichi_bad_wait_min_ron": 7700,
+      "enable_haneman_lock": true
+    },
+    "score_requests": 158404,
+    "native_and_decision_scoring_seconds": 235.1781922080554,
+    "aggregation_seconds": 95.3951056250371,
+    "observations_sha256": "e5e29bc72940e14be18dc279317a2063d5bbe241c4cfc53cf8700cd29a12bf15",
+    "mode": "mixed",
+    "safety_strategy": "mean_safety",
+    "dora_danger_steps": 1,
+    "half_push_max_tier": 5,
+    "two_riichi_bad_wait_min_ron": 7700,
+    "candidate_unit": "distinct held tile type per defender decision; physical red/ordinary copies deduplicated",
+    "threat_count": "declared opponents, excluding observer",
+    "multi_ron": "multiple ron; riichi pot goes to winner closest after discarder",
+    "stopping_rule": "continue through all declarations until any legal ron/tsumo or exhaustive draw; no calls or abortive draws",
+    "scoring": "actual dealer-aware ron/tsumo; realized ura for riichi; ippatsu excluded; haitei/houtei included; no honba; exhaustive draw payments and riichi deposits included",
+    "physical_conditioned_unit": "one ordinary and one red representative per held tile type when present; separate from primary 34-type denominator",
+    "input_metadata": "native command and summary included",
+    "comparison_scope": "all four players use the table policy; not a focal-agent EV comparison"
+  },
+  "honor_json_sha256": "573e3d6be8f8cf8c77840c2c16cf7d5b19ecb5aabf7498ea41ea50a21f165530",
+  "honor_trials_sha256": "89f26d03a1aae67cb5a665e5837c39309181d3c526d08261b54f66fae1e86d8a",
+  "extractor_sha256": "f7e0d4222cf8beb46a97f51edd551904baad2018fd9b825678a14e05e40033e0"
+}

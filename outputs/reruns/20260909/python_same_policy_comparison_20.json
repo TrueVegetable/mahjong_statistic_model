@@ -1,0 +1,910 @@
+{
+  "paired_by_trial_seed": true,
+  "baseline": {
+    "engine_version": "closed-hand-efficiency-4",
+    "seed": 17,
+    "start_trial": 0,
+    "trials": 20,
+    "policy": "shanten_then_ukeire_score",
+    "policy_parameters": {
+      "future_ukeire_weight": 0.5,
+      "future_ukeire_weights_by_shanten": {
+        "1": 2.0,
+        "2": 1.0,
+        "3_plus": 0.0
+      },
+      "improvement_weight": 0.1,
+      "advanced_shanten": [
+        1,
+        2
+      ],
+      "shanten_reversal": {
+        "enabled": false,
+        "penalty": 25.0,
+        "recovered_ukeire_weight": 0.5,
+        "max_turn": 9,
+        "candidate_limit": 2,
+        "max_per_hand": 1
+      }
+    },
+    "scorer": null,
+    "config": {
+      "stop_at": "tenpai",
+      "riichi_on_tenpai": true,
+      "opponent_draws_per_turn": 3,
+      "player_wind": 28,
+      "round_wind": 27,
+      "collect_decisions": false
+    },
+    "outcomes": {
+      "exhausted": 3,
+      "tenpai": 17
+    },
+    "tenpai": {
+      "hands": 17,
+      "rate": 0.85,
+      "rate_standard_error": 0.07984359711335656,
+      "mean_first_turn": 10.0,
+      "ron_eligible_hands": 15,
+      "furiten_hands": 2
+    },
+    "wins": {
+      "hands": 0,
+      "rate": 0.0,
+      "rate_standard_error": 0.0,
+      "mean_turn": null
+    },
+    "shanten_reversal": {
+      "opportunities": 0,
+      "selected": 0,
+      "selection_rate_per_opportunity": null,
+      "mean_selection_turn": null,
+      "recovered": 0,
+      "recovery_rate": null,
+      "mean_recovery_turns": null,
+      "transitions": {}
+    },
+    "wait_signatures": {
+      "chiitoitsu_tanki": {
+        "hands": 2,
+        "share": 0.11764705882352941,
+        "share_standard_error": 0.07814248990059665
+      },
+      "kanchan": {
+        "hands": 3,
+        "share": 0.17647058823529413,
+        "share_standard_error": 0.09245944094039715
+      },
+      "ryanmen": {
+        "hands": 9,
+        "share": 0.5294117647058824,
+        "share_standard_error": 0.12105782480647682
+      },
+      "ryanmen+kanchan": {
+        "hands": 1,
+        "share": 0.058823529411764705,
+        "share_standard_error": 0.057067205890901876
+      },
+      "ryanmen+tanki": {
+        "hands": 1,
+        "share": 0.058823529411764705,
+        "share_standard_error": 0.057067205890901876
+      },
+      "shanpon": {
+        "hands": 1,
+        "share": 0.058823529411764705,
+        "share_standard_error": 0.057067205890901876
+      }
+    },
+    "acceptance_copy_share_by_shape": {
+      "ryanmen": {
+        "visible_copies": 86.5,
+        "visible_share": 0.7587719298245614,
+        "live_wall_copies": 18.0,
+        "live_wall_share": 0.6666666666666666
+      },
+      "kanchan": {
+        "visible_copies": 13.5,
+        "visible_share": 0.11842105263157894,
+        "live_wall_copies": 4.0,
+        "live_wall_share": 0.14814814814814814
+      },
+      "shanpon": {
+        "visible_copies": 4.0,
+        "visible_share": 0.03508771929824561,
+        "live_wall_copies": 2.0,
+        "live_wall_share": 0.07407407407407407
+      },
+      "tanki": {
+        "visible_copies": 4.0,
+        "visible_share": 0.03508771929824561,
+        "live_wall_copies": 0.0,
+        "live_wall_share": 0.0
+      },
+      "chiitoitsu_tanki": {
+        "visible_copies": 6.0,
+        "visible_share": 0.05263157894736842,
+        "live_wall_copies": 3.0,
+        "live_wall_share": 0.1111111111111111
+      }
+    },
+    "tile_danger_at_first_tenpai": {
+      "1m": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "2m": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667,
+          "kanchan": 0.06666666666666667
+        }
+      },
+      "3m": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.13333333333333333
+        }
+      },
+      "4m": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "5m": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "6m": {
+        "wait_hands": 4,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.26666666666666666,
+        "standard_error": 0.11417984514369003,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.13333333333333333,
+          "kanchan": 0.03333333333333333,
+          "shanpon": 0.06666666666666667,
+          "tanki": 0.03333333333333333
+        }
+      },
+      "7m": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "8m": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "9m": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667,
+          "tanki": 0.06666666666666667
+        }
+      },
+      "1p": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "2p": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "shanpon": 0.06666666666666667
+        }
+      },
+      "3p": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "4p": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "5p": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "6p": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667,
+          "chiitoitsu_tanki": 0.06666666666666667
+        }
+      },
+      "7p": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667,
+          "kanchan": 0.06666666666666667
+        }
+      },
+      "8p": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "9p": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "1s": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "2s": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "3s": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "4s": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "kanchan": 0.06666666666666667,
+          "chiitoitsu_tanki": 0.06666666666666667
+        }
+      },
+      "5s": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "6s": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "7s": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "8s": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "9s": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "1z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "2z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "3z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "4z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "5z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "6z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "7z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      }
+    },
+    "score_values_on_realized_winning_hands": {
+      "tsumo": {
+        "count": 0,
+        "mean_points": null,
+        "mean_points_standard_error": null,
+        "mean_han": null,
+        "mean_fu": null,
+        "yaku_counts": {},
+        "errors": {}
+      },
+      "ron": {
+        "count": 0,
+        "mean_points": null,
+        "mean_points_standard_error": null,
+        "mean_han": null,
+        "mean_fu": null,
+        "yaku_counts": {},
+        "errors": {}
+      }
+    },
+    "raw": {
+      "tenpai_turn_sum": 170,
+      "win_turn_sum": 0,
+      "visible_wait_copies": 114.0,
+      "live_wait_copies": 27.0,
+      "reversal_opportunities": 0,
+      "reversals_selected": 0,
+      "reversals_recovered": 0,
+      "reversal_turn_sum": 0,
+      "reversal_recovery_turn_sum": 0,
+      "reversal_transitions": {},
+      "score_point_sums": {},
+      "score_point_square_sums": {},
+      "score_han_sums": {},
+      "score_fu_sums": {}
+    }
+  },
+  "candidate": {
+    "engine_version": "closed-hand-efficiency-4",
+    "seed": 17,
+    "start_trial": 0,
+    "trials": 20,
+    "policy": "shanten_then_ukeire_score",
+    "policy_parameters": {
+      "future_ukeire_weight": 0.5,
+      "future_ukeire_weights_by_shanten": {
+        "1": 2.0,
+        "2": 1.0,
+        "3_plus": 0.0
+      },
+      "improvement_weight": 0.1,
+      "advanced_shanten": [
+        1,
+        2
+      ],
+      "shanten_reversal": {
+        "enabled": false,
+        "penalty": 25.0,
+        "recovered_ukeire_weight": 0.5,
+        "max_turn": 9,
+        "candidate_limit": 2,
+        "max_per_hand": 1
+      }
+    },
+    "scorer": null,
+    "config": {
+      "stop_at": "tenpai",
+      "riichi_on_tenpai": true,
+      "opponent_draws_per_turn": 3,
+      "player_wind": 28,
+      "round_wind": 27,
+      "collect_decisions": false
+    },
+    "outcomes": {
+      "exhausted": 3,
+      "tenpai": 17
+    },
+    "tenpai": {
+      "hands": 17,
+      "rate": 0.85,
+      "rate_standard_error": 0.07984359711335656,
+      "mean_first_turn": 10.0,
+      "ron_eligible_hands": 15,
+      "furiten_hands": 2
+    },
+    "wins": {
+      "hands": 0,
+      "rate": 0.0,
+      "rate_standard_error": 0.0,
+      "mean_turn": null
+    },
+    "shanten_reversal": {
+      "opportunities": 0,
+      "selected": 0,
+      "selection_rate_per_opportunity": null,
+      "mean_selection_turn": null,
+      "recovered": 0,
+      "recovery_rate": null,
+      "mean_recovery_turns": null,
+      "transitions": {}
+    },
+    "wait_signatures": {
+      "chiitoitsu_tanki": {
+        "hands": 2,
+        "share": 0.11764705882352941,
+        "share_standard_error": 0.07814248990059665
+      },
+      "kanchan": {
+        "hands": 3,
+        "share": 0.17647058823529413,
+        "share_standard_error": 0.09245944094039715
+      },
+      "ryanmen": {
+        "hands": 9,
+        "share": 0.5294117647058824,
+        "share_standard_error": 0.12105782480647682
+      },
+      "ryanmen+kanchan": {
+        "hands": 1,
+        "share": 0.058823529411764705,
+        "share_standard_error": 0.057067205890901876
+      },
+      "ryanmen+tanki": {
+        "hands": 1,
+        "share": 0.058823529411764705,
+        "share_standard_error": 0.057067205890901876
+      },
+      "shanpon": {
+        "hands": 1,
+        "share": 0.058823529411764705,
+        "share_standard_error": 0.057067205890901876
+      }
+    },
+    "acceptance_copy_share_by_shape": {
+      "ryanmen": {
+        "visible_copies": 86.5,
+        "visible_share": 0.7587719298245614,
+        "live_wall_copies": 18.0,
+        "live_wall_share": 0.6666666666666666
+      },
+      "kanchan": {
+        "visible_copies": 13.5,
+        "visible_share": 0.11842105263157894,
+        "live_wall_copies": 4.0,
+        "live_wall_share": 0.14814814814814814
+      },
+      "shanpon": {
+        "visible_copies": 4.0,
+        "visible_share": 0.03508771929824561,
+        "live_wall_copies": 2.0,
+        "live_wall_share": 0.07407407407407407
+      },
+      "tanki": {
+        "visible_copies": 4.0,
+        "visible_share": 0.03508771929824561,
+        "live_wall_copies": 0.0,
+        "live_wall_share": 0.0
+      },
+      "chiitoitsu_tanki": {
+        "visible_copies": 6.0,
+        "visible_share": 0.05263157894736842,
+        "live_wall_copies": 3.0,
+        "live_wall_share": 0.1111111111111111
+      }
+    },
+    "tile_danger_at_first_tenpai": {
+      "1m": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "2m": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667,
+          "kanchan": 0.06666666666666667
+        }
+      },
+      "3m": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.13333333333333333
+        }
+      },
+      "4m": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "5m": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "6m": {
+        "wait_hands": 4,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.26666666666666666,
+        "standard_error": 0.11417984514369003,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.13333333333333333,
+          "kanchan": 0.03333333333333333,
+          "shanpon": 0.06666666666666667,
+          "tanki": 0.03333333333333333
+        }
+      },
+      "7m": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "8m": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "9m": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667,
+          "tanki": 0.06666666666666667
+        }
+      },
+      "1p": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "2p": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "shanpon": 0.06666666666666667
+        }
+      },
+      "3p": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "4p": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "5p": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "6p": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667,
+          "chiitoitsu_tanki": 0.06666666666666667
+        }
+      },
+      "7p": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667,
+          "kanchan": 0.06666666666666667
+        }
+      },
+      "8p": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "9p": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "1s": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "2s": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "3s": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "4s": {
+        "wait_hands": 2,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.13333333333333333,
+        "standard_error": 0.08777074514725111,
+        "probability_by_shape_fractional": {
+          "kanchan": 0.06666666666666667,
+          "chiitoitsu_tanki": 0.06666666666666667
+        }
+      },
+      "5s": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "6s": {
+        "wait_hands": 1,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.06666666666666667,
+        "standard_error": 0.06440611887195306,
+        "probability_by_shape_fractional": {
+          "ryanmen": 0.06666666666666667
+        }
+      },
+      "7s": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "8s": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "9s": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "1z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "2z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "3z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "4z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "5z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "6z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      },
+      "7z": {
+        "wait_hands": 0,
+        "ron_eligible_tenpai_hands": 15,
+        "probability": 0.0,
+        "standard_error": 0.0,
+        "probability_by_shape_fractional": {}
+      }
+    },
+    "score_values_on_realized_winning_hands": {
+      "tsumo": {
+        "count": 0,
+        "mean_points": null,
+        "mean_points_standard_error": null,
+        "mean_han": null,
+        "mean_fu": null,
+        "yaku_counts": {},
+        "errors": {}
+      },
+      "ron": {
+        "count": 0,
+        "mean_points": null,
+        "mean_points_standard_error": null,
+        "mean_han": null,
+        "mean_fu": null,
+        "yaku_counts": {},
+        "errors": {}
+      }
+    },
+    "raw": {
+      "tenpai_turn_sum": 170,
+      "win_turn_sum": 0,
+      "visible_wait_copies": 114.0,
+      "live_wait_copies": 27.0,
+      "reversal_opportunities": 0,
+      "reversals_selected": 0,
+      "reversals_recovered": 0,
+      "reversal_turn_sum": 0,
+      "reversal_recovery_turn_sum": 0,
+      "reversal_transitions": {},
+      "score_point_sums": {},
+      "score_point_square_sums": {},
+      "score_han_sums": {},
+      "score_fu_sums": {}
+    }
+  },
+  "delta_candidate_minus_baseline": {
+    "tenpai_rate": 0.0,
+    "mean_first_tenpai_turn": 0.0,
+    "win_rate": 0.0,
+    "mean_win_turn": null,
+    "reversals_selected": 0,
+    "mean_tsumo_points": null,
+    "mean_ron_points": null
+  }
+}

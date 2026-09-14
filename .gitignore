@@ -3,3 +3,15 @@ __pycache__/
 .DS_Store
 *.o
 outputs/iishanten_wall_sim_cpp
+outputs/hand_efficiency_sim_cpp
+build/
+
+# Local environments, build products, and disposable rollout streams.
+.venv/
+venv/
+*.log
+*.jsonl
+!outputs/push_fold_experiments/**/*.trials.jsonl
+
+# Superseded exploratory copies; validated evidence lives under outputs/.
+/ablations/

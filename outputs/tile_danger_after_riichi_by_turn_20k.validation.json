@@ -1,0 +1,84 @@
+{
+  "experiment": "single-riichi danger, unfiltered extremeA attacking policy",
+  "seed": 20260809,
+  "trial_range": [
+    0,
+    19999
+  ],
+  "benchmark": {
+    "tables": 200,
+    "seed": 20260809,
+    "native_seconds": 2.07
+  },
+  "full_run": {
+    "tables": 20000,
+    "native_seconds": 197.65,
+    "aggregation_seconds": 22.395567666972056
+  },
+  "native_command": [
+    "/private/tmp/hand-efficiency-build/hand_efficiency_sim_cpp",
+    "simulate-table",
+    "--trials",
+    "20000",
+    "--seed",
+    "20260809",
+    "--policy",
+    "value",
+    "--future-ukeire-weight-1-shanten",
+    "2",
+    "--future-ukeire-weight-2-shanten",
+    "1",
+    "--dora-ukeire-weight",
+    "1",
+    "--allow-shanten-reversal",
+    "--shanten-reversal-penalty",
+    "25",
+    "--tile-danger",
+    "--observations",
+    "/private/tmp/hand-danger-extremeA-20k.jsonl"
+  ],
+  "raw_observations": {
+    "path": "/private/tmp/hand-danger-extremeA-20k.jsonl",
+    "temporary": true,
+    "sha256": "6bca69ea1c92a2218c00353cf166d415016ff79fefc3e93932caee75d443e2ea"
+  },
+  "files_sha256": {
+    "outputs/hand_efficiency_sim.cpp": "8a64ec5be971395753fb4085219ae055b0aa12207fc16298190a1d5925894dc2",
+    "outputs/hand_efficiency_sim.py": "4e3fd30e7c5d777b63173459102b4140cfae563c2817435691de9d9c0ba859b0",
+    "outputs/analyze_tile_danger_by_turn.py": "9c8ca7324645ff9ca2d0ae965cd3038f21e239a1c25a1dbf9d26df9c74217291",
+    "tests/test_tile_danger_analysis.py": "4f1342a118bc21bc56ea05f7f6729cc642f0fa0e9d704e25d0962f2046b0f2ff",
+    "tests/test_tile_danger_native.py": "a32fa59dcc3c3f765cc6428dc92ceba2c9787666026dce0f3964ea4b3fd92c12",
+    "outputs/tile_danger_after_riichi_by_turn_20k.json": "0a92844dd37ec322efd0ecfe124181acc993ff09e4fa5ef27b5db83a456aa964",
+    "outputs/tile_danger_after_riichi_by_turn_20k.csv": "a7367aac748679fd1ddc27f1820c3d276c65895f1c87a0f3ef05f2d9f5271349"
+  },
+  "validation": {
+    "python_unit_tests_passed": 93,
+    "native_self_test": "passed",
+    "normal_mode_seeded_observations_and_summary_byte_identical": 20,
+    "danger_seeded_mask_fallback_agreement_tables": 20,
+    "nondefault_cli_options_verified_against_native_metadata": true,
+    "candidate_label_and_visible_safety_checks": "every production decision validated",
+    "native_physical_partition": "asserted at each observation and every terminal",
+    "independent_overall_table_cluster_se": 0.00033035450404673804,
+    "category_and_safety_counts_reconcile": true,
+    "all_turn_axes_reconcile": true,
+    "json_csv_identical_cells": 8755,
+    "genbutsu_hits": 0,
+    "genbutsu_opportunities": 415731,
+    "git_diff_check": "passed"
+  },
+  "diagnostics": {
+    "terminal_second_riichi": 10531,
+    "riichi_tables": 19763,
+    "decisions": 148466,
+    "terminal_target_ron": 6345,
+    "terminal_target_tsumo": 2174,
+    "terminal_exhausted": 713,
+    "terminal_no_riichi_exposure": 237,
+    "no_riichi_tables": 237,
+    "tables": 20000,
+    "trial_id_min": 0,
+    "trial_id_max": 19999,
+    "input_signatures": 1
+  }
+}

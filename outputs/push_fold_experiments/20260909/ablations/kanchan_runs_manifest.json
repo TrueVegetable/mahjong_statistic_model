@@ -1,0 +1,11 @@
+{
+  "binary": "/private/tmp/hand-efficiency-build/hand_efficiency_sim_cpp",
+  "seed": 20260809,
+  "trials": 20000,
+  "start_trial": 0,
+  "benchmark": {"trials": 200, "elapsed_seconds": 1.87, "tanyao_weight": 0, "kanchan_outer_wait_weight": 1},
+  "runs": [
+    {"tanyao_weight": 0, "kanchan_outer_wait_weight": 1, "raw": "/private/tmp/push-fold-tanyao0-kanchan1-20k.jsonl", "json": "tanyao0_kanchan1_20k.json", "csv": "tanyao0_kanchan1_20k.csv"},
+    {"tanyao_weight": 1, "kanchan_outer_wait_weight": 1, "raw": "/private/tmp/push-fold-tanyao1-kanchan1-20k.jsonl", "json": "tanyao1_kanchan1_20k.json", "csv": "tanyao1_kanchan1_20k.csv"}
+  ]
+}

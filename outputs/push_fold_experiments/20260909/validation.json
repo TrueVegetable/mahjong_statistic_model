@@ -1,0 +1,1047 @@
+{
+  "checks": [
+    {
+      "name": "all_push: exact paired trial order",
+      "passed": true
+    },
+    {
+      "name": "all_push: exact unique trial ids 0..19999",
+      "passed": true
+    },
+    {
+      "name": "all_push: aggregate trial bounds",
+      "passed": true
+    },
+    {
+      "name": "all_push: source push-fold policy",
+      "passed": true
+    },
+    {
+      "name": "all_push: extremeA source metadata",
+      "passed": true
+    },
+    {
+      "name": "all_push: scoring configuration",
+      "passed": true
+    },
+    {
+      "name": "all_push: native seed and trial range",
+      "passed": true
+    },
+    {
+      "details": {
+        "failures": []
+      },
+      "name": "all_push: every trial conserves points plus pot",
+      "passed": true
+    },
+    {
+      "name": "all_push: terminal outcome counts sum to tables",
+      "passed": true
+    },
+    {
+      "name": "all_push: terminal outcomes reconcile to trials",
+      "passed": true
+    },
+    {
+      "name": "all_push: declarations reconcile to waits and per-trial seats",
+      "passed": true
+    },
+    {
+      "name": "all_push: carried pot reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: seat outcomes reconcile",
+      "passed": true
+    },
+    {
+      "name": "all_push: seat mean points reconcile",
+      "passed": true
+    },
+    {
+      "name": "all_push: seat point standard errors reconcile",
+      "passed": true
+    },
+    {
+      "name": "all_push: realized payment counts and means reconcile",
+      "passed": true
+    },
+    {
+      "name": "all_push: primary danger: row rates and denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "tile_count": 34
+      },
+      "name": "all_push: all 34 exact tile identities covered",
+      "passed": true
+    },
+    {
+      "details": {
+        "actual": [
+          1,
+          2,
+          3
+        ],
+        "expected": [
+          1,
+          2,
+          3
+        ]
+      },
+      "name": "all_push: policy-consistent threat-count coverage",
+      "passed": true
+    },
+    {
+      "name": "all_push: 1 threats riichi_opponents exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 1 threats riichi_opponents category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 1 threats riichi_opponents turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 1 threats riichi_opponents safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 1 threats any_opponent exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 1 threats any_opponent category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 1 threats any_opponent turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 1 threats any_opponent safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 1 threats any-hit dominates declared-hit with common denominators",
+      "passed": true
+    },
+    {
+      "name": "all_push: 2 threats riichi_opponents exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 2 threats riichi_opponents category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 2 threats riichi_opponents turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 2 threats riichi_opponents safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 2 threats any_opponent exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 2 threats any_opponent category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 2 threats any_opponent turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 2 threats any_opponent safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 2 threats any-hit dominates declared-hit with common denominators",
+      "passed": true
+    },
+    {
+      "name": "all_push: 3 threats riichi_opponents exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 3 threats riichi_opponents category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 3 threats riichi_opponents turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 3 threats riichi_opponents safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 3 threats any_opponent exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 3 threats any_opponent category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 3 threats any_opponent turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 3 threats any_opponent safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "all_push: 3 threats any-hit dominates declared-hit with common denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 757
+      },
+      "name": "all_push: 1 threats pure-genbutsu profiles have zero hits",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 628
+      },
+      "name": "all_push: 2 threats pure-genbutsu profiles have zero hits",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 480
+      },
+      "name": "all_push: 3 threats pure-genbutsu profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "all_push: physical danger: row rates and denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 168
+      },
+      "name": "all_push: 1 threats physical all-tier-zero profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "all_push: 1 threats physical chosen totals reconcile to primary",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 164
+      },
+      "name": "all_push: 2 threats physical all-tier-zero profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "all_push: 2 threats physical chosen totals reconcile to primary",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 131
+      },
+      "name": "all_push: 3 threats physical all-tier-zero profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "all_push: 3 threats physical chosen totals reconcile to primary",
+      "passed": true
+    },
+    {
+      "name": "full_fold: exact paired trial order",
+      "passed": true
+    },
+    {
+      "name": "full_fold: exact unique trial ids 0..19999",
+      "passed": true
+    },
+    {
+      "name": "full_fold: aggregate trial bounds",
+      "passed": true
+    },
+    {
+      "name": "full_fold: source push-fold policy",
+      "passed": true
+    },
+    {
+      "name": "full_fold: extremeA source metadata",
+      "passed": true
+    },
+    {
+      "name": "full_fold: scoring configuration",
+      "passed": true
+    },
+    {
+      "name": "full_fold: native seed and trial range",
+      "passed": true
+    },
+    {
+      "details": {
+        "failures": []
+      },
+      "name": "full_fold: every trial conserves points plus pot",
+      "passed": true
+    },
+    {
+      "name": "full_fold: terminal outcome counts sum to tables",
+      "passed": true
+    },
+    {
+      "name": "full_fold: terminal outcomes reconcile to trials",
+      "passed": true
+    },
+    {
+      "name": "full_fold: declarations reconcile to waits and per-trial seats",
+      "passed": true
+    },
+    {
+      "name": "full_fold: carried pot reconciliation",
+      "passed": true
+    },
+    {
+      "name": "full_fold: seat outcomes reconcile",
+      "passed": true
+    },
+    {
+      "name": "full_fold: seat mean points reconcile",
+      "passed": true
+    },
+    {
+      "name": "full_fold: seat point standard errors reconcile",
+      "passed": true
+    },
+    {
+      "name": "full_fold: realized payment counts and means reconcile",
+      "passed": true
+    },
+    {
+      "name": "full_fold: primary danger: row rates and denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "tile_count": 34
+      },
+      "name": "full_fold: all 34 exact tile identities covered",
+      "passed": true
+    },
+    {
+      "details": {
+        "actual": [
+          1
+        ],
+        "expected": [
+          1
+        ]
+      },
+      "name": "full_fold: policy-consistent threat-count coverage",
+      "passed": true
+    },
+    {
+      "name": "full_fold: 1 threats riichi_opponents exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "full_fold: 1 threats riichi_opponents category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "full_fold: 1 threats riichi_opponents turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "full_fold: 1 threats riichi_opponents safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "full_fold: 1 threats any_opponent exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "full_fold: 1 threats any_opponent category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "full_fold: 1 threats any_opponent turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "full_fold: 1 threats any_opponent safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "full_fold: 1 threats any-hit dominates declared-hit with common denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 755
+      },
+      "name": "full_fold: 1 threats pure-genbutsu profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "full_fold: physical danger: row rates and denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 139
+      },
+      "name": "full_fold: 1 threats physical all-tier-zero profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "full_fold: 1 threats physical chosen totals reconcile to primary",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: exact paired trial order",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: exact unique trial ids 0..19999",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: aggregate trial bounds",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: source push-fold policy",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: extremeA source metadata",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: scoring configuration",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: native seed and trial range",
+      "passed": true
+    },
+    {
+      "details": {
+        "failures": []
+      },
+      "name": "mixed_mean: every trial conserves points plus pot",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: terminal outcome counts sum to tables",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: terminal outcomes reconcile to trials",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: declarations reconcile to waits and per-trial seats",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: carried pot reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: seat outcomes reconcile",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: seat mean points reconcile",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: seat point standard errors reconcile",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: realized payment counts and means reconcile",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: primary danger: row rates and denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "tile_count": 34
+      },
+      "name": "mixed_mean: all 34 exact tile identities covered",
+      "passed": true
+    },
+    {
+      "details": {
+        "actual": [
+          1,
+          2,
+          3
+        ],
+        "expected": [
+          1,
+          2,
+          3
+        ]
+      },
+      "name": "mixed_mean: policy-consistent threat-count coverage",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 1 threats riichi_opponents exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 1 threats riichi_opponents category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 1 threats riichi_opponents turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 1 threats riichi_opponents safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 1 threats any_opponent exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 1 threats any_opponent category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 1 threats any_opponent turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 1 threats any_opponent safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 1 threats any-hit dominates declared-hit with common denominators",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 2 threats riichi_opponents exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 2 threats riichi_opponents category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 2 threats riichi_opponents turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 2 threats riichi_opponents safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 2 threats any_opponent exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 2 threats any_opponent category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 2 threats any_opponent turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 2 threats any_opponent safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 2 threats any-hit dominates declared-hit with common denominators",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 3 threats riichi_opponents exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 3 threats riichi_opponents category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 3 threats riichi_opponents turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 3 threats riichi_opponents safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 3 threats any_opponent exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 3 threats any_opponent category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 3 threats any_opponent turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 3 threats any_opponent safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 3 threats any-hit dominates declared-hit with common denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 755
+      },
+      "name": "mixed_mean: 1 threats pure-genbutsu profiles have zero hits",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 620
+      },
+      "name": "mixed_mean: 2 threats pure-genbutsu profiles have zero hits",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 377
+      },
+      "name": "mixed_mean: 3 threats pure-genbutsu profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: physical danger: row rates and denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 335
+      },
+      "name": "mixed_mean: 1 threats physical all-tier-zero profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 1 threats physical chosen totals reconcile to primary",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 203
+      },
+      "name": "mixed_mean: 2 threats physical all-tier-zero profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 2 threats physical chosen totals reconcile to primary",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 50
+      },
+      "name": "mixed_mean: 3 threats physical all-tier-zero profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "mixed_mean: 3 threats physical chosen totals reconcile to primary",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: exact paired trial order",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: exact unique trial ids 0..19999",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: aggregate trial bounds",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: source push-fold policy",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: extremeA source metadata",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: scoring configuration",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: native seed and trial range",
+      "passed": true
+    },
+    {
+      "details": {
+        "failures": []
+      },
+      "name": "mixed_minimax: every trial conserves points plus pot",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: terminal outcome counts sum to tables",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: terminal outcomes reconcile to trials",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: declarations reconcile to waits and per-trial seats",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: carried pot reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: seat outcomes reconcile",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: seat mean points reconcile",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: seat point standard errors reconcile",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: realized payment counts and means reconcile",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: primary danger: row rates and denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "tile_count": 34
+      },
+      "name": "mixed_minimax: all 34 exact tile identities covered",
+      "passed": true
+    },
+    {
+      "details": {
+        "actual": [
+          1,
+          2,
+          3
+        ],
+        "expected": [
+          1,
+          2,
+          3
+        ]
+      },
+      "name": "mixed_minimax: policy-consistent threat-count coverage",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 1 threats riichi_opponents exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 1 threats riichi_opponents category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 1 threats riichi_opponents turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 1 threats riichi_opponents safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 1 threats any_opponent exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 1 threats any_opponent category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 1 threats any_opponent turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 1 threats any_opponent safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 1 threats any-hit dominates declared-hit with common denominators",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 2 threats riichi_opponents exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 2 threats riichi_opponents category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 2 threats riichi_opponents turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 2 threats riichi_opponents safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 2 threats any_opponent exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 2 threats any_opponent category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 2 threats any_opponent turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 2 threats any_opponent safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 2 threats any-hit dominates declared-hit with common denominators",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 3 threats riichi_opponents exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 3 threats riichi_opponents category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 3 threats riichi_opponents turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 3 threats riichi_opponents safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 3 threats any_opponent exact-tile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 3 threats any_opponent category reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 3 threats any_opponent turn reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 3 threats any_opponent safety-profile reconciliation",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 3 threats any-hit dominates declared-hit with common denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 755
+      },
+      "name": "mixed_minimax: 1 threats pure-genbutsu profiles have zero hits",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 620
+      },
+      "name": "mixed_minimax: 2 threats pure-genbutsu profiles have zero hits",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 379
+      },
+      "name": "mixed_minimax: 3 threats pure-genbutsu profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: physical danger: row rates and denominators",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 335
+      },
+      "name": "mixed_minimax: 1 threats physical all-tier-zero profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 1 threats physical chosen totals reconcile to primary",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 203
+      },
+      "name": "mixed_minimax: 2 threats physical all-tier-zero profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 2 threats physical chosen totals reconcile to primary",
+      "passed": true
+    },
+    {
+      "details": {
+        "rows": 50
+      },
+      "name": "mixed_minimax: 3 threats physical all-tier-zero profiles have zero hits",
+      "passed": true
+    },
+    {
+      "name": "mixed_minimax: 3 threats physical chosen totals reconcile to primary",
+      "passed": true
+    },
+    {
+      "name": "pre-fix control equivalence evidence",
+      "passed": true
+    }
+  ],
+  "directory": "outputs/push_fold_experiments/20260909",
+  "expected_design": {
+    "paired_runs": [
+      "all_push",
+      "full_fold",
+      "mixed_mean",
+      "mixed_minimax"
+    ],
+    "seed": 20260809,
+    "stopping_rule": "continue to ron, tsumo, or exhaustive draw",
+    "tables_per_run": 20000,
+    "trial_ids": [
+      0,
+      19999
+    ]
+  },
+  "failures": [],
+  "input_hashes": {
+    "all_push": {
+      "aggregate": "44667eb289d1c9f381a582ed9266bfdbeb41e4dfd72031c7341a54009d3d281f",
+      "recorded_observations": "04a4de676173a5a23a52b5d3cce87e7c66b307c6f9f3fd957d80cdfb138befc1",
+      "trial_metrics": "534c5450f40a8893f6a524dd040891d9073544b5f0272bf7dd46ce0ab1ba4a89"
+    },
+    "full_fold": {
+      "aggregate": "7d579f10b435d0a8a1a28e90b51d3b05fb3ee275c98fc54880d12f87dcf9f4af",
+      "recorded_observations": "9024b98dc8ef6c4508c747c01014bde322d410ef027770a9369c2af7963eb1a9",
+      "trial_metrics": "c0fb8411f139872aa65ec313e7df1fe65368de4d777fa4f5d6bd45d64f5d0df2"
+    },
+    "mixed_mean": {
+      "aggregate": "a351992a54a0e8701e7279e97f6d5ed69d1cd6f306ee12fb1fb95352af6bb580",
+      "recorded_observations": "e5e29bc72940e14be18dc279317a2063d5bbe241c4cfc53cf8700cd29a12bf15",
+      "trial_metrics": "68c3c6fb3a456a2c2be1dbfeea3806a9adbe8957e1f75e833039402075746b4e"
+    },
+    "mixed_minimax": {
+      "aggregate": "fc837684c2db9fe5049a064c1f076a3811a835ac80fd1f2b320b40e132b58036",
+      "recorded_observations": "441b7cdf5a1050a2c7bdc5d86f5bc1f2709c96da62843295cfa04f4de329d4bd",
+      "trial_metrics": "92d55fbea49efdfa8dbb5f844b31bff939fc20edec0426111859a5e5092e9378"
+    }
+  },
+  "provenance": {
+    "control_equivalence_evidence": {
+      "command_template": [
+        "BINARY simulate-table --push-fold --score-service --push-fold-mode MODE --trials 128 --seed 20260809 --start-trial 0 --round-wind east --policy value",
+        "--future-ukeire-weight 0.5 --future-ukeire-weight-1-shanten 2 --future-ukeire-weight-2-shanten 1 --improvement-weight 0.1",
+        "--dora-ukeire-weight 1 --dora-tiebreak-weight 1 --dora-neighbor-weight 1 --yakuhai-weight 1 --tanyao-weight 1",
+        "--allow-shanten-reversal --shanten-reversal-penalty 25",
+        "The pinned Python score service supplied the eleven numeric callback fields for every score_request."
+      ],
+      "comparison_backend": "builtin_fallback",
+      "comparisons": [
+        {
+          "before_jsonl": "/private/tmp/push-fold-control-all_push-before-128.jsonl",
+          "cmp_exit_code": 0,
+          "current_jsonl": "/private/tmp/push-fold-control-all_push-current_fallback-128.jsonl",
+          "mode": "all_push",
+          "sha256": "9c90caec459ef468d7c32d7f31b632aa0b6f2cf626194419c3099fcd8728e73b",
+          "trial_ids": [
+            0,
+            127
+          ],
+          "trials": 128
+        },
+        {
+          "before_jsonl": "/private/tmp/push-fold-control-full_fold-before-128.jsonl",
+          "cmp_exit_code": 0,
+          "current_jsonl": "/private/tmp/push-fold-control-full_fold-current_fallback-128.jsonl",
+          "mode": "full_fold",
+          "sha256": "a6c42896ebc8810c35d4805ad8ebf9576f7750ddfeb46454ca5ee6081516a53e",
+          "trial_ids": [
+            0,
+            127
+          ],
+          "trials": 128
+        }
+      ],
+      "current": {
+        "compiled_fallback_binary": "/private/tmp/push-fold-current-fallback-cpp",
+        "compiled_fallback_binary_sha256": "fe8223ceee3c549404d9ad4126a48385aa296ed5c47c111036f16d3659cee54a",
+        "cpp": "outputs/hand_efficiency_sim.cpp",
+        "cpp_sha256": "46f11feba635bb7a24a6daa403d4164ecaa7b1813507fb77f81e145dcaac98f7",
+        "inc": "outputs/hand_push_fold_native.inc",
+        "inc_sha256": "a87168cc8e58468f2fb61a7e5077b1988bc5036596d706f9f2f15ff0def1878f"
+      },
+      "purpose": "Verify that the late two-riichi mixed-policy guard does not alter all_push or full_fold controls before retaining their pre-fix 20k runs.",
+      "result": "byte_identical",
+      "snapshot": {
+        "compiled_binary": "/private/tmp/push-fold-before-late-build/hand_efficiency_sim_cpp",
+        "compiled_binary_sha256": "dca47d27763091c25f6c6faa2089088319794cf2385d1246507b2e1d0dd7fb58",
+        "cpp": "/private/tmp/push-fold-before-late-riichi-fix.cpp",
+        "cpp_sha256": "8dec55c1c7d55177468ef255f8eb9d5dd0ec3f604ec6f9ba558415de4f64af97",
+        "inc": "/private/tmp/push-fold-before-late-riichi-fix.inc",
+        "inc_sha256": "925a79fc0134000a39650cf372dbc7493a55f98a82103e3be15347a663722f58"
+      }
+    },
+    "control_equivalence_evidence_sha256": "a5bf01bf94378bf19ac95bd43e87e94c3f4c01fe7f7b199af4a1fc37938faf0d",
+    "late_guard_note": "The retained all_push and full_fold controls were generated before the late two-riichi intended-action guard fix. The attached 128-table before/current fallback comparison is byte-identical for both controls.",
+    "legacy_stop_at_note": "Saved production native summaries report config.stop_at='tenpai' from the legacy summary field. Push/fold observations and trial ledgers continue to actual table terminal; the current native source changes this output-only field to 'table_terminal'."
+  },
+  "source_hashes": {
+    "outputs/hand_efficiency_sim.cpp": "46f11feba635bb7a24a6daa403d4164ecaa7b1813507fb77f81e145dcaac98f7",
+    "outputs/hand_push_fold_native.inc": "a87168cc8e58468f2fb61a7e5077b1988bc5036596d706f9f2f15ff0def1878f",
+    "outputs/hand_push_fold_policy.py": "ab474f45e7b38fccc093b06508722f98df6edb1497587f88364f51d2b7f7c37a",
+    "outputs/hand_push_fold_scoring.py": "6d22e1d6775f77ab21095a103a3f8cea7838a0c243529a71608010be56949860",
+    "outputs/run_push_fold_experiments.py": "d77e9fc587a4f45cdbbe0916240ca8ce31125aeb0fb24bcd5fd2c7f30fa8512b",
+    "tests/test_hand_push_fold_scoring.py": "89d1f158b586190c997e1e145b02e803c5fddb2c1eab3275d4bb3a64abca0e94",
+    "tests/test_push_fold_comparison.py": "4f8e29495d79579ac9e133e009876e8031c70fda99d6e3f505fa162d8a8ae6a2",
+    "tests/test_push_fold_experiments.py": "797d6cda422c16e0aa5e0dcfe30c0377fa83848b132d3aeafef749dc5ed3759b",
+    "tests/test_push_fold_native.py": "51e7d76a51b8c0885d08c05de005070b88ff7826be763216c2fd9a18afbec07d",
+    "tests/test_push_fold_policy.py": "328319db65e0ea04a057206c4520a9f0b3c7422c9162c35e37b4e618aae56ec3"
+  },
+  "status": "passed"
+}

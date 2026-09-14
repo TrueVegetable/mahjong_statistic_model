@@ -1,0 +1,2946 @@
+{
+  "definitions": {
+    "contrasts": {
+      "double_suji_46_minus_suji_28": [
+        "double_suji_46",
+        "suji_28"
+      ],
+      "half_suji_46_minus_no_suji_28": [
+        "half_suji_46",
+        "no_suji_28"
+      ]
+    },
+    "copy_conditioning": "candidate tile's observer-hand copy count and public copy count",
+    "grain": "one distinct held candidate tile type per defender decision",
+    "turn": "observer own turn 12",
+    "uncertainty": "independent-table cluster standard errors; policy comparisons pair exact trial ids"
+  },
+  "paired_against_first_run": [
+    {
+      "baseline": "tanyao1_kanchan0",
+      "candidate": "tanyao0_kanchan0",
+      "turn12_contrast_changes": {
+        "double_suji_46_minus_suji_28": {
+          "baseline_difference": 0.015778313900371377,
+          "candidate_difference": 0.011698171511217742,
+          "paired_change": -0.004080142389153635,
+          "paired_table_clustered_se": 0.004587274484283194
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "baseline_difference": 0.008154795660959488,
+          "candidate_difference": 0.0041930403587731035,
+          "paired_change": -0.003961755302186384,
+          "paired_table_clustered_se": 0.003905029916056273
+        }
+      },
+      "wait_category_changes": {
+        "chiitoitsu_tanki": {
+          "paired_se": 0.0016671468048505644,
+          "paired_share_change_per_table": 0.0039
+        },
+        "kanchan": {
+          "paired_se": 0.002034116210160526,
+          "paired_share_change_per_table": -0.00125
+        },
+        "kokushi": {
+          "paired_se": 0.00012245917610571543,
+          "paired_share_change_per_table": 0.0003
+        },
+        "other": {
+          "paired_se": 0.0009604379194148118,
+          "paired_share_change_per_table": 0.00145
+        },
+        "penchan": {
+          "paired_se": 0.0012682933132349237,
+          "paired_share_change_per_table": 0.0055
+        },
+        "ryanmen": {
+          "paired_se": 0.002398507351849446,
+          "paired_share_change_per_table": -0.00995
+        },
+        "sanmenchan": {
+          "paired_se": 0.0009367436946344885,
+          "paired_share_change_per_table": -0.00105
+        },
+        "shanpon": {
+          "paired_se": 0.0015692727633685268,
+          "paired_share_change_per_table": -0.00035
+        },
+        "tanki": {
+          "paired_se": 0.000659558375629135,
+          "paired_share_change_per_table": 0.0003
+        }
+      }
+    },
+    {
+      "baseline": "tanyao1_kanchan0",
+      "candidate": "tanyao0_kanchan1",
+      "turn12_contrast_changes": {
+        "double_suji_46_minus_suji_28": {
+          "baseline_difference": 0.015778313900371377,
+          "candidate_difference": 0.009605987559928308,
+          "paired_change": -0.006172326340443068,
+          "paired_table_clustered_se": 0.004602783842979469
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "baseline_difference": 0.008154795660959488,
+          "candidate_difference": 0.0026522821624075654,
+          "paired_change": -0.0055025134985519225,
+          "paired_table_clustered_se": 0.0039172081546327295
+        }
+      },
+      "wait_category_changes": {
+        "chiitoitsu_tanki": {
+          "paired_se": 0.0016671468048505644,
+          "paired_share_change_per_table": 0.0039
+        },
+        "kanchan": {
+          "paired_se": 0.0020353638520668772,
+          "paired_share_change_per_table": 0.00015
+        },
+        "kokushi": {
+          "paired_se": 0.00012245917610571543,
+          "paired_share_change_per_table": 0.0003
+        },
+        "other": {
+          "paired_se": 0.0009617422978180646,
+          "paired_share_change_per_table": 0.0014
+        },
+        "penchan": {
+          "paired_se": 0.0012682933132349237,
+          "paired_share_change_per_table": 0.0055
+        },
+        "ryanmen": {
+          "paired_se": 0.0023995286541085717,
+          "paired_share_change_per_table": -0.01005
+        },
+        "sanmenchan": {
+          "paired_se": 0.0009367436946344885,
+          "paired_share_change_per_table": -0.00105
+        },
+        "shanpon": {
+          "paired_se": 0.0015660467745648614,
+          "paired_share_change_per_table": -0.00155
+        },
+        "tanki": {
+          "paired_se": 0.0006576613877407175,
+          "paired_share_change_per_table": 0.00025
+        }
+      }
+    },
+    {
+      "baseline": "tanyao1_kanchan0",
+      "candidate": "tanyao1_kanchan1",
+      "turn12_contrast_changes": {
+        "double_suji_46_minus_suji_28": {
+          "baseline_difference": 0.015778313900371377,
+          "candidate_difference": 0.013605101559699916,
+          "paired_change": -0.0021732123406714605,
+          "paired_table_clustered_se": 0.0009794188402676594
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "baseline_difference": 0.008154795660959488,
+          "candidate_difference": 0.005645908936996069,
+          "paired_change": -0.002508886723963419,
+          "paired_table_clustered_se": 0.0005875318330798301
+        }
+      },
+      "wait_category_changes": {
+        "chiitoitsu_tanki": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "kanchan": {
+          "paired_se": 0.0002690696841428745,
+          "paired_share_change_per_table": 0.00145
+        },
+        "kokushi": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "other": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "penchan": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "ryanmen": {
+          "paired_se": 5e-05,
+          "paired_share_change_per_table": -5e-05
+        },
+        "sanmenchan": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "shanpon": {
+          "paired_se": 0.0002643964736428301,
+          "paired_share_change_per_table": -0.0014
+        },
+        "tanki": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        }
+      }
+    }
+  ],
+  "paired_run_comparisons": [
+    {
+      "baseline": "tanyao1_kanchan0",
+      "candidate": "tanyao0_kanchan0",
+      "turn12_contrast_changes": {
+        "double_suji_46_minus_suji_28": {
+          "baseline_difference": 0.015778313900371377,
+          "candidate_difference": 0.011698171511217742,
+          "paired_change": -0.004080142389153635,
+          "paired_table_clustered_se": 0.004587274484283194
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "baseline_difference": 0.008154795660959488,
+          "candidate_difference": 0.0041930403587731035,
+          "paired_change": -0.003961755302186384,
+          "paired_table_clustered_se": 0.003905029916056273
+        }
+      },
+      "wait_category_changes": {
+        "chiitoitsu_tanki": {
+          "paired_se": 0.0016671468048505644,
+          "paired_share_change_per_table": 0.0039
+        },
+        "kanchan": {
+          "paired_se": 0.002034116210160526,
+          "paired_share_change_per_table": -0.00125
+        },
+        "kokushi": {
+          "paired_se": 0.00012245917610571543,
+          "paired_share_change_per_table": 0.0003
+        },
+        "other": {
+          "paired_se": 0.0009604379194148118,
+          "paired_share_change_per_table": 0.00145
+        },
+        "penchan": {
+          "paired_se": 0.0012682933132349237,
+          "paired_share_change_per_table": 0.0055
+        },
+        "ryanmen": {
+          "paired_se": 0.002398507351849446,
+          "paired_share_change_per_table": -0.00995
+        },
+        "sanmenchan": {
+          "paired_se": 0.0009367436946344885,
+          "paired_share_change_per_table": -0.00105
+        },
+        "shanpon": {
+          "paired_se": 0.0015692727633685268,
+          "paired_share_change_per_table": -0.00035
+        },
+        "tanki": {
+          "paired_se": 0.000659558375629135,
+          "paired_share_change_per_table": 0.0003
+        }
+      }
+    },
+    {
+      "baseline": "tanyao1_kanchan0",
+      "candidate": "tanyao0_kanchan1",
+      "turn12_contrast_changes": {
+        "double_suji_46_minus_suji_28": {
+          "baseline_difference": 0.015778313900371377,
+          "candidate_difference": 0.009605987559928308,
+          "paired_change": -0.006172326340443068,
+          "paired_table_clustered_se": 0.004602783842979469
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "baseline_difference": 0.008154795660959488,
+          "candidate_difference": 0.0026522821624075654,
+          "paired_change": -0.0055025134985519225,
+          "paired_table_clustered_se": 0.0039172081546327295
+        }
+      },
+      "wait_category_changes": {
+        "chiitoitsu_tanki": {
+          "paired_se": 0.0016671468048505644,
+          "paired_share_change_per_table": 0.0039
+        },
+        "kanchan": {
+          "paired_se": 0.0020353638520668772,
+          "paired_share_change_per_table": 0.00015
+        },
+        "kokushi": {
+          "paired_se": 0.00012245917610571543,
+          "paired_share_change_per_table": 0.0003
+        },
+        "other": {
+          "paired_se": 0.0009617422978180646,
+          "paired_share_change_per_table": 0.0014
+        },
+        "penchan": {
+          "paired_se": 0.0012682933132349237,
+          "paired_share_change_per_table": 0.0055
+        },
+        "ryanmen": {
+          "paired_se": 0.0023995286541085717,
+          "paired_share_change_per_table": -0.01005
+        },
+        "sanmenchan": {
+          "paired_se": 0.0009367436946344885,
+          "paired_share_change_per_table": -0.00105
+        },
+        "shanpon": {
+          "paired_se": 0.0015660467745648614,
+          "paired_share_change_per_table": -0.00155
+        },
+        "tanki": {
+          "paired_se": 0.0006576613877407175,
+          "paired_share_change_per_table": 0.00025
+        }
+      }
+    },
+    {
+      "baseline": "tanyao1_kanchan0",
+      "candidate": "tanyao1_kanchan1",
+      "turn12_contrast_changes": {
+        "double_suji_46_minus_suji_28": {
+          "baseline_difference": 0.015778313900371377,
+          "candidate_difference": 0.013605101559699916,
+          "paired_change": -0.0021732123406714605,
+          "paired_table_clustered_se": 0.0009794188402676594
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "baseline_difference": 0.008154795660959488,
+          "candidate_difference": 0.005645908936996069,
+          "paired_change": -0.002508886723963419,
+          "paired_table_clustered_se": 0.0005875318330798301
+        }
+      },
+      "wait_category_changes": {
+        "chiitoitsu_tanki": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "kanchan": {
+          "paired_se": 0.0002690696841428745,
+          "paired_share_change_per_table": 0.00145
+        },
+        "kokushi": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "other": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "penchan": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "ryanmen": {
+          "paired_se": 5e-05,
+          "paired_share_change_per_table": -5e-05
+        },
+        "sanmenchan": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "shanpon": {
+          "paired_se": 0.0002643964736428301,
+          "paired_share_change_per_table": -0.0014
+        },
+        "tanki": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        }
+      }
+    },
+    {
+      "baseline": "tanyao0_kanchan0",
+      "candidate": "tanyao0_kanchan1",
+      "turn12_contrast_changes": {
+        "double_suji_46_minus_suji_28": {
+          "baseline_difference": 0.011698171511217742,
+          "candidate_difference": 0.009605987559928308,
+          "paired_change": -0.0020921839512894336,
+          "paired_table_clustered_se": 0.0008301376418671221
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "baseline_difference": 0.0041930403587731035,
+          "candidate_difference": 0.0026522821624075654,
+          "paired_change": -0.0015407581963655381,
+          "paired_table_clustered_se": 0.00038934342000481175
+        }
+      },
+      "wait_category_changes": {
+        "chiitoitsu_tanki": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "kanchan": {
+          "paired_se": 0.0002643964736428301,
+          "paired_share_change_per_table": 0.0014
+        },
+        "kokushi": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "other": {
+          "paired_se": 5e-05,
+          "paired_share_change_per_table": -5e-05
+        },
+        "penchan": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "ryanmen": {
+          "paired_se": 7.070891024120918e-05,
+          "paired_share_change_per_table": -0.0001
+        },
+        "sanmenchan": {
+          "paired_se": 0.0,
+          "paired_share_change_per_table": 0.0
+        },
+        "shanpon": {
+          "paired_se": 0.00024480808105499193,
+          "paired_share_change_per_table": -0.0012
+        },
+        "tanki": {
+          "paired_se": 5e-05,
+          "paired_share_change_per_table": -5e-05
+        }
+      }
+    },
+    {
+      "baseline": "tanyao0_kanchan0",
+      "candidate": "tanyao1_kanchan1",
+      "turn12_contrast_changes": {
+        "double_suji_46_minus_suji_28": {
+          "baseline_difference": 0.011698171511217742,
+          "candidate_difference": 0.013605101559699916,
+          "paired_change": 0.0019069300484821743,
+          "paired_table_clustered_se": 0.004540398795207841
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "baseline_difference": 0.0041930403587731035,
+          "candidate_difference": 0.005645908936996069,
+          "paired_change": 0.0014528685782229656,
+          "paired_table_clustered_se": 0.0039028698156775197
+        }
+      },
+      "wait_category_changes": {
+        "chiitoitsu_tanki": {
+          "paired_se": 0.0016671468048505644,
+          "paired_share_change_per_table": -0.0039
+        },
+        "kanchan": {
+          "paired_se": 0.002032201267615884,
+          "paired_share_change_per_table": 0.0027
+        },
+        "kokushi": {
+          "paired_se": 0.00012245917610571543,
+          "paired_share_change_per_table": -0.0003
+        },
+        "other": {
+          "paired_se": 0.0009604379194148118,
+          "paired_share_change_per_table": -0.00145
+        },
+        "penchan": {
+          "paired_se": 0.0012682933132349237,
+          "paired_share_change_per_table": -0.0055
+        },
+        "ryanmen": {
+          "paired_se": 0.002397996459411683,
+          "paired_share_change_per_table": 0.0099
+        },
+        "sanmenchan": {
+          "paired_se": 0.0009367436946344885,
+          "paired_share_change_per_table": 0.00105
+        },
+        "shanpon": {
+          "paired_se": 0.0015548523252346715,
+          "paired_share_change_per_table": -0.00105
+        },
+        "tanki": {
+          "paired_se": 0.000659558375629135,
+          "paired_share_change_per_table": -0.0003
+        }
+      }
+    },
+    {
+      "baseline": "tanyao0_kanchan1",
+      "candidate": "tanyao1_kanchan1",
+      "turn12_contrast_changes": {
+        "double_suji_46_minus_suji_28": {
+          "baseline_difference": 0.009605987559928308,
+          "candidate_difference": 0.013605101559699916,
+          "paired_change": 0.003999113999771608,
+          "paired_table_clustered_se": 0.0045563118621823415
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "baseline_difference": 0.0026522821624075654,
+          "candidate_difference": 0.005645908936996069,
+          "paired_change": 0.0029936267745885037,
+          "paired_table_clustered_se": 0.003915203651610267
+        }
+      },
+      "wait_category_changes": {
+        "chiitoitsu_tanki": {
+          "paired_se": 0.0016671468048505644,
+          "paired_share_change_per_table": -0.0039
+        },
+        "kanchan": {
+          "paired_se": 0.0020335000015030257,
+          "paired_share_change_per_table": 0.0013
+        },
+        "kokushi": {
+          "paired_se": 0.00012245917610571543,
+          "paired_share_change_per_table": -0.0003
+        },
+        "other": {
+          "paired_se": 0.0009617422978180646,
+          "paired_share_change_per_table": -0.0014
+        },
+        "penchan": {
+          "paired_se": 0.0012682933132349237,
+          "paired_share_change_per_table": -0.0055
+        },
+        "ryanmen": {
+          "paired_se": 0.0023990180833808276,
+          "paired_share_change_per_table": 0.01
+        },
+        "sanmenchan": {
+          "paired_se": 0.0009367436946344885,
+          "paired_share_change_per_table": 0.00105
+        },
+        "shanpon": {
+          "paired_se": 0.0015516504941393207,
+          "paired_share_change_per_table": 0.00015
+        },
+        "tanki": {
+          "paired_se": 0.0006576613877407175,
+          "paired_share_change_per_table": -0.00025
+        }
+      }
+    }
+  ],
+  "runs": {
+    "tanyao0_kanchan0": {
+      "aggregate": "outputs/push_fold_experiments/20260909/ablations/tanyao0_kanchan0_20k.json",
+      "aggregate_sha256": "e2578888028bdffd17c1b5d345f6845b55168ec2186faa70de441c79b6b2a6fe",
+      "kanchan_winning_rank_shares": {
+        "2": {
+          "share": 0.12067235323632715,
+          "winning_types": 481
+        },
+        "3": {
+          "share": 0.16181635725037632,
+          "winning_types": 645
+        },
+        "4": {
+          "share": 0.15077772202709483,
+          "winning_types": 601
+        },
+        "5": {
+          "share": 0.14902157551430004,
+          "winning_types": 594
+        },
+        "6": {
+          "share": 0.14024084295032613,
+          "winning_types": 559
+        },
+        "7": {
+          "share": 0.154039136979428,
+          "winning_types": 614
+        },
+        "8": {
+          "share": 0.12343201204214752,
+          "winning_types": 492
+        }
+      },
+      "metadata": {
+        "engine_version": "closed-hand-efficiency-cpp-4",
+        "evaluator_backend": "necessary_tiles_masks",
+        "policy": "shanten_then_value_ukeire",
+        "policy_parameters": {
+          "advanced_shanten": [
+            1,
+            2
+          ],
+          "dora_neighbor_weight": 1,
+          "dora_tiebreak_weight": 1,
+          "dora_ukeire_weight": 1,
+          "future_ukeire_weight": 0.5,
+          "future_ukeire_weights_by_shanten": {
+            "1": 2,
+            "2": 1,
+            "3_plus": 0
+          },
+          "improvement_weight": 0.1,
+          "shanten_reversal": {
+            "candidate_limit": 2,
+            "enabled": true,
+            "max_per_hand": 1,
+            "max_turn": 9,
+            "penalty": 25,
+            "recovered_ukeire_weight": 0.5
+          },
+          "tanyao_weight": 0,
+          "yakuhai_weight": 1
+        },
+        "round_wind": 27
+      },
+      "raw": "/private/tmp/push-fold-tanyao0-20k.jsonl",
+      "raw_sha256": "7037f555e9a3fd4ab43e0453daf51f0fcc4afc60d824e11544d524031c716b73",
+      "riichi_hands": 19740,
+      "trials": 20000,
+      "turn12_cells": {
+        "double_suji_46": {
+          "candidate_opportunities": 4923,
+          "exposed_tables": 2711,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.04570383912248629,
+          "ron_hits": 225,
+          "table_clustered_se": 0.003704472522580605
+        },
+        "half_suji_46": {
+          "candidate_opportunities": 14636,
+          "exposed_tables": 5425,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.09715769335884121,
+          "ron_hits": 1422,
+          "table_clustered_se": 0.002971676234161302
+        },
+        "no_suji_28": {
+          "candidate_opportunities": 14683,
+          "exposed_tables": 5424,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.0929646530000681,
+          "ron_hits": 1365,
+          "table_clustered_se": 0.0029098272183568736
+        },
+        "suji_28": {
+          "candidate_opportunities": 5999,
+          "exposed_tables": 2955,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.034005667611268546,
+          "ron_hits": 204,
+          "table_clustered_se": 0.0028984750889283453
+        }
+      },
+      "turn12_contrasts": {
+        "double_suji_46_minus_suji_28": {
+          "difference": 0.011698171511217742,
+          "independent_tables": 20000,
+          "left": "double_suji_46",
+          "left_probability": 0.04570383912248629,
+          "paired_table_clustered_se": 0.004761615416779179,
+          "right": "suji_28",
+          "right_probability": 0.034005667611268546
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "difference": 0.0041930403587731035,
+          "independent_tables": 20000,
+          "left": "half_suji_46",
+          "left_probability": 0.09715769335884121,
+          "paired_table_clustered_se": 0.004459673090043159,
+          "right": "no_suji_28",
+          "right_probability": 0.0929646530000681
+        }
+      },
+      "turn12_copy_conditioned": [
+        {
+          "candidate_opportunities": 2670,
+          "cell": "double_suji_46",
+          "exposed_tables": 1674,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.050187265917602995,
+          "ron_hits": 134,
+          "table_clustered_se": 0.005216554687786279
+        },
+        {
+          "candidate_opportunities": 680,
+          "cell": "double_suji_46",
+          "exposed_tables": 524,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.027941176470588237,
+          "ron_hits": 19,
+          "table_clustered_se": 0.006681736192345541
+        },
+        {
+          "candidate_opportunities": 146,
+          "cell": "double_suji_46",
+          "exposed_tables": 123,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.03424657534246575,
+          "ron_hits": 5,
+          "table_clustered_se": 0.01513522173406603
+        },
+        {
+          "candidate_opportunities": 20,
+          "cell": "double_suji_46",
+          "exposed_tables": 20,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 1044,
+          "cell": "double_suji_46",
+          "exposed_tables": 942,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.05268199233716475,
+          "ron_hits": 55,
+          "table_clustered_se": 0.006912729601414013
+        },
+        {
+          "candidate_opportunities": 170,
+          "cell": "double_suji_46",
+          "exposed_tables": 169,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.01764705882352941,
+          "ron_hits": 3,
+          "table_clustered_se": 0.010099554706604886
+        },
+        {
+          "candidate_opportunities": 16,
+          "cell": "double_suji_46",
+          "exposed_tables": 16,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 153,
+          "cell": "double_suji_46",
+          "exposed_tables": 152,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.058823529411764705,
+          "ron_hits": 9,
+          "table_clustered_se": 0.019030646738304968
+        },
+        {
+          "candidate_opportunities": 20,
+          "cell": "double_suji_46",
+          "exposed_tables": 20,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 4,
+          "cell": "double_suji_46",
+          "exposed_tables": 4,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 7486,
+          "cell": "half_suji_46",
+          "exposed_tables": 3897,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.10005343307507347,
+          "ron_hits": 749,
+          "table_clustered_se": 0.004215627389076866
+        },
+        {
+          "candidate_opportunities": 2497,
+          "cell": "half_suji_46",
+          "exposed_tables": 1766,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.08249899879855827,
+          "ron_hits": 206,
+          "table_clustered_se": 0.006691947227048802
+        },
+        {
+          "candidate_opportunities": 587,
+          "cell": "half_suji_46",
+          "exposed_tables": 504,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.07836456558773425,
+          "ron_hits": 46,
+          "table_clustered_se": 0.01208200674342888
+        },
+        {
+          "candidate_opportunities": 56,
+          "cell": "half_suji_46",
+          "exposed_tables": 56,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.05357142857142857,
+          "ron_hits": 3,
+          "table_clustered_se": 0.030090359697185314
+        },
+        {
+          "candidate_opportunities": 2785,
+          "cell": "half_suji_46",
+          "exposed_tables": 2248,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.1066427289048474,
+          "ron_hits": 297,
+          "table_clustered_se": 0.005912248087194481
+        },
+        {
+          "candidate_opportunities": 625,
+          "cell": "half_suji_46",
+          "exposed_tables": 603,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.088,
+          "ron_hits": 55,
+          "table_clustered_se": 0.01133080683443046
+        },
+        {
+          "candidate_opportunities": 63,
+          "cell": "half_suji_46",
+          "exposed_tables": 62,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.06349206349206349,
+          "ron_hits": 4,
+          "table_clustered_se": 0.03075550715814618
+        },
+        {
+          "candidate_opportunities": 468,
+          "cell": "half_suji_46",
+          "exposed_tables": 456,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.11965811965811966,
+          "ron_hits": 56,
+          "table_clustered_se": 0.014946161403570864
+        },
+        {
+          "candidate_opportunities": 54,
+          "cell": "half_suji_46",
+          "exposed_tables": 54,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.09259259259259259,
+          "ron_hits": 5,
+          "table_clustered_se": 0.03944602631253401
+        },
+        {
+          "candidate_opportunities": 15,
+          "cell": "half_suji_46",
+          "exposed_tables": 15,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.06666666666666667,
+          "ron_hits": 1,
+          "table_clustered_se": 0.0644077290853081
+        },
+        {
+          "candidate_opportunities": 5355,
+          "cell": "no_suji_28",
+          "exposed_tables": 3232,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.10214752567693744,
+          "ron_hits": 547,
+          "table_clustered_se": 0.004994095910766272
+        },
+        {
+          "candidate_opportunities": 3226,
+          "cell": "no_suji_28",
+          "exposed_tables": 2209,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.08431494110353378,
+          "ron_hits": 272,
+          "table_clustered_se": 0.005612583864100358
+        },
+        {
+          "candidate_opportunities": 1341,
+          "cell": "no_suji_28",
+          "exposed_tables": 1137,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.06263982102908278,
+          "ron_hits": 84,
+          "table_clustered_se": 0.007128648088291644
+        },
+        {
+          "candidate_opportunities": 193,
+          "cell": "no_suji_28",
+          "exposed_tables": 192,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.05699481865284974,
+          "ron_hits": 11,
+          "table_clustered_se": 0.016693326628969926
+        },
+        {
+          "candidate_opportunities": 2639,
+          "cell": "no_suji_28",
+          "exposed_tables": 2084,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.11140583554376658,
+          "ron_hits": 294,
+          "table_clustered_se": 0.006396924192854188
+        },
+        {
+          "candidate_opportunities": 1061,
+          "cell": "no_suji_28",
+          "exposed_tables": 976,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.07445805843543826,
+          "ron_hits": 79,
+          "table_clustered_se": 0.007973891138159262
+        },
+        {
+          "candidate_opportunities": 189,
+          "cell": "no_suji_28",
+          "exposed_tables": 188,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.09523809523809523,
+          "ron_hits": 18,
+          "table_clustered_se": 0.021364572342905126
+        },
+        {
+          "candidate_opportunities": 493,
+          "cell": "no_suji_28",
+          "exposed_tables": 480,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.0872210953346856,
+          "ron_hits": 43,
+          "table_clustered_se": 0.012683626754524068
+        },
+        {
+          "candidate_opportunities": 168,
+          "cell": "no_suji_28",
+          "exposed_tables": 166,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.09523809523809523,
+          "ron_hits": 16,
+          "table_clustered_se": 0.022526999107534022
+        },
+        {
+          "candidate_opportunities": 18,
+          "cell": "no_suji_28",
+          "exposed_tables": 18,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.05555555555555555,
+          "ron_hits": 1,
+          "table_clustered_se": 0.05399164513064275
+        },
+        {
+          "candidate_opportunities": 2412,
+          "cell": "suji_28",
+          "exposed_tables": 1583,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.051824212271973466,
+          "ron_hits": 125,
+          "table_clustered_se": 0.005463239485019742
+        },
+        {
+          "candidate_opportunities": 1228,
+          "cell": "suji_28",
+          "exposed_tables": 932,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.016286644951140065,
+          "ron_hits": 20,
+          "table_clustered_se": 0.004263488223633043
+        },
+        {
+          "candidate_opportunities": 448,
+          "cell": "suji_28",
+          "exposed_tables": 389,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.006696428571428571,
+          "ron_hits": 3,
+          "table_clustered_se": 0.0038483052953296217
+        },
+        {
+          "candidate_opportunities": 80,
+          "cell": "suji_28",
+          "exposed_tables": 80,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 1084,
+          "cell": "suji_28",
+          "exposed_tables": 924,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.03690036900369004,
+          "ron_hits": 40,
+          "table_clustered_se": 0.006107408752835505
+        },
+        {
+          "candidate_opportunities": 383,
+          "cell": "suji_28",
+          "exposed_tables": 363,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.015665796344647518,
+          "ron_hits": 6,
+          "table_clustered_se": 0.006316947017289887
+        },
+        {
+          "candidate_opportunities": 75,
+          "cell": "suji_28",
+          "exposed_tables": 74,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.04,
+          "ron_hits": 3,
+          "table_clustered_se": 0.022640550316077115
+        },
+        {
+          "candidate_opportunities": 224,
+          "cell": "suji_28",
+          "exposed_tables": 217,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.026785714285714284,
+          "ron_hits": 6,
+          "table_clustered_se": 0.010747760885815846
+        },
+        {
+          "candidate_opportunities": 54,
+          "cell": "suji_28",
+          "exposed_tables": 53,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 11,
+          "cell": "suji_28",
+          "exposed_tables": 11,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.09090909090909091,
+          "ron_hits": 1,
+          "table_clustered_se": 0.08668058424583926
+        }
+      ],
+      "wait_categories": {
+        "chiitoitsu_tanki": {
+          "hands": 1966,
+          "share_of_riichi_hands": 0.09959473150962513
+        },
+        "kanchan": {
+          "hands": 3986,
+          "share_of_riichi_hands": 0.20192502532928064
+        },
+        "kokushi": {
+          "hands": 28,
+          "share_of_riichi_hands": 0.0014184397163120568
+        },
+        "other": {
+          "hands": 909,
+          "share_of_riichi_hands": 0.04604863221884498
+        },
+        "penchan": {
+          "hands": 1257,
+          "share_of_riichi_hands": 0.06367781155015198
+        },
+        "ryanmen": {
+          "hands": 8493,
+          "share_of_riichi_hands": 0.43024316109422495
+        },
+        "sanmenchan": {
+          "hands": 908,
+          "share_of_riichi_hands": 0.045997973657548125
+        },
+        "shanpon": {
+          "hands": 1852,
+          "share_of_riichi_hands": 0.09381965552178319
+        },
+        "tanki": {
+          "hands": 341,
+          "share_of_riichi_hands": 0.017274569402228976
+        }
+      }
+    },
+    "tanyao0_kanchan1": {
+      "aggregate": "outputs/push_fold_experiments/20260909/ablations/tanyao0_kanchan1_20k.json",
+      "aggregate_sha256": "36b343b1b92bfb2863da0584ba97972975de4fd458f3c7530e8e218774bf84aa",
+      "kanchan_winning_rank_shares": {
+        "2": {
+          "share": 0.12879920279023419,
+          "winning_types": 517
+        },
+        "3": {
+          "share": 0.16018933731938217,
+          "winning_types": 643
+        },
+        "4": {
+          "share": 0.14499252615844543,
+          "winning_types": 582
+        },
+        "5": {
+          "share": 0.14798206278026907,
+          "winning_types": 594
+        },
+        "6": {
+          "share": 0.13652217239661185,
+          "winning_types": 548
+        },
+        "7": {
+          "share": 0.15246636771300448,
+          "winning_types": 612
+        },
+        "8": {
+          "share": 0.1290483308420528,
+          "winning_types": 518
+        }
+      },
+      "metadata": {
+        "engine_version": "closed-hand-efficiency-cpp-4",
+        "evaluator_backend": "necessary_tiles_masks",
+        "policy": "shanten_then_value_ukeire",
+        "policy_parameters": {
+          "advanced_shanten": [
+            1,
+            2
+          ],
+          "dora_neighbor_weight": 1,
+          "dora_tiebreak_weight": 1,
+          "dora_ukeire_weight": 1,
+          "future_ukeire_weight": 0.5,
+          "future_ukeire_weights_by_shanten": {
+            "1": 2,
+            "2": 1,
+            "3_plus": 0
+          },
+          "improvement_weight": 0.1,
+          "kanchan_outer_wait_weight": 1,
+          "shanten_reversal": {
+            "candidate_limit": 2,
+            "enabled": true,
+            "max_per_hand": 1,
+            "max_turn": 9,
+            "penalty": 25,
+            "recovered_ukeire_weight": 0.5
+          },
+          "tanyao_weight": 0,
+          "yakuhai_weight": 1
+        },
+        "round_wind": 27
+      },
+      "raw": "/private/tmp/push-fold-tanyao0-kanchan1-20k.jsonl",
+      "raw_sha256": "18a511173c83dcbc85e0367abf284bc1f49735cb43a25269e46b1a899986035b",
+      "riichi_hands": 19740,
+      "trials": 20000,
+      "turn12_cells": {
+        "double_suji_46": {
+          "candidate_opportunities": 4915,
+          "exposed_tables": 2709,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.044760935910478125,
+          "ron_hits": 220,
+          "table_clustered_se": 0.0036754610348384183
+        },
+        "half_suji_46": {
+          "candidate_opportunities": 14627,
+          "exposed_tables": 5423,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.09667054078074794,
+          "ron_hits": 1414,
+          "table_clustered_se": 0.0029698744338208212
+        },
+        "no_suji_28": {
+          "candidate_opportunities": 14678,
+          "exposed_tables": 5424,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.09401825861834037,
+          "ron_hits": 1380,
+          "table_clustered_se": 0.0029246810668817885
+        },
+        "suji_28": {
+          "candidate_opportunities": 6002,
+          "exposed_tables": 2956,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.03515494835054982,
+          "ron_hits": 211,
+          "table_clustered_se": 0.002933571073986468
+        }
+      },
+      "turn12_contrasts": {
+        "double_suji_46_minus_suji_28": {
+          "difference": 0.009605987559928308,
+          "independent_tables": 20000,
+          "left": "double_suji_46",
+          "left_probability": 0.044760935910478125,
+          "paired_table_clustered_se": 0.004761186969157908,
+          "right": "suji_28",
+          "right_probability": 0.03515494835054982
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "difference": 0.0026522821624075654,
+          "independent_tables": 20000,
+          "left": "half_suji_46",
+          "left_probability": 0.09667054078074794,
+          "paired_table_clustered_se": 0.004470725919085934,
+          "right": "no_suji_28",
+          "right_probability": 0.09401825861834037
+        }
+      },
+      "turn12_copy_conditioned": [
+        {
+          "candidate_opportunities": 2666,
+          "cell": "double_suji_46",
+          "exposed_tables": 1671,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.04913728432108027,
+          "ron_hits": 131,
+          "table_clustered_se": 0.005187691741564475
+        },
+        {
+          "candidate_opportunities": 678,
+          "cell": "double_suji_46",
+          "exposed_tables": 522,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.028023598820058997,
+          "ron_hits": 19,
+          "table_clustered_se": 0.006701412656173595
+        },
+        {
+          "candidate_opportunities": 145,
+          "cell": "double_suji_46",
+          "exposed_tables": 122,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.027586206896551724,
+          "ron_hits": 4,
+          "table_clustered_se": 0.013662932940331197
+        },
+        {
+          "candidate_opportunities": 20,
+          "cell": "double_suji_46",
+          "exposed_tables": 20,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 1044,
+          "cell": "double_suji_46",
+          "exposed_tables": 942,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.05268199233716475,
+          "ron_hits": 55,
+          "table_clustered_se": 0.006912729601414013
+        },
+        {
+          "candidate_opportunities": 171,
+          "cell": "double_suji_46",
+          "exposed_tables": 170,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.017543859649122806,
+          "ron_hits": 3,
+          "table_clustered_se": 0.010041007880420134
+        },
+        {
+          "candidate_opportunities": 16,
+          "cell": "double_suji_46",
+          "exposed_tables": 16,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 151,
+          "cell": "double_suji_46",
+          "exposed_tables": 150,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.052980132450331126,
+          "ron_hits": 8,
+          "table_clustered_se": 0.01823556783462051
+        },
+        {
+          "candidate_opportunities": 20,
+          "cell": "double_suji_46",
+          "exposed_tables": 20,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 4,
+          "cell": "double_suji_46",
+          "exposed_tables": 4,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 7485,
+          "cell": "half_suji_46",
+          "exposed_tables": 3897,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.10006680026720106,
+          "ron_hits": 749,
+          "table_clustered_se": 0.004216079010069472
+        },
+        {
+          "candidate_opportunities": 2493,
+          "cell": "half_suji_46",
+          "exposed_tables": 1762,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.08182912154031288,
+          "ron_hits": 204,
+          "table_clustered_se": 0.0066825928455512785
+        },
+        {
+          "candidate_opportunities": 587,
+          "cell": "half_suji_46",
+          "exposed_tables": 505,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.07495741056218058,
+          "ron_hits": 44,
+          "table_clustered_se": 0.011660461010516389
+        },
+        {
+          "candidate_opportunities": 56,
+          "cell": "half_suji_46",
+          "exposed_tables": 56,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.05357142857142857,
+          "ron_hits": 3,
+          "table_clustered_se": 0.030090359697185314
+        },
+        {
+          "candidate_opportunities": 2782,
+          "cell": "half_suji_46",
+          "exposed_tables": 2246,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.10531991373112869,
+          "ron_hits": 293,
+          "table_clustered_se": 0.005890453381430961
+        },
+        {
+          "candidate_opportunities": 624,
+          "cell": "half_suji_46",
+          "exposed_tables": 602,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.08814102564102565,
+          "ron_hits": 55,
+          "table_clustered_se": 0.011348147331576287
+        },
+        {
+          "candidate_opportunities": 63,
+          "cell": "half_suji_46",
+          "exposed_tables": 62,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.06349206349206349,
+          "ron_hits": 4,
+          "table_clustered_se": 0.03075550715814618
+        },
+        {
+          "candidate_opportunities": 468,
+          "cell": "half_suji_46",
+          "exposed_tables": 456,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.11965811965811966,
+          "ron_hits": 56,
+          "table_clustered_se": 0.014946161403570864
+        },
+        {
+          "candidate_opportunities": 54,
+          "cell": "half_suji_46",
+          "exposed_tables": 54,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.09259259259259259,
+          "ron_hits": 5,
+          "table_clustered_se": 0.03944602631253401
+        },
+        {
+          "candidate_opportunities": 15,
+          "cell": "half_suji_46",
+          "exposed_tables": 15,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.06666666666666667,
+          "ron_hits": 1,
+          "table_clustered_se": 0.0644077290853081
+        },
+        {
+          "candidate_opportunities": 5351,
+          "cell": "no_suji_28",
+          "exposed_tables": 3230,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.10334516912726593,
+          "ron_hits": 553,
+          "table_clustered_se": 0.005024703580432142
+        },
+        {
+          "candidate_opportunities": 3227,
+          "cell": "no_suji_28",
+          "exposed_tables": 2209,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.08521846916640843,
+          "ron_hits": 275,
+          "table_clustered_se": 0.005646271327049504
+        },
+        {
+          "candidate_opportunities": 1342,
+          "cell": "no_suji_28",
+          "exposed_tables": 1138,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.06333830104321908,
+          "ron_hits": 85,
+          "table_clustered_se": 0.007157663398409179
+        },
+        {
+          "candidate_opportunities": 193,
+          "cell": "no_suji_28",
+          "exposed_tables": 192,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.05699481865284974,
+          "ron_hits": 11,
+          "table_clustered_se": 0.016693326628969926
+        },
+        {
+          "candidate_opportunities": 2636,
+          "cell": "no_suji_28",
+          "exposed_tables": 2082,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.11267071320182094,
+          "ron_hits": 297,
+          "table_clustered_se": 0.006426875061607272
+        },
+        {
+          "candidate_opportunities": 1062,
+          "cell": "no_suji_28",
+          "exposed_tables": 977,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.07532956685499058,
+          "ron_hits": 80,
+          "table_clustered_se": 0.008013515689296665
+        },
+        {
+          "candidate_opportunities": 189,
+          "cell": "no_suji_28",
+          "exposed_tables": 188,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.09523809523809523,
+          "ron_hits": 18,
+          "table_clustered_se": 0.021364572342905126
+        },
+        {
+          "candidate_opportunities": 492,
+          "cell": "no_suji_28",
+          "exposed_tables": 479,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.08943089430894309,
+          "ron_hits": 44,
+          "table_clustered_se": 0.012841484959451706
+        },
+        {
+          "candidate_opportunities": 168,
+          "cell": "no_suji_28",
+          "exposed_tables": 166,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.09523809523809523,
+          "ron_hits": 16,
+          "table_clustered_se": 0.022526999107534022
+        },
+        {
+          "candidate_opportunities": 18,
+          "cell": "no_suji_28",
+          "exposed_tables": 18,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.05555555555555555,
+          "ron_hits": 1,
+          "table_clustered_se": 0.05399164513064275
+        },
+        {
+          "candidate_opportunities": 2411,
+          "cell": "suji_28",
+          "exposed_tables": 1583,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.052675238490253004,
+          "ron_hits": 127,
+          "table_clustered_se": 0.005492613892696057
+        },
+        {
+          "candidate_opportunities": 1229,
+          "cell": "suji_28",
+          "exposed_tables": 933,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.01627339300244101,
+          "ron_hits": 20,
+          "table_clustered_se": 0.004260044374280364
+        },
+        {
+          "candidate_opportunities": 447,
+          "cell": "suji_28",
+          "exposed_tables": 388,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.011185682326621925,
+          "ron_hits": 5,
+          "table_clustered_se": 0.005873523804001224
+        },
+        {
+          "candidate_opportunities": 80,
+          "cell": "suji_28",
+          "exposed_tables": 80,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 1086,
+          "cell": "suji_28",
+          "exposed_tables": 924,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.037753222836095765,
+          "ron_hits": 41,
+          "table_clustered_se": 0.006155246925848386
+        },
+        {
+          "candidate_opportunities": 384,
+          "cell": "suji_28",
+          "exposed_tables": 364,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.018229166666666668,
+          "ron_hits": 7,
+          "table_clustered_se": 0.006797379811911469
+        },
+        {
+          "candidate_opportunities": 75,
+          "cell": "suji_28",
+          "exposed_tables": 74,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.04,
+          "ron_hits": 3,
+          "table_clustered_se": 0.022640550316077115
+        },
+        {
+          "candidate_opportunities": 225,
+          "cell": "suji_28",
+          "exposed_tables": 218,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.03111111111111111,
+          "ron_hits": 7,
+          "table_clustered_se": 0.011533215423631522
+        },
+        {
+          "candidate_opportunities": 54,
+          "cell": "suji_28",
+          "exposed_tables": 53,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 11,
+          "cell": "suji_28",
+          "exposed_tables": 11,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.09090909090909091,
+          "ron_hits": 1,
+          "table_clustered_se": 0.08668058424583926
+        }
+      ],
+      "wait_categories": {
+        "chiitoitsu_tanki": {
+          "hands": 1966,
+          "share_of_riichi_hands": 0.09959473150962513
+        },
+        "kanchan": {
+          "hands": 4014,
+          "share_of_riichi_hands": 0.2033434650455927
+        },
+        "kokushi": {
+          "hands": 28,
+          "share_of_riichi_hands": 0.0014184397163120568
+        },
+        "other": {
+          "hands": 908,
+          "share_of_riichi_hands": 0.045997973657548125
+        },
+        "penchan": {
+          "hands": 1257,
+          "share_of_riichi_hands": 0.06367781155015198
+        },
+        "ryanmen": {
+          "hands": 8491,
+          "share_of_riichi_hands": 0.4301418439716312
+        },
+        "sanmenchan": {
+          "hands": 908,
+          "share_of_riichi_hands": 0.045997973657548125
+        },
+        "shanpon": {
+          "hands": 1828,
+          "share_of_riichi_hands": 0.09260385005065856
+        },
+        "tanki": {
+          "hands": 340,
+          "share_of_riichi_hands": 0.017223910840932118
+        }
+      }
+    },
+    "tanyao1_kanchan0": {
+      "aggregate": "outputs/tile_danger_after_riichi_by_turn_20k.json",
+      "aggregate_sha256": "0a92844dd37ec322efd0ecfe124181acc993ff09e4fa5ef27b5db83a456aa964",
+      "kanchan_winning_rank_shares": {
+        "2": {
+          "share": 0.11269010221889803,
+          "winning_types": 452
+        },
+        "3": {
+          "share": 0.168785838942907,
+          "winning_types": 677
+        },
+        "4": {
+          "share": 0.1543256045873847,
+          "winning_types": 619
+        },
+        "5": {
+          "share": 0.15108451757666416,
+          "winning_types": 606
+        },
+        "6": {
+          "share": 0.14510097232610322,
+          "winning_types": 582
+        },
+        "7": {
+          "share": 0.1568187484417851,
+          "winning_types": 629
+        },
+        "8": {
+          "share": 0.11119421590625779,
+          "winning_types": 446
+        }
+      },
+      "metadata": {
+        "engine_version": "closed-hand-efficiency-cpp-4",
+        "evaluator_backend": "necessary_tiles_masks",
+        "policy": "shanten_then_value_ukeire",
+        "policy_parameters": {
+          "advanced_shanten": [
+            1,
+            2
+          ],
+          "dora_neighbor_weight": 1,
+          "dora_tiebreak_weight": 1,
+          "dora_ukeire_weight": 1,
+          "future_ukeire_weight": 0.5,
+          "future_ukeire_weights_by_shanten": {
+            "1": 2,
+            "2": 1,
+            "3_plus": 0
+          },
+          "improvement_weight": 0.1,
+          "shanten_reversal": {
+            "candidate_limit": 2,
+            "enabled": true,
+            "max_per_hand": 1,
+            "max_turn": 9,
+            "penalty": 25,
+            "recovered_ukeire_weight": 0.5
+          },
+          "tanyao_weight": 1,
+          "yakuhai_weight": 1
+        },
+        "round_wind": 27
+      },
+      "raw": "/private/tmp/hand-danger-extremeA-20k.jsonl",
+      "raw_sha256": "6bca69ea1c92a2218c00353cf166d415016ff79fefc3e93932caee75d443e2ea",
+      "riichi_hands": 19763,
+      "trials": 20000,
+      "turn12_cells": {
+        "double_suji_46": {
+          "candidate_opportunities": 5306,
+          "exposed_tables": 2850,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.04542027892951376,
+          "ron_hits": 241,
+          "table_clustered_se": 0.003574958278518021
+        },
+        "half_suji_46": {
+          "candidate_opportunities": 15595,
+          "exposed_tables": 5477,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.10150689323501122,
+          "ron_hits": 1583,
+          "table_clustered_se": 0.0029571138471037703
+        },
+        "no_suji_28": {
+          "candidate_opportunities": 14922,
+          "exposed_tables": 5459,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.09335209757405173,
+          "ron_hits": 1393,
+          "table_clustered_se": 0.0028808851860402905
+        },
+        "suji_28": {
+          "candidate_opportunities": 6005,
+          "exposed_tables": 2931,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.029641965029142382,
+          "ron_hits": 178,
+          "table_clustered_se": 0.0026841428280587895
+        }
+      },
+      "turn12_contrasts": {
+        "double_suji_46_minus_suji_28": {
+          "difference": 0.015778313900371377,
+          "independent_tables": 20000,
+          "left": "double_suji_46",
+          "left_probability": 0.04542027892951376,
+          "paired_table_clustered_se": 0.004529355829759827,
+          "right": "suji_28",
+          "right_probability": 0.029641965029142382
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "difference": 0.008154795660959488,
+          "independent_tables": 20000,
+          "left": "half_suji_46",
+          "left_probability": 0.10150689323501122,
+          "paired_table_clustered_se": 0.004450070953979442,
+          "right": "no_suji_28",
+          "right_probability": 0.09335209757405173
+        }
+      },
+      "turn12_copy_conditioned": [
+        {
+          "candidate_opportunities": 3017,
+          "cell": "double_suji_46",
+          "exposed_tables": 1848,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.05071262843884654,
+          "ron_hits": 153,
+          "table_clustered_se": 0.004930727808323419
+        },
+        {
+          "candidate_opportunities": 663,
+          "cell": "double_suji_46",
+          "exposed_tables": 509,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.021116138763197588,
+          "ron_hits": 14,
+          "table_clustered_se": 0.005616368832928044
+        },
+        {
+          "candidate_opportunities": 130,
+          "cell": "double_suji_46",
+          "exposed_tables": 108,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.015384615384615385,
+          "ron_hits": 2,
+          "table_clustered_se": 0.010823336494651479
+        },
+        {
+          "candidate_opportunities": 13,
+          "cell": "double_suji_46",
+          "exposed_tables": 13,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 1122,
+          "cell": "double_suji_46",
+          "exposed_tables": 998,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.05258467023172905,
+          "ron_hits": 59,
+          "table_clustered_se": 0.006638519566288971
+        },
+        {
+          "candidate_opportunities": 162,
+          "cell": "double_suji_46",
+          "exposed_tables": 161,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.024691358024691357,
+          "ron_hits": 4,
+          "table_clustered_se": 0.012194520650378194
+        },
+        {
+          "candidate_opportunities": 14,
+          "cell": "double_suji_46",
+          "exposed_tables": 14,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 164,
+          "cell": "double_suji_46",
+          "exposed_tables": 163,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.054878048780487805,
+          "ron_hits": 9,
+          "table_clustered_se": 0.017790407572765357
+        },
+        {
+          "candidate_opportunities": 15,
+          "cell": "double_suji_46",
+          "exposed_tables": 15,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 6,
+          "cell": "double_suji_46",
+          "exposed_tables": 6,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 8474,
+          "cell": "half_suji_46",
+          "exposed_tables": 4166,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.10526315789473684,
+          "ron_hits": 892,
+          "table_clustered_se": 0.004104745620958588
+        },
+        {
+          "candidate_opportunities": 2359,
+          "cell": "half_suji_46",
+          "exposed_tables": 1660,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.07630351844001695,
+          "ron_hits": 180,
+          "table_clustered_se": 0.0065443238593005295
+        },
+        {
+          "candidate_opportunities": 516,
+          "cell": "half_suji_46",
+          "exposed_tables": 444,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.08914728682170543,
+          "ron_hits": 46,
+          "table_clustered_se": 0.013668893815610176
+        },
+        {
+          "candidate_opportunities": 32,
+          "cell": "half_suji_46",
+          "exposed_tables": 32,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.03125,
+          "ron_hits": 1,
+          "table_clustered_se": 0.030758612232776764
+        },
+        {
+          "candidate_opportunities": 3067,
+          "cell": "half_suji_46",
+          "exposed_tables": 2425,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.10727094880991196,
+          "ron_hits": 329,
+          "table_clustered_se": 0.005645699052561155
+        },
+        {
+          "candidate_opportunities": 550,
+          "cell": "half_suji_46",
+          "exposed_tables": 524,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.10545454545454545,
+          "ron_hits": 58,
+          "table_clustered_se": 0.013066024056784455
+        },
+        {
+          "candidate_opportunities": 61,
+          "cell": "half_suji_46",
+          "exposed_tables": 60,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.08196721311475409,
+          "ron_hits": 5,
+          "table_clustered_se": 0.03517465683153064
+        },
+        {
+          "candidate_opportunities": 460,
+          "cell": "half_suji_46",
+          "exposed_tables": 444,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.1391304347826087,
+          "ron_hits": 64,
+          "table_clustered_se": 0.015940868325489813
+        },
+        {
+          "candidate_opportunities": 61,
+          "cell": "half_suji_46",
+          "exposed_tables": 61,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.04918032786885246,
+          "ron_hits": 3,
+          "table_clustered_se": 0.02768794536114758
+        },
+        {
+          "candidate_opportunities": 15,
+          "cell": "half_suji_46",
+          "exposed_tables": 15,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.3333333333333333,
+          "ron_hits": 5,
+          "table_clustered_se": 0.1217191669072478
+        },
+        {
+          "candidate_opportunities": 5409,
+          "cell": "no_suji_28",
+          "exposed_tables": 3242,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.10038824181919023,
+          "ron_hits": 543,
+          "table_clustered_se": 0.0049083632283641555
+        },
+        {
+          "candidate_opportunities": 3276,
+          "cell": "no_suji_28",
+          "exposed_tables": 2213,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.08516483516483517,
+          "ron_hits": 279,
+          "table_clustered_se": 0.0056406823105022786
+        },
+        {
+          "candidate_opportunities": 1256,
+          "cell": "no_suji_28",
+          "exposed_tables": 1061,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.07563694267515923,
+          "ron_hits": 95,
+          "table_clustered_se": 0.008170458384854215
+        },
+        {
+          "candidate_opportunities": 179,
+          "cell": "no_suji_28",
+          "exposed_tables": 178,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.0335195530726257,
+          "ron_hits": 6,
+          "table_clustered_se": 0.013455942362548023
+        },
+        {
+          "candidate_opportunities": 2770,
+          "cell": "no_suji_28",
+          "exposed_tables": 2187,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.10469314079422383,
+          "ron_hits": 290,
+          "table_clustered_se": 0.00608756707090487
+        },
+        {
+          "candidate_opportunities": 1111,
+          "cell": "no_suji_28",
+          "exposed_tables": 1004,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.0891089108910891,
+          "ron_hits": 99,
+          "table_clustered_se": 0.008462614020659492
+        },
+        {
+          "candidate_opportunities": 210,
+          "cell": "no_suji_28",
+          "exposed_tables": 209,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.0761904761904762,
+          "ron_hits": 16,
+          "table_clustered_se": 0.018220688853694184
+        },
+        {
+          "candidate_opportunities": 517,
+          "cell": "no_suji_28",
+          "exposed_tables": 501,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.09671179883945841,
+          "ron_hits": 50,
+          "table_clustered_se": 0.012930805381973859
+        },
+        {
+          "candidate_opportunities": 174,
+          "cell": "no_suji_28",
+          "exposed_tables": 171,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.08045977011494253,
+          "ron_hits": 14,
+          "table_clustered_se": 0.020393147004682508
+        },
+        {
+          "candidate_opportunities": 20,
+          "cell": "no_suji_28",
+          "exposed_tables": 20,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.05,
+          "ron_hits": 1,
+          "table_clustered_se": 0.048735190119027924
+        },
+        {
+          "candidate_opportunities": 2451,
+          "cell": "suji_28",
+          "exposed_tables": 1581,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.04039167686658507,
+          "ron_hits": 99,
+          "table_clustered_se": 0.00499686085864905
+        },
+        {
+          "candidate_opportunities": 1195,
+          "cell": "suji_28",
+          "exposed_tables": 894,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.015899581589958158,
+          "ron_hits": 19,
+          "table_clustered_se": 0.003972677184354082
+        },
+        {
+          "candidate_opportunities": 448,
+          "cell": "suji_28",
+          "exposed_tables": 384,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.006696428571428571,
+          "ron_hits": 3,
+          "table_clustered_se": 0.003857487293545257
+        },
+        {
+          "candidate_opportunities": 69,
+          "cell": "suji_28",
+          "exposed_tables": 69,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.014492753623188406,
+          "ron_hits": 1,
+          "table_clustered_se": 0.014387710077037074
+        },
+        {
+          "candidate_opportunities": 1139,
+          "cell": "suji_28",
+          "exposed_tables": 957,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.03511852502194908,
+          "ron_hits": 40,
+          "table_clustered_se": 0.006166413893590889
+        },
+        {
+          "candidate_opportunities": 369,
+          "cell": "suji_28",
+          "exposed_tables": 352,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.01084010840108401,
+          "ron_hits": 4,
+          "table_clustered_se": 0.005378670997494881
+        },
+        {
+          "candidate_opportunities": 46,
+          "cell": "suji_28",
+          "exposed_tables": 46,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.021739130434782608,
+          "ron_hits": 1,
+          "table_clustered_se": 0.021502074734537507
+        },
+        {
+          "candidate_opportunities": 217,
+          "cell": "suji_28",
+          "exposed_tables": 211,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.04608294930875576,
+          "ron_hits": 10,
+          "table_clustered_se": 0.014183491795324969
+        },
+        {
+          "candidate_opportunities": 59,
+          "cell": "suji_28",
+          "exposed_tables": 59,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 12,
+          "cell": "suji_28",
+          "exposed_tables": 12,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.08333333333333333,
+          "ron_hits": 1,
+          "table_clustered_se": 0.07978758702763811
+        }
+      ],
+      "wait_categories": {
+        "chiitoitsu_tanki": {
+          "hands": 1888,
+          "share_of_riichi_hands": 0.09553205484997217
+        },
+        "kanchan": {
+          "hands": 4011,
+          "share_of_riichi_hands": 0.2029550169508678
+        },
+        "kokushi": {
+          "hands": 22,
+          "share_of_riichi_hands": 0.0011131913171077265
+        },
+        "other": {
+          "hands": 880,
+          "share_of_riichi_hands": 0.04452765268430906
+        },
+        "penchan": {
+          "hands": 1147,
+          "share_of_riichi_hands": 0.058037747305571014
+        },
+        "ryanmen": {
+          "hands": 8692,
+          "share_of_riichi_hands": 0.43981176946819817
+        },
+        "sanmenchan": {
+          "hands": 929,
+          "share_of_riichi_hands": 0.047007033345139906
+        },
+        "shanpon": {
+          "hands": 1859,
+          "share_of_riichi_hands": 0.0940646662956029
+        },
+        "tanki": {
+          "hands": 335,
+          "share_of_riichi_hands": 0.01695086778323129
+        }
+      }
+    },
+    "tanyao1_kanchan1": {
+      "aggregate": "outputs/push_fold_experiments/20260909/ablations/tanyao1_kanchan1_20k.json",
+      "aggregate_sha256": "63652c09bbdecbd0f91b8298b6cfad9fe1495d6ac5461a2f4f490e5334cf9939",
+      "kanchan_winning_rank_shares": {
+        "2": {
+          "share": 0.1198019801980198,
+          "winning_types": 484
+        },
+        "3": {
+          "share": 0.1670792079207921,
+          "winning_types": 675
+        },
+        "4": {
+          "share": 0.14876237623762376,
+          "winning_types": 601
+        },
+        "5": {
+          "share": 0.15,
+          "winning_types": 606
+        },
+        "6": {
+          "share": 0.13787128712871288,
+          "winning_types": 557
+        },
+        "7": {
+          "share": 0.15544554455445544,
+          "winning_types": 628
+        },
+        "8": {
+          "share": 0.12103960396039604,
+          "winning_types": 489
+        }
+      },
+      "metadata": {
+        "engine_version": "closed-hand-efficiency-cpp-4",
+        "evaluator_backend": "necessary_tiles_masks",
+        "policy": "shanten_then_value_ukeire",
+        "policy_parameters": {
+          "advanced_shanten": [
+            1,
+            2
+          ],
+          "dora_neighbor_weight": 1,
+          "dora_tiebreak_weight": 1,
+          "dora_ukeire_weight": 1,
+          "future_ukeire_weight": 0.5,
+          "future_ukeire_weights_by_shanten": {
+            "1": 2,
+            "2": 1,
+            "3_plus": 0
+          },
+          "improvement_weight": 0.1,
+          "kanchan_outer_wait_weight": 1,
+          "shanten_reversal": {
+            "candidate_limit": 2,
+            "enabled": true,
+            "max_per_hand": 1,
+            "max_turn": 9,
+            "penalty": 25,
+            "recovered_ukeire_weight": 0.5
+          },
+          "tanyao_weight": 1,
+          "yakuhai_weight": 1
+        },
+        "round_wind": 27
+      },
+      "raw": "/private/tmp/push-fold-tanyao1-kanchan1-20k.jsonl",
+      "raw_sha256": "4e4778375e7932f7aceff6afc0b789e237df69c22786b1bd000226150d636077",
+      "riichi_hands": 19763,
+      "trials": 20000,
+      "turn12_cells": {
+        "double_suji_46": {
+          "candidate_opportunities": 5297,
+          "exposed_tables": 2844,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.04455352086086464,
+          "ron_hits": 236,
+          "table_clustered_se": 0.003560125658142429
+        },
+        "half_suji_46": {
+          "candidate_opportunities": 15553,
+          "exposed_tables": 5469,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.10030219250305407,
+          "ron_hits": 1560,
+          "table_clustered_se": 0.0029487473553344613
+        },
+        "no_suji_28": {
+          "candidate_opportunities": 14896,
+          "exposed_tables": 5452,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.094656283566058,
+          "ron_hits": 1410,
+          "table_clustered_se": 0.002899805450615789
+        },
+        "suji_28": {
+          "candidate_opportunities": 6010,
+          "exposed_tables": 2931,
+          "independent_tables": 20000,
+          "ron_hit_probability": 0.030948419301164726,
+          "ron_hits": 186,
+          "table_clustered_se": 0.002747351825306719
+        }
+      },
+      "turn12_contrasts": {
+        "double_suji_46_minus_suji_28": {
+          "difference": 0.013605101559699916,
+          "independent_tables": 20000,
+          "left": "double_suji_46",
+          "left_probability": 0.04455352086086464,
+          "paired_table_clustered_se": 0.004556741622690971,
+          "right": "suji_28",
+          "right_probability": 0.030948419301164726
+        },
+        "half_suji_46_minus_no_suji_28": {
+          "difference": 0.005645908936996069,
+          "independent_tables": 20000,
+          "left": "half_suji_46",
+          "left_probability": 0.10030219250305407,
+          "paired_table_clustered_se": 0.00445805427636435,
+          "right": "no_suji_28",
+          "right_probability": 0.094656283566058
+        }
+      },
+      "turn12_copy_conditioned": [
+        {
+          "candidate_opportunities": 3011,
+          "cell": "double_suji_46",
+          "exposed_tables": 1842,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.05014945200929924,
+          "ron_hits": 151,
+          "table_clustered_se": 0.004920409211176424
+        },
+        {
+          "candidate_opportunities": 666,
+          "cell": "double_suji_46",
+          "exposed_tables": 510,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.01951951951951952,
+          "ron_hits": 13,
+          "table_clustered_se": 0.005390022494149809
+        },
+        {
+          "candidate_opportunities": 130,
+          "cell": "double_suji_46",
+          "exposed_tables": 108,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.015384615384615385,
+          "ron_hits": 2,
+          "table_clustered_se": 0.010823336494651479
+        },
+        {
+          "candidate_opportunities": 13,
+          "cell": "double_suji_46",
+          "exposed_tables": 13,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 1116,
+          "cell": "double_suji_46",
+          "exposed_tables": 994,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.051075268817204304,
+          "ron_hits": 57,
+          "table_clustered_se": 0.00656959567110397
+        },
+        {
+          "candidate_opportunities": 162,
+          "cell": "double_suji_46",
+          "exposed_tables": 161,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.024691358024691357,
+          "ron_hits": 4,
+          "table_clustered_se": 0.012194520650378194
+        },
+        {
+          "candidate_opportunities": 14,
+          "cell": "double_suji_46",
+          "exposed_tables": 14,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 164,
+          "cell": "double_suji_46",
+          "exposed_tables": 163,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.054878048780487805,
+          "ron_hits": 9,
+          "table_clustered_se": 0.017790407572765357
+        },
+        {
+          "candidate_opportunities": 15,
+          "cell": "double_suji_46",
+          "exposed_tables": 15,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 6,
+          "cell": "double_suji_46",
+          "exposed_tables": 6,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 8454,
+          "cell": "half_suji_46",
+          "exposed_tables": 4159,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.10456588597113792,
+          "ron_hits": 884,
+          "table_clustered_se": 0.004105354038033923
+        },
+        {
+          "candidate_opportunities": 2357,
+          "cell": "half_suji_46",
+          "exposed_tables": 1658,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.07509546033092915,
+          "ron_hits": 177,
+          "table_clustered_se": 0.006516694952344448
+        },
+        {
+          "candidate_opportunities": 516,
+          "cell": "half_suji_46",
+          "exposed_tables": 444,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.08914728682170543,
+          "ron_hits": 46,
+          "table_clustered_se": 0.013668893815610176
+        },
+        {
+          "candidate_opportunities": 31,
+          "cell": "half_suji_46",
+          "exposed_tables": 31,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.03225806451612903,
+          "ron_hits": 1,
+          "table_clustered_se": 0.03173430155055049
+        },
+        {
+          "candidate_opportunities": 3054,
+          "cell": "half_suji_46",
+          "exposed_tables": 2416,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.10478061558611657,
+          "ron_hits": 320,
+          "table_clustered_se": 0.005589589912644675
+        },
+        {
+          "candidate_opportunities": 545,
+          "cell": "half_suji_46",
+          "exposed_tables": 520,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.10458715596330276,
+          "ron_hits": 57,
+          "table_clustered_se": 0.013074366502040623
+        },
+        {
+          "candidate_opportunities": 61,
+          "cell": "half_suji_46",
+          "exposed_tables": 60,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.08196721311475409,
+          "ron_hits": 5,
+          "table_clustered_se": 0.03517465683153064
+        },
+        {
+          "candidate_opportunities": 459,
+          "cell": "half_suji_46",
+          "exposed_tables": 443,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.13507625272331156,
+          "ron_hits": 62,
+          "table_clustered_se": 0.015758831201896813
+        },
+        {
+          "candidate_opportunities": 61,
+          "cell": "half_suji_46",
+          "exposed_tables": 61,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.04918032786885246,
+          "ron_hits": 3,
+          "table_clustered_se": 0.02768794536114758
+        },
+        {
+          "candidate_opportunities": 15,
+          "cell": "half_suji_46",
+          "exposed_tables": 15,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.3333333333333333,
+          "ron_hits": 5,
+          "table_clustered_se": 0.1217191669072478
+        },
+        {
+          "candidate_opportunities": 5393,
+          "cell": "no_suji_28",
+          "exposed_tables": 3234,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.10198405340255887,
+          "ron_hits": 550,
+          "table_clustered_se": 0.0049438990532069405
+        },
+        {
+          "candidate_opportunities": 3274,
+          "cell": "no_suji_28",
+          "exposed_tables": 2213,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.0855222968845449,
+          "ron_hits": 280,
+          "table_clustered_se": 0.0056505438279126985
+        },
+        {
+          "candidate_opportunities": 1256,
+          "cell": "no_suji_28",
+          "exposed_tables": 1061,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.07563694267515923,
+          "ron_hits": 95,
+          "table_clustered_se": 0.008170458384854215
+        },
+        {
+          "candidate_opportunities": 180,
+          "cell": "no_suji_28",
+          "exposed_tables": 179,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.03333333333333333,
+          "ron_hits": 6,
+          "table_clustered_se": 0.013382446983978695
+        },
+        {
+          "candidate_opportunities": 2764,
+          "cell": "no_suji_28",
+          "exposed_tables": 2182,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.10745296671490594,
+          "ron_hits": 297,
+          "table_clustered_se": 0.006168036282416119
+        },
+        {
+          "candidate_opportunities": 1110,
+          "cell": "no_suji_28",
+          "exposed_tables": 1004,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.09009009009009009,
+          "ron_hits": 100,
+          "table_clustered_se": 0.008508323355815202
+        },
+        {
+          "candidate_opportunities": 210,
+          "cell": "no_suji_28",
+          "exposed_tables": 209,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.0761904761904762,
+          "ron_hits": 16,
+          "table_clustered_se": 0.018220688853694184
+        },
+        {
+          "candidate_opportunities": 515,
+          "cell": "no_suji_28",
+          "exposed_tables": 499,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.09902912621359224,
+          "ron_hits": 51,
+          "table_clustered_se": 0.01309397024991793
+        },
+        {
+          "candidate_opportunities": 174,
+          "cell": "no_suji_28",
+          "exposed_tables": 171,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.08045977011494253,
+          "ron_hits": 14,
+          "table_clustered_se": 0.020393147004682508
+        },
+        {
+          "candidate_opportunities": 20,
+          "cell": "no_suji_28",
+          "exposed_tables": 20,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.05,
+          "ron_hits": 1,
+          "table_clustered_se": 0.048735190119027924
+        },
+        {
+          "candidate_opportunities": 2450,
+          "cell": "suji_28",
+          "exposed_tables": 1581,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 0,
+          "ron_hit_probability": 0.04163265306122449,
+          "ron_hits": 102,
+          "table_clustered_se": 0.005076521570989313
+        },
+        {
+          "candidate_opportunities": 1196,
+          "cell": "suji_28",
+          "exposed_tables": 894,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 1,
+          "ron_hit_probability": 0.01839464882943144,
+          "ron_hits": 22,
+          "table_clustered_se": 0.00436851416161398
+        },
+        {
+          "candidate_opportunities": 449,
+          "cell": "suji_28",
+          "exposed_tables": 385,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 2,
+          "ron_hit_probability": 0.0066815144766146995,
+          "ron_hits": 3,
+          "table_clustered_se": 0.00384890632573109
+        },
+        {
+          "candidate_opportunities": 69,
+          "cell": "suji_28",
+          "exposed_tables": 69,
+          "independent_tables": 20000,
+          "own_count": 1,
+          "public_count": 3,
+          "ron_hit_probability": 0.014492753623188406,
+          "ron_hits": 1,
+          "table_clustered_se": 0.014387710077037074
+        },
+        {
+          "candidate_opportunities": 1139,
+          "cell": "suji_28",
+          "exposed_tables": 958,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 0,
+          "ron_hit_probability": 0.03424056189640035,
+          "ron_hits": 39,
+          "table_clustered_se": 0.005990373472315577
+        },
+        {
+          "candidate_opportunities": 369,
+          "cell": "suji_28",
+          "exposed_tables": 352,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 1,
+          "ron_hit_probability": 0.013550135501355014,
+          "ron_hits": 5,
+          "table_clustered_se": 0.006006020023254959
+        },
+        {
+          "candidate_opportunities": 46,
+          "cell": "suji_28",
+          "exposed_tables": 46,
+          "independent_tables": 20000,
+          "own_count": 2,
+          "public_count": 2,
+          "ron_hit_probability": 0.021739130434782608,
+          "ron_hits": 1,
+          "table_clustered_se": 0.021502074734537507
+        },
+        {
+          "candidate_opportunities": 221,
+          "cell": "suji_28",
+          "exposed_tables": 215,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 0,
+          "ron_hit_probability": 0.05429864253393665,
+          "ron_hits": 12,
+          "table_clustered_se": 0.015194299895754831
+        },
+        {
+          "candidate_opportunities": 59,
+          "cell": "suji_28",
+          "exposed_tables": 59,
+          "independent_tables": 20000,
+          "own_count": 3,
+          "public_count": 1,
+          "ron_hit_probability": 0.0,
+          "ron_hits": 0,
+          "table_clustered_se": 0.0
+        },
+        {
+          "candidate_opportunities": 12,
+          "cell": "suji_28",
+          "exposed_tables": 12,
+          "independent_tables": 20000,
+          "own_count": 4,
+          "public_count": 0,
+          "ron_hit_probability": 0.08333333333333333,
+          "ron_hits": 1,
+          "table_clustered_se": 0.07978758702763811
+        }
+      ],
+      "wait_categories": {
+        "chiitoitsu_tanki": {
+          "hands": 1888,
+          "share_of_riichi_hands": 0.09553205484997217
+        },
+        "kanchan": {
+          "hands": 4040,
+          "share_of_riichi_hands": 0.20442240550523705
+        },
+        "kokushi": {
+          "hands": 22,
+          "share_of_riichi_hands": 0.0011131913171077265
+        },
+        "other": {
+          "hands": 880,
+          "share_of_riichi_hands": 0.04452765268430906
+        },
+        "penchan": {
+          "hands": 1147,
+          "share_of_riichi_hands": 0.058037747305571014
+        },
+        "ryanmen": {
+          "hands": 8691,
+          "share_of_riichi_hands": 0.43976116986287506
+        },
+        "sanmenchan": {
+          "hands": 929,
+          "share_of_riichi_hands": 0.047007033345139906
+        },
+        "shanpon": {
+          "hands": 1831,
+          "share_of_riichi_hands": 0.0926478773465567
+        },
+        "tanki": {
+          "hands": 335,
+          "share_of_riichi_hands": 0.01695086778323129
+        }
+      }
+    }
+  }
+}

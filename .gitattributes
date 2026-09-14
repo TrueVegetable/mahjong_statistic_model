@@ -1,0 +1,6 @@
+# Preserve generated table bytes and recognize CSV/TSV carriage-return endings.
+*.csv -text whitespace=cr-at-eol
+*.tsv -text whitespace=cr-at-eol
+
+# Unified patches require a leading context marker on otherwise blank lines.
+*.patch whitespace=-blank-at-eol

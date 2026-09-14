@@ -1,0 +1,932 @@
+{
+  "policies": [
+    {
+      "name": "all_push",
+      "tables": 20000,
+      "ending_counts": {
+        "ron": 12664,
+        "multiple_ron": 241,
+        "tsumo": 4900,
+        "exhaustive_draw": 2195
+      },
+      "ending_rates": {
+        "ron": 0.6332,
+        "multiple_ron": 0.01205,
+        "tsumo": 0.245,
+        "exhaustive_draw": 0.10975
+      },
+      "ron_ending_rate": 0.64525,
+      "riichi_declarations_per_table": 1.5695,
+      "mean_ron_points": 5925.007605719501,
+      "mean_tsumo_points": 7490.918367346939,
+      "seat_mean_net_points": [
+        606.145,
+        -215.075,
+        -247.65,
+        -304.62
+      ],
+      "seat_net_points_se": [
+        41.92794753607645,
+        34.098258705996834,
+        33.1079035962567,
+        32.81196830492194
+      ],
+      "seat_outcomes": [
+        {
+          "tables": 20000,
+          "riichi": 8766,
+          "deal_in": 3149,
+          "ron": 3652,
+          "tsumo": 1361,
+          "exhaustive_draw": 2195,
+          "exhaustive_draw_tenpai": 1083
+        },
+        {
+          "tables": 20000,
+          "riichi": 7993,
+          "deal_in": 3313,
+          "ron": 3327,
+          "tsumo": 1294,
+          "exhaustive_draw": 2195,
+          "exhaustive_draw_tenpai": 1193
+        },
+        {
+          "tables": 20000,
+          "riichi": 7355,
+          "deal_in": 3220,
+          "ron": 3137,
+          "tsumo": 1153,
+          "exhaustive_draw": 2195,
+          "exhaustive_draw_tenpai": 1014
+        },
+        {
+          "tables": 20000,
+          "riichi": 7276,
+          "deal_in": 3223,
+          "ron": 3032,
+          "tsumo": 1092,
+          "exhaustive_draw": 2195,
+          "exhaustive_draw_tenpai": 1039
+        }
+      ],
+      "riichi_wait_distribution": {
+        "kanchan": 5349,
+        "penchan": 1399,
+        "ryanmen": 15269,
+        "chiitoitsu_tanki": 3262,
+        "other": 1465,
+        "shanpon": 2633,
+        "tanki": 415,
+        "sanmenchan": 1595,
+        "kokushi": 3
+      },
+      "riichi_wait_quality": {
+        "kanchan": {
+          "hands": 5349,
+          "mean_unseen_winning_copies": 3.429986913441765,
+          "mean_live_winning_copies": 1.049915872125631,
+          "furiten_hands": 132
+        },
+        "penchan": {
+          "hands": 1399,
+          "mean_unseen_winning_copies": 3.531093638313081,
+          "mean_live_winning_copies": 1.0836311651179413,
+          "furiten_hands": 6
+        },
+        "ryanmen": {
+          "hands": 15269,
+          "mean_unseen_winning_copies": 6.263933459951536,
+          "mean_live_winning_copies": 2.0478092867902284,
+          "furiten_hands": 1231
+        },
+        "chiitoitsu_tanki": {
+          "hands": 3262,
+          "mean_unseen_winning_copies": 2.8056407112201103,
+          "mean_live_winning_copies": 0.8494788473329246,
+          "furiten_hands": 31
+        },
+        "other": {
+          "hands": 1465,
+          "mean_unseen_winning_copies": 6.4873720136518775,
+          "mean_live_winning_copies": 2.2232081911262798,
+          "furiten_hands": 95
+        },
+        "shanpon": {
+          "hands": 2633,
+          "mean_unseen_winning_copies": 3.0972274971515383,
+          "mean_live_winning_copies": 1.1344473984048613,
+          "furiten_hands": 77
+        },
+        "tanki": {
+          "hands": 415,
+          "mean_unseen_winning_copies": 2.836144578313253,
+          "mean_live_winning_copies": 0.8819277108433735,
+          "furiten_hands": 4
+        },
+        "sanmenchan": {
+          "hands": 1595,
+          "mean_unseen_winning_copies": 8.260188087774294,
+          "mean_live_winning_copies": 2.9573667711598746,
+          "furiten_hands": 330
+        },
+        "kokushi": {
+          "hands": 3,
+          "mean_unseen_winning_copies": 0.0,
+          "mean_live_winning_copies": 0.0,
+          "furiten_hands": 0
+        }
+      },
+      "danger_by_riichi_opponents": {
+        "1": {
+          "candidate_opportunities": 1847155,
+          "candidate_ron_hit_probability": 0.06258381132065258,
+          "candidate_table_clustered_se": 0.00032222900426576514,
+          "chosen_opportunities": 173278,
+          "chosen_ron_hit_probability": 0.04567804337538522,
+          "chosen_table_clustered_se": 0.0005018272156973266
+        },
+        "2": {
+          "candidate_opportunities": 473623,
+          "candidate_ron_hit_probability": 0.11972602681879892,
+          "candidate_table_clustered_se": 0.0007202882000734927,
+          "chosen_opportunities": 45045,
+          "chosen_ron_hit_probability": 0.08720168720168721,
+          "chosen_table_clustered_se": 0.0013407505571157695
+        },
+        "3": {
+          "candidate_opportunities": 51209,
+          "candidate_ron_hit_probability": 0.1756722451131637,
+          "candidate_table_clustered_se": 0.0023008848218042366,
+          "chosen_opportunities": 4891,
+          "chosen_ron_hit_probability": 0.13085258638315272,
+          "chosen_table_clustered_se": 0.004868494669206352
+        }
+      }
+    },
+    {
+      "name": "full_fold",
+      "tables": 20000,
+      "ending_counts": {
+        "ron": 1946,
+        "multiple_ron": 1,
+        "tsumo": 7136,
+        "exhaustive_draw": 10917
+      },
+      "ending_rates": {
+        "ron": 0.0973,
+        "multiple_ron": 5e-05,
+        "tsumo": 0.3568,
+        "exhaustive_draw": 0.54585
+      },
+      "ron_ending_rate": 0.09735,
+      "riichi_declarations_per_table": 0.96375,
+      "mean_ron_points": 6049.486652977413,
+      "mean_tsumo_points": 7605.8716367713005,
+      "seat_mean_net_points": [
+        218.99,
+        -113.02,
+        -290.17,
+        -344.7
+      ],
+      "seat_net_points_se": [
+        32.62380778874121,
+        23.577805657566635,
+        22.25962809903066,
+        22.01321477161455
+      ],
+      "seat_outcomes": [
+        {
+          "tables": 20000,
+          "riichi": 5637,
+          "deal_in": 490,
+          "ron": 546,
+          "tsumo": 2126,
+          "exhaustive_draw": 10917,
+          "exhaustive_draw_tenpai": 3133
+        },
+        {
+          "tables": 20000,
+          "riichi": 4957,
+          "deal_in": 494,
+          "ron": 489,
+          "tsumo": 1918,
+          "exhaustive_draw": 10917,
+          "exhaustive_draw_tenpai": 2777
+        },
+        {
+          "tables": 20000,
+          "riichi": 4395,
+          "deal_in": 479,
+          "ron": 462,
+          "tsumo": 1590,
+          "exhaustive_draw": 10917,
+          "exhaustive_draw_tenpai": 2606
+        },
+        {
+          "tables": 20000,
+          "riichi": 4286,
+          "deal_in": 484,
+          "ron": 451,
+          "tsumo": 1502,
+          "exhaustive_draw": 10917,
+          "exhaustive_draw_tenpai": 2558
+        }
+      ],
+      "riichi_wait_distribution": {
+        "kanchan": 3144,
+        "penchan": 878,
+        "ryanmen": 9443,
+        "chiitoitsu_tanki": 1954,
+        "other": 949,
+        "shanpon": 1618,
+        "tanki": 275,
+        "sanmenchan": 1011,
+        "kokushi": 3
+      },
+      "riichi_wait_quality": {
+        "kanchan": {
+          "hands": 3144,
+          "mean_unseen_winning_copies": 3.4993638676844783,
+          "mean_live_winning_copies": 1.1924300254452926,
+          "furiten_hands": 81
+        },
+        "penchan": {
+          "hands": 878,
+          "mean_unseen_winning_copies": 3.6275626423690204,
+          "mean_live_winning_copies": 1.2277904328018223,
+          "furiten_hands": 4
+        },
+        "ryanmen": {
+          "hands": 9443,
+          "mean_unseen_winning_copies": 6.484485862543683,
+          "mean_live_winning_copies": 2.342687705178439,
+          "furiten_hands": 695
+        },
+        "chiitoitsu_tanki": {
+          "hands": 1954,
+          "mean_unseen_winning_copies": 2.853121801432958,
+          "mean_live_winning_copies": 0.9759467758444217,
+          "furiten_hands": 19
+        },
+        "other": {
+          "hands": 949,
+          "mean_unseen_winning_copies": 6.614330874604847,
+          "mean_live_winning_copies": 2.445732349841939,
+          "furiten_hands": 53
+        },
+        "shanpon": {
+          "hands": 1618,
+          "mean_unseen_winning_copies": 3.1452410383189124,
+          "mean_live_winning_copies": 1.2472187886279358,
+          "furiten_hands": 54
+        },
+        "tanki": {
+          "hands": 275,
+          "mean_unseen_winning_copies": 2.8545454545454545,
+          "mean_live_winning_copies": 0.9636363636363636,
+          "furiten_hands": 3
+        },
+        "sanmenchan": {
+          "hands": 1011,
+          "mean_unseen_winning_copies": 8.543026706231455,
+          "mean_live_winning_copies": 3.2898120672601383,
+          "furiten_hands": 201
+        },
+        "kokushi": {
+          "hands": 3,
+          "mean_unseen_winning_copies": 0.0,
+          "mean_live_winning_copies": 0.0,
+          "furiten_hands": 0
+        }
+      },
+      "danger_by_riichi_opponents": {
+        "1": {
+          "candidate_opportunities": 4028739,
+          "candidate_ron_hit_probability": 0.07336216121223042,
+          "candidate_table_clustered_se": 0.0003275249235299392,
+          "chosen_opportunities": 374725,
+          "chosen_ron_hit_probability": 0.0043792114217092535,
+          "chosen_table_clustered_se": 0.00010685549431393091
+        },
+        "2": null,
+        "3": null
+      }
+    },
+    {
+      "name": "mixed_mean",
+      "tables": 20000,
+      "ending_counts": {
+        "ron": 4914,
+        "multiple_ron": 13,
+        "tsumo": 7371,
+        "exhaustive_draw": 7702
+      },
+      "ending_rates": {
+        "ron": 0.2457,
+        "multiple_ron": 0.00065,
+        "tsumo": 0.36855,
+        "exhaustive_draw": 0.3851
+      },
+      "ron_ending_rate": 0.24635,
+      "riichi_declarations_per_table": 1.3202,
+      "mean_ron_points": 6080.425101214575,
+      "mean_tsumo_points": 7649.803283136616,
+      "seat_mean_net_points": [
+        250.9,
+        -154.845,
+        -274.37,
+        -284.585
+      ],
+      "seat_net_points_se": [
+        37.48548942718875,
+        28.735442620253462,
+        27.37030620650949,
+        26.790790977737306
+      ],
+      "seat_outcomes": [
+        {
+          "tables": 20000,
+          "riichi": 7398,
+          "deal_in": 1293,
+          "ron": 1326,
+          "tsumo": 2095,
+          "exhaustive_draw": 7702,
+          "exhaustive_draw_tenpai": 2785
+        },
+        {
+          "tables": 20000,
+          "riichi": 6818,
+          "deal_in": 1288,
+          "ron": 1254,
+          "tsumo": 1964,
+          "exhaustive_draw": 7702,
+          "exhaustive_draw_tenpai": 2603
+        },
+        {
+          "tables": 20000,
+          "riichi": 6195,
+          "deal_in": 1204,
+          "ron": 1211,
+          "tsumo": 1682,
+          "exhaustive_draw": 7702,
+          "exhaustive_draw_tenpai": 2385
+        },
+        {
+          "tables": 20000,
+          "riichi": 5993,
+          "deal_in": 1142,
+          "ron": 1149,
+          "tsumo": 1630,
+          "exhaustive_draw": 7702,
+          "exhaustive_draw_tenpai": 2343
+        }
+      ],
+      "riichi_wait_distribution": {
+        "kanchan": 4338,
+        "penchan": 1138,
+        "ryanmen": 12848,
+        "chiitoitsu_tanki": 2892,
+        "other": 1211,
+        "shanpon": 2285,
+        "tanki": 365,
+        "sanmenchan": 1324,
+        "kokushi": 3
+      },
+      "riichi_wait_quality": {
+        "kanchan": {
+          "hands": 4338,
+          "mean_unseen_winning_copies": 3.4460580912863072,
+          "mean_live_winning_copies": 1.095666205624712,
+          "furiten_hands": 108
+        },
+        "penchan": {
+          "hands": 1138,
+          "mean_unseen_winning_copies": 3.5676625659050965,
+          "mean_live_winning_copies": 1.1458699472759226,
+          "furiten_hands": 7
+        },
+        "ryanmen": {
+          "hands": 12848,
+          "mean_unseen_winning_copies": 6.340364259028642,
+          "mean_live_winning_copies": 2.1587795765877957,
+          "furiten_hands": 1031
+        },
+        "chiitoitsu_tanki": {
+          "hands": 2892,
+          "mean_unseen_winning_copies": 2.824688796680498,
+          "mean_live_winning_copies": 0.8848547717842323,
+          "furiten_hands": 36
+        },
+        "other": {
+          "hands": 1211,
+          "mean_unseen_winning_copies": 6.5235342691990095,
+          "mean_live_winning_copies": 2.299752270850537,
+          "furiten_hands": 84
+        },
+        "shanpon": {
+          "hands": 2285,
+          "mean_unseen_winning_copies": 3.1150984682713347,
+          "mean_live_winning_copies": 1.1702407002188184,
+          "furiten_hands": 87
+        },
+        "tanki": {
+          "hands": 365,
+          "mean_unseen_winning_copies": 2.835616438356164,
+          "mean_live_winning_copies": 0.9095890410958904,
+          "furiten_hands": 7
+        },
+        "sanmenchan": {
+          "hands": 1324,
+          "mean_unseen_winning_copies": 8.365558912386707,
+          "mean_live_winning_copies": 3.1004531722054383,
+          "furiten_hands": 274
+        },
+        "kokushi": {
+          "hands": 3,
+          "mean_unseen_winning_copies": 0.0,
+          "mean_live_winning_copies": 0.0,
+          "furiten_hands": 0
+        }
+      },
+      "danger_by_riichi_opponents": {
+        "1": {
+          "candidate_opportunities": 3274537,
+          "candidate_ron_hit_probability": 0.07134016198320556,
+          "candidate_table_clustered_se": 0.00034801518983790095,
+          "chosen_opportunities": 304469,
+          "chosen_ron_hit_probability": 0.012924140060236018,
+          "chosen_table_clustered_se": 0.00020834748420076228
+        },
+        "2": {
+          "candidate_opportunities": 463067,
+          "candidate_ron_hit_probability": 0.13201113445786464,
+          "candidate_table_clustered_se": 0.0009505962398167146,
+          "chosen_opportunities": 43404,
+          "chosen_ron_hit_probability": 0.014261358400147452,
+          "chosen_table_clustered_se": 0.0005735706617819961
+        },
+        "3": {
+          "candidate_opportunities": 7075,
+          "candidate_ron_hit_probability": 0.18671378091872792,
+          "candidate_table_clustered_se": 0.007003175375422961,
+          "chosen_opportunities": 661,
+          "chosen_ron_hit_probability": 0.012102874432677761,
+          "chosen_table_clustered_se": 0.004256927727850098
+        }
+      }
+    },
+    {
+      "name": "mixed_minimax",
+      "tables": 20000,
+      "ending_counts": {
+        "ron": 4944,
+        "multiple_ron": 17,
+        "tsumo": 7345,
+        "exhaustive_draw": 7694
+      },
+      "ending_rates": {
+        "ron": 0.2472,
+        "multiple_ron": 0.00085,
+        "tsumo": 0.36725,
+        "exhaustive_draw": 0.3847
+      },
+      "ron_ending_rate": 0.24805,
+      "riichi_declarations_per_table": 1.3201,
+      "mean_ron_points": 6078.987545198875,
+      "mean_tsumo_points": 7642.695711368277,
+      "seat_mean_net_points": [
+        253.805,
+        -157.22,
+        -266.295,
+        -292.34
+      ],
+      "seat_net_points_se": [
+        37.5245676958148,
+        28.743514104231462,
+        27.381697564556255,
+        26.73578512649884
+      ],
+      "seat_outcomes": [
+        {
+          "tables": 20000,
+          "riichi": 7397,
+          "deal_in": 1307,
+          "ron": 1342,
+          "tsumo": 2092,
+          "exhaustive_draw": 7694,
+          "exhaustive_draw_tenpai": 2773
+        },
+        {
+          "tables": 20000,
+          "riichi": 6818,
+          "deal_in": 1302,
+          "ron": 1259,
+          "tsumo": 1955,
+          "exhaustive_draw": 7694,
+          "exhaustive_draw_tenpai": 2600
+        },
+        {
+          "tables": 20000,
+          "riichi": 6195,
+          "deal_in": 1202,
+          "ron": 1222,
+          "tsumo": 1681,
+          "exhaustive_draw": 7694,
+          "exhaustive_draw_tenpai": 2384
+        },
+        {
+          "tables": 20000,
+          "riichi": 5992,
+          "deal_in": 1150,
+          "ron": 1155,
+          "tsumo": 1617,
+          "exhaustive_draw": 7694,
+          "exhaustive_draw_tenpai": 2338
+        }
+      ],
+      "riichi_wait_distribution": {
+        "kanchan": 4337,
+        "penchan": 1138,
+        "ryanmen": 12847,
+        "chiitoitsu_tanki": 2892,
+        "other": 1211,
+        "shanpon": 2285,
+        "tanki": 365,
+        "sanmenchan": 1324,
+        "kokushi": 3
+      },
+      "riichi_wait_quality": {
+        "kanchan": {
+          "hands": 4337,
+          "mean_unseen_winning_copies": 3.4461609407424487,
+          "mean_live_winning_copies": 1.0954576896472217,
+          "furiten_hands": 108
+        },
+        "penchan": {
+          "hands": 1138,
+          "mean_unseen_winning_copies": 3.5676625659050965,
+          "mean_live_winning_copies": 1.1458699472759226,
+          "furiten_hands": 7
+        },
+        "ryanmen": {
+          "hands": 12847,
+          "mean_unseen_winning_copies": 6.340624270257647,
+          "mean_live_winning_copies": 2.1589476142290027,
+          "furiten_hands": 1031
+        },
+        "chiitoitsu_tanki": {
+          "hands": 2892,
+          "mean_unseen_winning_copies": 2.8243430152143847,
+          "mean_live_winning_copies": 0.8848547717842323,
+          "furiten_hands": 36
+        },
+        "other": {
+          "hands": 1211,
+          "mean_unseen_winning_copies": 6.5235342691990095,
+          "mean_live_winning_copies": 2.299752270850537,
+          "furiten_hands": 84
+        },
+        "shanpon": {
+          "hands": 2285,
+          "mean_unseen_winning_copies": 3.1150984682713347,
+          "mean_live_winning_copies": 1.1702407002188184,
+          "furiten_hands": 87
+        },
+        "tanki": {
+          "hands": 365,
+          "mean_unseen_winning_copies": 2.835616438356164,
+          "mean_live_winning_copies": 0.9095890410958904,
+          "furiten_hands": 7
+        },
+        "sanmenchan": {
+          "hands": 1324,
+          "mean_unseen_winning_copies": 8.365558912386707,
+          "mean_live_winning_copies": 3.1004531722054383,
+          "furiten_hands": 274
+        },
+        "kokushi": {
+          "hands": 3,
+          "mean_unseen_winning_copies": 0.0,
+          "mean_live_winning_copies": 0.0,
+          "furiten_hands": 0
+        }
+      },
+      "danger_by_riichi_opponents": {
+        "1": {
+          "candidate_opportunities": 3271738,
+          "candidate_ron_hit_probability": 0.07136421070391333,
+          "candidate_table_clustered_se": 0.0003481408888047773,
+          "chosen_opportunities": 304202,
+          "chosen_ron_hit_probability": 0.012928909080150689,
+          "chosen_table_clustered_se": 0.00020849397099259028
+        },
+        "2": {
+          "candidate_opportunities": 460470,
+          "candidate_ron_hit_probability": 0.1318761265663344,
+          "candidate_table_clustered_se": 0.0009513008058605557,
+          "chosen_opportunities": 43110,
+          "chosen_ron_hit_probability": 0.015147297610763165,
+          "chosen_table_clustered_se": 0.0005949290365962843
+        },
+        "3": {
+          "candidate_opportunities": 6992,
+          "candidate_ron_hit_probability": 0.1863558352402746,
+          "candidate_table_clustered_se": 0.007055428254321814,
+          "chosen_opportunities": 652,
+          "chosen_ron_hit_probability": 0.015337423312883436,
+          "chosen_table_clustered_se": 0.004795092609156235
+        }
+      }
+    }
+  ],
+  "paired_differences": {
+    "full_fold__minus__all_push": {
+      "direction": "right_minus_left",
+      "paired_tables": 20000,
+      "seat_net_points": [
+        {
+          "n": 20000,
+          "mean": -387.155,
+          "standard_error": 35.89901687051281
+        },
+        {
+          "n": 20000,
+          "mean": 102.055,
+          "standard_error": 30.365781199932005
+        },
+        {
+          "n": 20000,
+          "mean": -42.52,
+          "standard_error": 29.871628147598678
+        },
+        {
+          "n": 20000,
+          "mean": -40.08,
+          "standard_error": 29.534075959171943
+        }
+      ],
+      "outcome_indicator_differences": {
+        "ron": {
+          "n": 20000,
+          "mean": -0.5479,
+          "standard_error": 0.003708229638028424
+        },
+        "tsumo": {
+          "n": 20000,
+          "mean": 0.1118,
+          "standard_error": 0.00320632999355983
+        },
+        "exhaustion": {
+          "n": 20000,
+          "mean": 0.4361,
+          "standard_error": 0.0035688200184117148
+        }
+      },
+      "riichi_declarations": {
+        "n": 20000,
+        "mean": -0.60575,
+        "standard_error": 0.005143653344995818
+      }
+    },
+    "mixed_mean__minus__all_push": {
+      "direction": "right_minus_left",
+      "paired_tables": 20000,
+      "seat_net_points": [
+        {
+          "n": 20000,
+          "mean": -355.245,
+          "standard_error": 33.600900665384344
+        },
+        {
+          "n": 20000,
+          "mean": 60.23,
+          "standard_error": 29.40067579736675
+        },
+        {
+          "n": 20000,
+          "mean": -26.72,
+          "standard_error": 28.576349180163366
+        },
+        {
+          "n": 20000,
+          "mean": 20.035,
+          "standard_error": 28.43168959079638
+        }
+      ],
+      "outcome_indicator_differences": {
+        "ron": {
+          "n": 20000,
+          "mean": -0.3989,
+          "standard_error": 0.0037302325975415514
+        },
+        "tsumo": {
+          "n": 20000,
+          "mean": 0.12355,
+          "standard_error": 0.002953761349585561
+        },
+        "exhaustion": {
+          "n": 20000,
+          "mean": 0.27535,
+          "standard_error": 0.00327828556303621
+        }
+      },
+      "riichi_declarations": {
+        "n": 20000,
+        "mean": -0.2493,
+        "standard_error": 0.00452807913745263
+      }
+    },
+    "mixed_minimax__minus__all_push": {
+      "direction": "right_minus_left",
+      "paired_tables": 20000,
+      "seat_net_points": [
+        {
+          "n": 20000,
+          "mean": -352.34,
+          "standard_error": 33.71850416457045
+        },
+        {
+          "n": 20000,
+          "mean": 57.855,
+          "standard_error": 29.49857578337321
+        },
+        {
+          "n": 20000,
+          "mean": -18.645,
+          "standard_error": 28.582271437217432
+        },
+        {
+          "n": 20000,
+          "mean": 12.28,
+          "standard_error": 28.37219782040965
+        }
+      ],
+      "outcome_indicator_differences": {
+        "ron": {
+          "n": 20000,
+          "mean": -0.3972,
+          "standard_error": 0.0037386236592285224
+        },
+        "tsumo": {
+          "n": 20000,
+          "mean": 0.12225,
+          "standard_error": 0.0029564647654243166
+        },
+        "exhaustion": {
+          "n": 20000,
+          "mean": 0.27495,
+          "standard_error": 0.003277676316096764
+        }
+      },
+      "riichi_declarations": {
+        "n": 20000,
+        "mean": -0.2494,
+        "standard_error": 0.004528355915822542
+      }
+    },
+    "mixed_mean__minus__full_fold": {
+      "direction": "right_minus_left",
+      "paired_tables": 20000,
+      "seat_net_points": [
+        {
+          "n": 20000,
+          "mean": 31.91,
+          "standard_error": 25.103804445638957
+        },
+        {
+          "n": 20000,
+          "mean": -41.825,
+          "standard_error": 20.673498207733427
+        },
+        {
+          "n": 20000,
+          "mean": 15.8,
+          "standard_error": 19.941093258896764
+        },
+        {
+          "n": 20000,
+          "mean": 60.115,
+          "standard_error": 19.641899718458433
+        }
+      ],
+      "outcome_indicator_differences": {
+        "ron": {
+          "n": 20000,
+          "mean": 0.149,
+          "standard_error": 0.0027157538117322595
+        },
+        "tsumo": {
+          "n": 20000,
+          "mean": 0.01175,
+          "standard_error": 0.0020398051169770513
+        },
+        "exhaustion": {
+          "n": 20000,
+          "mean": -0.16075,
+          "standard_error": 0.0026908797663024327
+        }
+      },
+      "riichi_declarations": {
+        "n": 20000,
+        "mean": 0.35645,
+        "standard_error": 0.003645591089483239
+      }
+    },
+    "mixed_minimax__minus__full_fold": {
+      "direction": "right_minus_left",
+      "paired_tables": 20000,
+      "seat_net_points": [
+        {
+          "n": 20000,
+          "mean": 34.815,
+          "standard_error": 25.21738619716724
+        },
+        {
+          "n": 20000,
+          "mean": -44.2,
+          "standard_error": 20.72657346360891
+        },
+        {
+          "n": 20000,
+          "mean": 23.875,
+          "standard_error": 19.93348793903919
+        },
+        {
+          "n": 20000,
+          "mean": 52.36,
+          "standard_error": 19.658546346111713
+        }
+      ],
+      "outcome_indicator_differences": {
+        "ron": {
+          "n": 20000,
+          "mean": 0.1507,
+          "standard_error": 0.0027156664453154237
+        },
+        "tsumo": {
+          "n": 20000,
+          "mean": 0.01045,
+          "standard_error": 0.0020426082559865393
+        },
+        "exhaustion": {
+          "n": 20000,
+          "mean": -0.16115,
+          "standard_error": 0.0026878234865323164
+        }
+      },
+      "riichi_declarations": {
+        "n": 20000,
+        "mean": 0.35635,
+        "standard_error": 0.003644022203539791
+      }
+    },
+    "mixed_minimax__minus__mixed_mean": {
+      "direction": "right_minus_left",
+      "paired_tables": 20000,
+      "seat_net_points": [
+        {
+          "n": 20000,
+          "mean": 2.905,
+          "standard_error": 5.825628716820813
+        },
+        {
+          "n": 20000,
+          "mean": -2.375,
+          "standard_error": 4.804403925941717
+        },
+        {
+          "n": 20000,
+          "mean": 8.075,
+          "standard_error": 4.4246235527363424
+        },
+        {
+          "n": 20000,
+          "mean": -7.755,
+          "standard_error": 4.580018212528347
+        }
+      ],
+      "outcome_indicator_differences": {
+        "ron": {
+          "n": 20000,
+          "mean": 0.0017,
+          "standard_error": 0.0006479787757517149
+        },
+        "tsumo": {
+          "n": 20000,
+          "mean": -0.0013,
+          "standard_error": 0.0004471302900439801
+        },
+        "exhaustion": {
+          "n": 20000,
+          "mean": -0.0004,
+          "standard_error": 0.0004743450749849819
+        }
+      },
+      "riichi_declarations": {
+        "n": 20000,
+        "mean": -0.0001,
+        "standard_error": 7.070891024120918e-05
+      }
+    }
+  }
+}

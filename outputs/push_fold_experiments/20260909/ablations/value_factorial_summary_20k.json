@@ -1,0 +1,152 @@
+{
+  "validation": "passed",
+  "seed": 20260809,
+  "variants": {
+    "tanyao0_kanchan0": {
+      "tanyao_weight": 0,
+      "kanchan_outer_wait_weight": 0,
+      "primary_non_dealer_normalized_actual_wind_ron": {
+        "mean_ron_points": 5178.350186103135,
+        "hand_clustered_se": 22.91089610270517
+      },
+      "scored_hands": 19836,
+      "first_tenpai_hands": 19864,
+      "mean_first_tenpai_turn": 9.143928715263794,
+      "mean_visible_winning_copies": 5.050342327829239,
+      "mean_live_winning_copies": 1.8704691904953685,
+      "waitcategory_counts": {
+        "chiitoitsu_tanki": 1981,
+        "kanchan": 4014,
+        "kokushi": 29,
+        "other": 915,
+        "penchan": 1263,
+        "ryanmen": 8538,
+        "sanmenchan": 913,
+        "shanpon": 1868,
+        "tanki": 343
+      }
+    },
+    "tanyao0_kanchan1": {
+      "tanyao_weight": 0,
+      "kanchan_outer_wait_weight": 1,
+      "primary_non_dealer_normalized_actual_wind_ron": {
+        "mean_ron_points": 5177.2780613468,
+        "hand_clustered_se": 22.917410818142518
+      },
+      "scored_hands": 19836,
+      "first_tenpai_hands": 19864,
+      "mean_first_tenpai_turn": 9.143928715263794,
+      "mean_visible_winning_copies": 5.050543697140556,
+      "mean_live_winning_copies": 1.8705195328231978,
+      "waitcategory_counts": {
+        "chiitoitsu_tanki": 1981,
+        "kanchan": 4042,
+        "kokushi": 29,
+        "other": 914,
+        "penchan": 1263,
+        "ryanmen": 8536,
+        "sanmenchan": 913,
+        "shanpon": 1844,
+        "tanki": 342
+      }
+    },
+    "tanyao1_kanchan0": {
+      "tanyao_weight": 1,
+      "kanchan_outer_wait_weight": 0,
+      "primary_non_dealer_normalized_actual_wind_ron": {
+        "mean_ron_points": 5180.472186244061,
+        "hand_clustered_se": 22.68459099467681
+      },
+      "scored_hands": 19851,
+      "first_tenpai_hands": 19876,
+      "mean_first_tenpai_turn": 9.127490440732542,
+      "mean_visible_winning_copies": 5.113352787281143,
+      "mean_live_winning_copies": 1.8645099617629302,
+      "waitcategory_counts": {
+        "chiitoitsu_tanki": 1898,
+        "kanchan": 4036,
+        "kokushi": 23,
+        "other": 887,
+        "penchan": 1150,
+        "ryanmen": 8746,
+        "sanmenchan": 932,
+        "shanpon": 1869,
+        "tanki": 335
+      }
+    },
+    "tanyao1_kanchan1": {
+      "tanyao_weight": 1,
+      "kanchan_outer_wait_weight": 1,
+      "primary_non_dealer_normalized_actual_wind_ron": {
+        "mean_ron_points": 5179.010463073105,
+        "hand_clustered_se": 22.67775044714709
+      },
+      "scored_hands": 19851,
+      "first_tenpai_hands": 19876,
+      "mean_first_tenpai_turn": 9.127490440732542,
+      "mean_visible_winning_copies": 5.113403099215134,
+      "mean_live_winning_copies": 1.8656168243107265,
+      "waitcategory_counts": {
+        "chiitoitsu_tanki": 1898,
+        "kanchan": 4065,
+        "kokushi": 23,
+        "other": 887,
+        "penchan": 1150,
+        "ryanmen": 8745,
+        "sanmenchan": 932,
+        "shanpon": 1841,
+        "tanki": 335
+      }
+    }
+  },
+  "paired_visible_copy_mean_differences": {
+    "tanyao0_kanchan1__minus__tanyao0_kanchan0": {
+      "definition": "right minus left over the intersection of trials scored by both variants; this is conditional and differs from subtracting all-scored means",
+      "n": 19836,
+      "mean": -1.0721247563352825,
+      "standard_error": 0.6252366043072349
+    },
+    "tanyao1_kanchan0__minus__tanyao0_kanchan0": {
+      "definition": "right minus left over the intersection of trials scored by both variants; this is conditional and differs from subtracting all-scored means",
+      "n": 19761,
+      "mean": -0.11918466298305325,
+      "standard_error": 14.483559257569398
+    },
+    "tanyao1_kanchan1__minus__tanyao0_kanchan0": {
+      "definition": "right minus left over the intersection of trials scored by both variants; this is conditional and differs from subtracting all-scored means",
+      "n": 19761,
+      "mean": -1.5875651430532252,
+      "standard_error": 14.47296715825909
+    },
+    "tanyao1_kanchan0__minus__tanyao0_kanchan1": {
+      "definition": "right minus left over the intersection of trials scored by both variants; this is conditional and differs from subtracting all-scored means",
+      "n": 19761,
+      "mean": 0.9570091868558551,
+      "standard_error": 14.486674734330226
+    },
+    "tanyao1_kanchan1__minus__tanyao0_kanchan1": {
+      "definition": "right minus left over the intersection of trials scored by both variants; this is conditional and differs from subtracting all-scored means",
+      "n": 19761,
+      "mean": -0.511371293214317,
+      "standard_error": 14.47609043907762
+    },
+    "tanyao1_kanchan1__minus__tanyao1_kanchan0": {
+      "definition": "right minus left over the intersection of trials scored by both variants; this is conditional and differs from subtracting all-scored means",
+      "n": 19851,
+      "mean": -1.4617231709569627,
+      "standard_error": 0.6883016933004243
+    }
+  },
+  "source_sha256": {
+    "rollout_tanyao0_kanchan0": "f9d3a3097712db8db58d346fd82cde0ce882f9ffb72435af1a04b7ce40080d60",
+    "scored_tanyao0_kanchan0": "3d1f24d1dd57b61beef82c1f7e612819c212d03dd53ca67f6ca04a3922706ea4",
+    "rollout_tanyao0_kanchan1": "8738aadc2e94b8c9fd517283e53298865a57c0ae927f3dd3c16d13e4e9cb7ee1",
+    "scored_tanyao0_kanchan1": "be0dbd4936af6aedcaa4885a622e0bfaff21b49daba47f3f75f33bd23e4d53ff",
+    "rollout_tanyao1_kanchan0": "6c9067794ac95fa574c87540e6879afb7f67c9d7e67f34a1a3d709ea7130a74b",
+    "scored_tanyao1_kanchan0": "09e8e59a2fe7e126023f3c1afed15ae5ea551fde96101be9a24e89ba413185bd",
+    "rollout_tanyao1_kanchan1": "a174f751a0236b9030c29549c513088426e4bd9cc92e38d1ee4dbb32c7aa54a8",
+    "scored_tanyao1_kanchan1": "6e00e596972aaa56c7e4f90d1ef2ad651cb0c03ed442d70a7930b6667099bba8",
+    "score_helper": "d9fdf02998f1a0afce190108aa25470d0be184188d3cb828f24ca15673f9e02b",
+    "report": "6d3d9936069801dfc8102af13ff52c7a7a62c1424eae6de1edb91a9182d15d61"
+  }
+}

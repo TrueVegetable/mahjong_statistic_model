@@ -1,0 +1,1221 @@
+{
+  "run": {
+    "engine": "native",
+    "binary": "/private/tmp/hand_efficiency_sim_cpp",
+    "engine_version": "closed-hand-efficiency-cpp-4",
+    "evaluator_backend": "necessary_tiles_masks",
+    "seed": 20260809,
+    "start_trial": 0,
+    "trials": 20000,
+    "seat_wind": "south",
+    "round_wind": "east",
+    "riichi_on_tenpai": true,
+    "score_assumes_riichi": true,
+    "ura_dora_sampled": true,
+    "ura_dora_hidden_from_discard_policy": true,
+    "policy": "shanten_then_value_ukeire",
+    "policy_parameters": {
+      "future_ukeire_weight": 0.5,
+      "future_ukeire_weights_by_shanten": {
+        "1": 0.75,
+        "2": 0.5,
+        "3_plus": 0.0
+      },
+      "improvement_weight": 0.1,
+      "advanced_shanten": [
+        1,
+        2
+      ],
+      "shanten_reversal": {
+        "enabled": true,
+        "penalty": 25.0,
+        "recovered_ukeire_weight": 0.5,
+        "max_turn": 9,
+        "candidate_limit": 2,
+        "max_per_hand": 1
+      },
+      "dora_ukeire_weight": 0.0,
+      "dora_tiebreak_weight": 1.0,
+      "dora_neighbor_weight": 1.0,
+      "yakuhai_weight": 1.0,
+      "tanyao_weight": 1.0
+    },
+    "scorer": "mahjong_repository_2",
+    "observations": null,
+    "simulation_scope": "single_hand_first_tenpai",
+    "tenpai_scoring_enabled": true,
+    "reject_cheap_bad_wait_riichi": false
+  },
+  "trials": 20000,
+  "outcomes": {
+    "exhausted": 5965,
+    "tenpai": 14035
+  },
+  "first_tenpai_seat_distribution": {
+    "south": {
+      "count": 14035,
+      "share": 1.0
+    }
+  },
+  "riichi_selection_filter": {
+    "enabled": false,
+    "definition": "exclude nondealer first-tenpai hands whose visible-information riichi ron value without ura is exactly 1300 and whose primary wait is kanchan, penchan, shanpon, or tanki without a visible remaining honor copy",
+    "bad_wait_nondealer_candidates": 0,
+    "rejected_hands": 0,
+    "accepted_tenpai_hands": 14035,
+    "rejections_by_wait": {},
+    "rejections_by_seat": {}
+  },
+  "nondealer_ron_score": {
+    "definition": "each first-tenpai wait is scored as non-dealer ron; each hand first averages its waits by remaining physical-copy count",
+    "tenpai_hands": 14035,
+    "unseen_copy_weighted": {
+      "scored_hands": 14035,
+      "average_points": 5158.2588636905575,
+      "average_points_standard_error": 27.582072145860977
+    },
+    "live_wall_weighted_diagnostic": {
+      "scored_hands": 8884,
+      "average_points": 5066.246659688804,
+      "average_points_standard_error": 34.16114919332484
+    },
+    "score_evaluations": 81985,
+    "invalid_visible_copy_weight": 0,
+    "invalid_live_copy_weight": 0,
+    "scoring_errors": {}
+  },
+  "score_distribution_definition": "each scored tenpai hand contributes total weight 1, divided among its winning physical copies by unseen count (four minus concealed and publicly visible copies)",
+  "han_distribution": {
+    "1": {
+      "count": 1765.1323898323415,
+      "share": 0.12576646881598444
+    },
+    "2": {
+      "count": 3658.858251226065,
+      "share": 0.26069527974535556
+    },
+    "3": {
+      "count": 3769.8371780183215,
+      "share": 0.268602577699916
+    },
+    "4": {
+      "count": 2424.294802746248,
+      "share": 0.17273208427119688
+    },
+    "5": {
+      "count": 1455.123906648859,
+      "share": 0.10367822633764581
+    },
+    "6": {
+      "count": 601.5156479141808,
+      "share": 0.0428582577779965
+    },
+    "7": {
+      "count": 219.132340208811,
+      "share": 0.015613276822857926
+    },
+    "8": {
+      "count": 82.48751803751802,
+      "share": 0.005877272393125616
+    },
+    "9": {
+      "count": 23.87629870129869,
+      "share": 0.00170119691494825
+    },
+    "10": {
+      "count": 4.741666666666666,
+      "share": 0.0003378458615366346
+    },
+    "11": {
+      "count": 1.0,
+      "share": 7.125044531528322e-05
+    },
+    "13": {
+      "count": 27.999999999999993,
+      "share": 0.0019950124688279296
+    },
+    "26": {
+      "count": 1.0000000000000002,
+      "share": 7.125044531528323e-05
+    }
+  },
+  "fu_distribution": {
+    "0": {
+      "count": 28.99999999999999,
+      "share": 0.0020662629141432126
+    },
+    "25": {
+      "count": 1294.9999999999852,
+      "share": 0.09226932668329071
+    },
+    "30": {
+      "count": 3126.1810286120312,
+      "share": 0.2227417904247974
+    },
+    "40": {
+      "count": 8632.974224794352,
+      "share": 0.6151032579119595
+    },
+    "50": {
+      "count": 944.4707206192445,
+      "share": 0.06729395943136762
+    },
+    "60": {
+      "count": 7.374025974025979,
+      "share": 0.0005254026344158161
+    }
+  },
+  "han_fu_joint_distribution": {
+    "10han_25fu": {
+      "count": 1.0,
+      "share": 7.125044531528322e-05
+    },
+    "10han_30fu": {
+      "count": 1.6583333333333332,
+      "share": 0.000118156988481178
+    },
+    "10han_40fu": {
+      "count": 0.5,
+      "share": 3.562522265764161e-05
+    },
+    "10han_50fu": {
+      "count": 1.5833333333333333,
+      "share": 0.00011281320508253176
+    },
+    "11han_40fu": {
+      "count": 1.0,
+      "share": 7.125044531528322e-05
+    },
+    "13han_0fu": {
+      "count": 27.999999999999993,
+      "share": 0.0019950124688279296
+    },
+    "1han_40fu": {
+      "count": 1610.6591214340806,
+      "share": 0.11476017965330107
+    },
+    "1han_50fu": {
+      "count": 154.47326839826823,
+      "share": 0.011006289162683877
+    },
+    "26han_0fu": {
+      "count": 1.0000000000000002,
+      "share": 7.125044531528323e-05
+    },
+    "2han_30fu": {
+      "count": 511.34770948007053,
+      "share": 0.0364337520114051
+    },
+    "2han_40fu": {
+      "count": 2881.9590851958815,
+      "share": 0.2053408682006328
+    },
+    "2han_50fu": {
+      "count": 265.55145654998523,
+      "share": 0.018920659533308532
+    },
+    "3han_25fu": {
+      "count": 396.66666666666157,
+      "share": 0.028262676641728646
+    },
+    "3han_30fu": {
+      "count": 1015.9886407709781,
+      "share": 0.0723896430902015
+    },
+    "3han_40fu": {
+      "count": 2148.4223800708573,
+      "share": 0.15307605130536925
+    },
+    "3han_50fu": {
+      "count": 208.75949050949012,
+      "share": 0.014874206662592813
+    },
+    "4han_25fu": {
+      "count": 272.6666666666686,
+      "share": 0.01942762142263403
+    },
+    "4han_30fu": {
+      "count": 861.6579508726492,
+      "share": 0.06139351270913068
+    },
+    "4han_40fu": {
+      "count": 1147.6122514740023,
+      "share": 0.08176788396679746
+    },
+    "4han_50fu": {
+      "count": 140.3579337329335,
+      "share": 0.010000565282004525
+    },
+    "4han_60fu": {
+      "count": 1.9999999999999998,
+      "share": 0.00014250089063056642
+    },
+    "5han_25fu": {
+      "count": 312.6666666666664,
+      "share": 0.0222776392352452
+    },
+    "5han_30fu": {
+      "count": 469.71336163837043,
+      "share": 0.033467286187272564
+    },
+    "5han_40fu": {
+      "count": 577.3913891663882,
+      "share": 0.041139393599315156
+    },
+    "5han_50fu": {
+      "count": 91.98452380952392,
+      "share": 0.006553938283542851
+    },
+    "5han_60fu": {
+      "count": 3.367965367965367,
+      "share": 0.0002399690322739841
+    },
+    "6han_25fu": {
+      "count": 193.6666666666678,
+      "share": 0.013798836242726598
+    },
+    "6han_30fu": {
+      "count": 173.77554945054882,
+      "share": 0.012381585283259625
+    },
+    "6han_40fu": {
+      "count": 187.79475214328136,
+      "share": 0.013380459718082034
+    },
+    "6han_50fu": {
+      "count": 45.070346320346374,
+      "share": 0.0032112822458387155
+    },
+    "6han_60fu": {
+      "count": 1.2083333333333333,
+      "share": 8.609428808930055e-05
+    },
+    "7han_25fu": {
+      "count": 75.66666666666667,
+      "share": 0.005391283695523098
+    },
+    "7han_30fu": {
+      "count": 63.291683643154386,
+      "share": 0.004509560644328777
+    },
+    "7han_40fu": {
+      "count": 59.37215007215021,
+      "share": 0.004230292131966527
+    },
+    "7han_50fu": {
+      "count": 20.67683982683983,
+      "share": 0.0014732340453751215
+    },
+    "7han_60fu": {
+      "count": 0.125,
+      "share": 8.906305664410403e-06
+    },
+    "8han_25fu": {
+      "count": 34.666666666666636,
+      "share": 0.002470015437596483
+    },
+    "8han_30fu": {
+      "count": 22.139466089466115,
+      "share": 0.0015774468179170728
+    },
+    "8han_40fu": {
+      "count": 14.434523809523803,
+      "share": 0.0010284662493426295
+    },
+    "8han_50fu": {
+      "count": 10.846861471861473,
+      "share": 0.0007728437101433183
+    },
+    "8han_60fu": {
+      "count": 0.4,
+      "share": 2.850017812611329e-05
+    },
+    "9han_25fu": {
+      "count": 7.9999999999999964,
+      "share": 0.0005700035625222656
+    },
+    "9han_30fu": {
+      "count": 6.6083333333333325,
+      "share": 0.0004708466927918299
+    },
+    "9han_40fu": {
+      "count": 3.8285714285714287,
+      "share": 0.00027278741920708433
+    },
+    "9han_50fu": {
+      "count": 5.166666666666667,
+      "share": 0.00036812730079563
+    },
+    "9han_60fu": {
+      "count": 0.2727272727272727,
+      "share": 1.9431939631440876e-05
+    }
+  },
+  "live_wall_weighted_han_distribution": {
+    "1": {
+      "count": 1155.5785714285735,
+      "share": 0.130074130057246
+    },
+    "2": {
+      "count": 2357.211904761902,
+      "share": 0.26533227203533344
+    },
+    "3": {
+      "count": 2385.3999999999965,
+      "share": 0.2685051778478159
+    },
+    "4": {
+      "count": 1523.5428571428502,
+      "share": 0.17149289251945635
+    },
+    "5": {
+      "count": 898.3547619047666,
+      "share": 0.10112052700413852
+    },
+    "6": {
+      "count": 349.0285714285708,
+      "share": 0.03928732231298636
+    },
+    "7": {
+      "count": 140.10476190476186,
+      "share": 0.015770459466992556
+    },
+    "8": {
+      "count": 45.826190476190476,
+      "share": 0.0051582834844878965
+    },
+    "9": {
+      "count": 13.952380952380953,
+      "share": 0.0015705066357925431
+    },
+    "10": {
+      "count": 3.0,
+      "share": 0.00033768572714993245
+    },
+    "11": {
+      "count": 1.0,
+      "share": 0.00011256190904997749
+    },
+    "13": {
+      "count": 10.0,
+      "share": 0.0011256190904997748
+    },
+    "26": {
+      "count": 0.9999999999999999,
+      "share": 0.00011256190904997747
+    }
+  },
+  "live_wall_weighted_fu_distribution": {
+    "0": {
+      "count": 11.000000000000002,
+      "share": 0.0012381809995497526
+    },
+    "25": {
+      "count": 585.9999999999993,
+      "share": 0.06596127870328673
+    },
+    "30": {
+      "count": 2265.8619047618968,
+      "share": 0.2550497416436174
+    },
+    "40": {
+      "count": 5459.055411255269,
+      "share": 0.6144816987005031
+    },
+    "50": {
+      "count": 554.2969696969692,
+      "share": 0.062392725089708376
+    },
+    "60": {
+      "count": 7.785714285714285,
+      "share": 0.0008763748633176817
+    }
+  },
+  "wait_distribution": {
+    "definition": "primary percentage is the share of first-tenpai hands containing each wait; each hand receives exactly one whole-hand structural category, so hand shares sum to one",
+    "percentage_basis": "tenpai hands assigned to the wait category",
+    "categories": {
+      "ryanmen": {
+        "tenpai_hands_with_wait": 6188,
+        "hand_share": 0.44089775561097255,
+        "wait_tile_opportunities": 12376.0,
+        "wait_tile_share": 0.510687463893703,
+        "visible_remaining_copies": 46465.0,
+        "visible_copy_share": 0.5667500152466914,
+        "live_wall_remaining_copies": 9160.0,
+        "live_wall_copy_share": 0.5436201780415431
+      },
+      "kanchan": {
+        "tenpai_hands_with_wait": 2853,
+        "hand_share": 0.20327752048450304,
+        "wait_tile_opportunities": 2853.0,
+        "wait_tile_share": 0.11772716018816538,
+        "visible_remaining_copies": 11041.0,
+        "visible_copy_share": 0.13467097639812162,
+        "live_wall_remaining_copies": 2438.0,
+        "live_wall_copy_share": 0.14468842729970327
+      },
+      "penchan": {
+        "tenpai_hands_with_wait": 575,
+        "hand_share": 0.04096900605628785,
+        "wait_tile_opportunities": 575.0,
+        "wait_tile_share": 0.023726995130807955,
+        "visible_remaining_copies": 2221.0,
+        "visible_copy_share": 0.027090321400256145,
+        "live_wall_remaining_copies": 510.0,
+        "live_wall_copy_share": 0.030267062314540058
+      },
+      "shanpon": {
+        "tenpai_hands_with_wait": 1660,
+        "hand_share": 0.11827573922337015,
+        "wait_tile_opportunities": 3320.0,
+        "wait_tile_share": 0.13699760666831723,
+        "visible_remaining_copies": 6533.0,
+        "visible_copy_share": 0.07968530828810148,
+        "live_wall_remaining_copies": 1349.0,
+        "live_wall_copy_share": 0.0800593471810089
+      },
+      "tanki": {
+        "tenpai_hands_with_wait": 209,
+        "hand_share": 0.014891343070894193,
+        "wait_tile_opportunities": 209.0,
+        "wait_tile_share": 0.008624246925806718,
+        "visible_remaining_copies": 625.0,
+        "visible_copy_share": 0.0076233457339757275,
+        "live_wall_remaining_copies": 142.0,
+        "live_wall_copy_share": 0.008427299703264095
+      },
+      "chiitoitsu_tanki": {
+        "tenpai_hands_with_wait": 1296,
+        "hand_share": 0.09234057712860705,
+        "wait_tile_opportunities": 1298.0,
+        "wait_tile_share": 0.05356111248658909,
+        "visible_remaining_copies": 3890.0,
+        "visible_copy_share": 0.047447703848264924,
+        "live_wall_remaining_copies": 802.0,
+        "live_wall_copy_share": 0.047596439169139464
+      },
+      "kokushi": {
+        "tenpai_hands_with_wait": 29,
+        "hand_share": 0.0020662629141432135,
+        "wait_tile_opportunities": 41.0,
+        "wait_tile_share": 0.001691837913675002,
+        "visible_remaining_copies": 145.0,
+        "visible_copy_share": 0.0017686162102823688,
+        "live_wall_remaining_copies": 20.0,
+        "live_wall_copy_share": 0.0011869436201780415
+      },
+      "other": {
+        "tenpai_hands_with_wait": 1225,
+        "hand_share": 0.08728179551122195,
+        "wait_tile_opportunities": 3562.0,
+        "wait_tile_share": 0.14698357679293556,
+        "visible_remaining_copies": 11065.0,
+        "visible_copy_share": 0.13496371287430628,
+        "live_wall_remaining_copies": 2429.0,
+        "live_wall_copy_share": 0.14415430267062315
+      }
+    }
+  },
+  "average_wait_tiles_remaining_at_first_tenpai": {
+    "tenpai_hands": 14035,
+    "mean_first_tenpai_turn": 12.20634128963306,
+    "chiitoitsu_tenpai_hands": 1296,
+    "chiitoitsu_tenpai_rate": 0.09234057712860705,
+    "furiten_hands": 1043,
+    "dead_wait_hands": 5151,
+    "distinct_wait_tile_types": 1.7266832917705737,
+    "visible_remaining_copies": 5.8414677591734945,
+    "live_wall_remaining_copies": 1.2005700035625222
+  },
+  "tile_hit_rate_by_wait": {
+    "definition": "probability that the next tile sampled uniformly from the remaining live wall completes a hand in each primary whole-hand wait category",
+    "overall_average_next_draw_hit_probability": 0.05030500294680791,
+    "categories": {
+      "ryanmen": {
+        "eligible_tenpai_hands": 6188,
+        "hand_share": 0.44089775561097255,
+        "average_next_draw_hit_probability": 0.02834709335402171,
+        "average_next_draw_hit_probability_when_exposed": 0.06429402960951756
+      },
+      "kanchan": {
+        "eligible_tenpai_hands": 2853,
+        "hand_share": 0.20327752048450304,
+        "average_next_draw_hit_probability": 0.007006094718549391,
+        "average_next_draw_hit_probability_when_exposed": 0.034465663993985526
+      },
+      "penchan": {
+        "eligible_tenpai_hands": 575,
+        "hand_share": 0.04096900605628785,
+        "average_next_draw_hit_probability": 0.0013303616385198173,
+        "average_next_draw_hit_probability_when_exposed": 0.032472392341957625
+      },
+      "shanpon": {
+        "eligible_tenpai_hands": 1660,
+        "hand_share": 0.11827573922337015,
+        "average_next_draw_hit_probability": 0.004011191142077152,
+        "average_next_draw_hit_probability_when_exposed": 0.0339138961922005
+      },
+      "tanki": {
+        "eligible_tenpai_hands": 209,
+        "hand_share": 0.014891343070894193,
+        "average_next_draw_hit_probability": 0.0003265743281774631,
+        "average_next_draw_hit_probability_when_exposed": 0.021930481798902845
+      },
+      "chiitoitsu_tanki": {
+        "eligible_tenpai_hands": 1296,
+        "hand_share": 0.09234057712860705,
+        "average_next_draw_hit_probability": 0.0022641429409811773,
+        "average_next_draw_hit_probability_when_exposed": 0.024519480074591687
+      },
+      "kokushi": {
+        "eligible_tenpai_hands": 29,
+        "hand_share": 0.0020662629141432135,
+        "average_next_draw_hit_probability": 8.244694386482772e-05,
+        "average_next_draw_hit_probability_when_exposed": 0.039901477832512314
+      },
+      "other": {
+        "eligible_tenpai_hands": 1225,
+        "hand_share": 0.08728179551122195,
+        "average_next_draw_hit_probability": 0.006937097880616176,
+        "average_next_draw_hit_probability_when_exposed": 0.07947932143220247
+      }
+    }
+  },
+  "tile_hit_rate_by_tile_type_and_wait": {
+    "definition": "next-live-wall-draw hit probability split by winning tile rank group and wait type; hand_share is the percentage of first-tenpai hands containing at least one winning tile in the cell. One hand may occur in multiple tile-rank cells, but has only one primary wait type",
+    "tile_type_categories": {
+      "19": "suited terminals 1 and 9",
+      "28": "suited ranks 2 and 8",
+      "37": "suited ranks 3 and 7",
+      "456": "suited middle ranks 4, 5, and 6",
+      "honor": "winds and dragons"
+    },
+    "by_tile_type": {
+      "19": {
+        "eligible_tenpai_hands": 3079,
+        "hand_share": 0.21938012112575703,
+        "average_next_draw_hit_probability": 0.006522513165320527,
+        "average_next_draw_hit_probability_when_exposed": 0.029731559686675416
+      },
+      "28": {
+        "eligible_tenpai_hands": 4085,
+        "hand_share": 0.29105806911293197,
+        "average_next_draw_hit_probability": 0.008939586078343668,
+        "average_next_draw_hit_probability_when_exposed": 0.03071409806843412
+      },
+      "37": {
+        "eligible_tenpai_hands": 5392,
+        "hand_share": 0.3841824011400071,
+        "average_next_draw_hit_probability": 0.011377535369983328,
+        "average_next_draw_hit_probability_when_exposed": 0.029614931179101637
+      },
+      "456": {
+        "eligible_tenpai_hands": 10185,
+        "hand_share": 0.7256857855361596,
+        "average_next_draw_hit_probability": 0.022384903026484375,
+        "average_next_draw_hit_probability_when_exposed": 0.030846550218626236
+      },
+      "honor": {
+        "eligible_tenpai_hands": 763,
+        "hand_share": 0.0543640897755611,
+        "average_next_draw_hit_probability": 0.0010804653066759059,
+        "average_next_draw_hit_probability_when_exposed": 0.01987461412738708
+      }
+    },
+    "by_tile_type_and_wait": {
+      "19": {
+        "ryanmen": {
+          "eligible_tenpai_hands": 1876,
+          "hand_share": 0.1336658354114713,
+          "average_next_draw_hit_probability": 0.004370147993220036,
+          "average_next_draw_hit_probability_when_exposed": 0.03269457733733646
+        },
+        "kanchan": {
+          "eligible_tenpai_hands": 0,
+          "hand_share": 0.0,
+          "average_next_draw_hit_probability": 0.0,
+          "average_next_draw_hit_probability_when_exposed": null
+        },
+        "penchan": {
+          "eligible_tenpai_hands": 0,
+          "hand_share": 0.0,
+          "average_next_draw_hit_probability": 0.0,
+          "average_next_draw_hit_probability_when_exposed": null
+        },
+        "shanpon": {
+          "eligible_tenpai_hands": 482,
+          "hand_share": 0.03434271464196651,
+          "average_next_draw_hit_probability": 0.0006156570045953729,
+          "average_next_draw_hit_probability_when_exposed": 0.017926859044597634
+        },
+        "tanki": {
+          "eligible_tenpai_hands": 1,
+          "hand_share": 7.125044531528322e-05,
+          "average_next_draw_hit_probability": 5.937537109606935e-06,
+          "average_next_draw_hit_probability_when_exposed": 0.08333333333333333
+        },
+        "chiitoitsu_tanki": {
+          "eligible_tenpai_hands": 44,
+          "hand_share": 0.003135019593872462,
+          "average_next_draw_hit_probability": 8.971109908367605e-05,
+          "average_next_draw_hit_probability_when_exposed": 0.028615801719077124
+        },
+        "kokushi": {
+          "eligible_tenpai_hands": 18,
+          "hand_share": 0.001282508015675098,
+          "average_next_draw_hit_probability": 6.433745568052657e-05,
+          "average_next_draw_hit_probability_when_exposed": 0.05016534391534391
+        },
+        "other": {
+          "eligible_tenpai_hands": 658,
+          "hand_share": 0.04688279301745636,
+          "average_next_draw_hit_probability": 0.001376722075631318,
+          "average_next_draw_hit_probability_when_exposed": 0.029365188953625453
+        }
+      },
+      "28": {
+        "ryanmen": {
+          "eligible_tenpai_hands": 2098,
+          "hand_share": 0.14948343427146418,
+          "average_next_draw_hit_probability": 0.004616788922987704,
+          "average_next_draw_hit_probability_when_exposed": 0.030884953543437763
+        },
+        "kanchan": {
+          "eligible_tenpai_hands": 605,
+          "hand_share": 0.04310651941574635,
+          "average_next_draw_hit_probability": 0.0015640401086580837,
+          "average_next_draw_hit_probability_when_exposed": 0.036283145330605296
+        },
+        "penchan": {
+          "eligible_tenpai_hands": 0,
+          "hand_share": 0.0,
+          "average_next_draw_hit_probability": 0.0,
+          "average_next_draw_hit_probability_when_exposed": null
+        },
+        "shanpon": {
+          "eligible_tenpai_hands": 620,
+          "hand_share": 0.0441752760954756,
+          "average_next_draw_hit_probability": 0.0008447827159975365,
+          "average_next_draw_hit_probability_when_exposed": 0.0191234280952023
+        },
+        "tanki": {
+          "eligible_tenpai_hands": 49,
+          "hand_share": 0.003491271820448878,
+          "average_next_draw_hit_probability": 7.450042140102704e-05,
+          "average_next_draw_hit_probability_when_exposed": 0.021339049272722743
+        },
+        "chiitoitsu_tanki": {
+          "eligible_tenpai_hands": 247,
+          "hand_share": 0.017598859992874954,
+          "average_next_draw_hit_probability": 0.0003949718689654562,
+          "average_next_draw_hit_probability_when_exposed": 0.022443037169757808
+        },
+        "kokushi": {
+          "eligible_tenpai_hands": 0,
+          "hand_share": 0.0,
+          "average_next_draw_hit_probability": 0.0,
+          "average_next_draw_hit_probability_when_exposed": null
+        },
+        "other": {
+          "eligible_tenpai_hands": 466,
+          "hand_share": 0.03320270751692198,
+          "average_next_draw_hit_probability": 0.001444502040333891,
+          "average_next_draw_hit_probability_when_exposed": 0.04350554964825356
+        }
+      },
+      "37": {
+        "ryanmen": {
+          "eligible_tenpai_hands": 2214,
+          "hand_share": 0.15774848592803706,
+          "average_next_draw_hit_probability": 0.004947071384169278,
+          "average_next_draw_hit_probability_when_exposed": 0.031360499944361256
+        },
+        "kanchan": {
+          "eligible_tenpai_hands": 908,
+          "hand_share": 0.06469540434627716,
+          "average_next_draw_hit_probability": 0.002109955332544871,
+          "average_next_draw_hit_probability_when_exposed": 0.03261368181967761
+        },
+        "penchan": {
+          "eligible_tenpai_hands": 575,
+          "hand_share": 0.04096900605628785,
+          "average_next_draw_hit_probability": 0.0013303616385198173,
+          "average_next_draw_hit_probability_when_exposed": 0.032472392341957625
+        },
+        "shanpon": {
+          "eligible_tenpai_hands": 540,
+          "hand_share": 0.03847524047025294,
+          "average_next_draw_hit_probability": 0.0006680699065807728,
+          "average_next_draw_hit_probability_when_exposed": 0.01736363173863175
+        },
+        "tanki": {
+          "eligible_tenpai_hands": 69,
+          "hand_share": 0.004916280726754542,
+          "average_next_draw_hit_probability": 0.00011435517536336912,
+          "average_next_draw_hit_probability_when_exposed": 0.023260505597462112
+        },
+        "chiitoitsu_tanki": {
+          "eligible_tenpai_hands": 344,
+          "hand_share": 0.024510153188457427,
+          "average_next_draw_hit_probability": 0.0006136544451471418,
+          "average_next_draw_hit_probability_when_exposed": 0.025036744586163187
+        },
+        "kokushi": {
+          "eligible_tenpai_hands": 0,
+          "hand_share": 0.0,
+          "average_next_draw_hit_probability": 0.0,
+          "average_next_draw_hit_probability_when_exposed": null
+        },
+        "other": {
+          "eligible_tenpai_hands": 742,
+          "hand_share": 0.05286783042394015,
+          "average_next_draw_hit_probability": 0.001594067487658094,
+          "average_next_draw_hit_probability_when_exposed": 0.030151936912778097
+        }
+      },
+      "456": {
+        "ryanmen": {
+          "eligible_tenpai_hands": 6188,
+          "hand_share": 0.44089775561097255,
+          "average_next_draw_hit_probability": 0.014413085053644897,
+          "average_next_draw_hit_probability_when_exposed": 0.03269031168841405
+        },
+        "kanchan": {
+          "eligible_tenpai_hands": 1340,
+          "hand_share": 0.09547559672247952,
+          "average_next_draw_hit_probability": 0.003332099277346454,
+          "average_next_draw_hit_probability_when_exposed": 0.03490000996832648
+        },
+        "penchan": {
+          "eligible_tenpai_hands": 0,
+          "hand_share": 0.0,
+          "average_next_draw_hit_probability": 0.0,
+          "average_next_draw_hit_probability_when_exposed": null
+        },
+        "shanpon": {
+          "eligible_tenpai_hands": 767,
+          "hand_share": 0.05464909155682223,
+          "average_next_draw_hit_probability": 0.00103399791634562,
+          "average_next_draw_hit_probability_when_exposed": 0.01892067895164378
+        },
+        "tanki": {
+          "eligible_tenpai_hands": 87,
+          "hand_share": 0.0061987887424296405,
+          "average_next_draw_hit_probability": 0.00012910930260413695,
+          "average_next_draw_hit_probability_when_exposed": 0.020828150138494966
+        },
+        "chiitoitsu_tanki": {
+          "eligible_tenpai_hands": 593,
+          "hand_share": 0.042251514071962946,
+          "average_next_draw_hit_probability": 0.001021833577497989,
+          "average_next_draw_hit_probability_when_exposed": 0.024184543440445662
+        },
+        "kokushi": {
+          "eligible_tenpai_hands": 0,
+          "hand_share": 0.0,
+          "average_next_draw_hit_probability": 0.0,
+          "average_next_draw_hit_probability_when_exposed": null
+        },
+        "other": {
+          "eligible_tenpai_hands": 1210,
+          "hand_share": 0.0862130388314927,
+          "average_next_draw_hit_probability": 0.002454777899045385,
+          "average_next_draw_hit_probability_when_exposed": 0.02847339488686114
+        }
+      },
+      "honor": {
+        "ryanmen": {
+          "eligible_tenpai_hands": 0,
+          "hand_share": 0.0,
+          "average_next_draw_hit_probability": 0.0,
+          "average_next_draw_hit_probability_when_exposed": null
+        },
+        "kanchan": {
+          "eligible_tenpai_hands": 0,
+          "hand_share": 0.0,
+          "average_next_draw_hit_probability": 0.0,
+          "average_next_draw_hit_probability_when_exposed": null
+        },
+        "penchan": {
+          "eligible_tenpai_hands": 0,
+          "hand_share": 0.0,
+          "average_next_draw_hit_probability": 0.0,
+          "average_next_draw_hit_probability_when_exposed": null
+        },
+        "shanpon": {
+          "eligible_tenpai_hands": 628,
+          "hand_share": 0.04474527965799786,
+          "average_next_draw_hit_probability": 0.0008486835985578635,
+          "average_next_draw_hit_probability_when_exposed": 0.01896699730216499
+        },
+        "tanki": {
+          "eligible_tenpai_hands": 3,
+          "hand_share": 0.00021375133594584965,
+          "average_next_draw_hit_probability": 2.6718916993231205e-06,
+          "average_next_draw_hit_probability_when_exposed": 0.012499999999999999
+        },
+        "chiitoitsu_tanki": {
+          "eligible_tenpai_hands": 70,
+          "hand_share": 0.004987531172069825,
+          "average_next_draw_hit_probability": 0.00014397195028690825,
+          "average_next_draw_hit_probability_when_exposed": 0.028866376032525107
+        },
+        "kokushi": {
+          "eligible_tenpai_hands": 12,
+          "hand_share": 0.0008550053437833986,
+          "average_next_draw_hit_probability": 1.810948818430115e-05,
+          "average_next_draw_hit_probability_when_exposed": 0.021180555555555553
+        },
+        "other": {
+          "eligible_tenpai_hands": 50,
+          "hand_share": 0.003562522265764161,
+          "average_next_draw_hit_probability": 6.70283779475087e-05,
+          "average_next_draw_hit_probability_when_exposed": 0.01881486568986569
+        }
+      }
+    }
+  },
+  "shanten_reversal": {
+    "opportunities": 23720,
+    "selected": 10488,
+    "selection_rate_per_opportunity": 0.4421585160202361,
+    "mean_selection_turn": 5.752765064836003,
+    "recovered": 10478,
+    "recovery_rate": 0.9990465293668955,
+    "mean_recovery_turns": 2.0925749188776486,
+    "transitions": {
+      "0->1": 371,
+      "1->2": 10117
+    },
+    "mean_recovery_copies": 54.077231121281464,
+    "mean_recovered_ukeire": 16.192808691104002,
+    "mean_current_ukeire": 11.941170861937453,
+    "mean_ukeire_gain": 4.251637829166503,
+    "mean_strict_score": 18.225101254200187,
+    "mean_adjusted_score": 31.203050035864912
+  },
+  "raw": {
+    "tenpai_turn_sum": 171316,
+    "first_tenpai_seat_counts": {
+      "south": 14035
+    },
+    "cheap_bad_wait_candidates": 0,
+    "cheap_bad_wait_rejections": 0,
+    "chiitoitsu_tenpai_hands": 1296,
+    "visible_scored_hands": 14035,
+    "visible_hand_point_sum": 72396163.15189697,
+    "visible_hand_point_square_sum": 523285018048.98413,
+    "live_scored_hands": 8884,
+    "live_hand_point_sum": 45008535.32467534,
+    "live_hand_point_square_sum": 320118727617.921,
+    "distinct_wait_type_sum": 24234,
+    "visible_wait_copy_sum": 81985,
+    "live_wait_copy_sum": 16850,
+    "visible_han_counts": {
+      "1": 1765.1323898323415,
+      "2": 3658.858251226065,
+      "3": 3769.8371780183215,
+      "4": 2424.294802746248,
+      "5": 1455.123906648859,
+      "6": 601.5156479141808,
+      "7": 219.132340208811,
+      "8": 82.48751803751802,
+      "9": 23.87629870129869,
+      "10": 4.741666666666666,
+      "11": 1.0,
+      "13": 27.999999999999993,
+      "26": 1.0000000000000002
+    },
+    "visible_fu_counts": {
+      "0": 28.99999999999999,
+      "25": 1294.9999999999852,
+      "30": 3126.1810286120312,
+      "40": 8632.974224794352,
+      "50": 944.4707206192445,
+      "60": 7.374025974025979
+    },
+    "visible_han_fu_counts": {
+      "10han_25fu": 1.0,
+      "10han_30fu": 1.6583333333333332,
+      "10han_40fu": 0.5,
+      "10han_50fu": 1.5833333333333333,
+      "11han_40fu": 1.0,
+      "13han_0fu": 27.999999999999993,
+      "1han_40fu": 1610.6591214340806,
+      "1han_50fu": 154.47326839826823,
+      "26han_0fu": 1.0000000000000002,
+      "2han_30fu": 511.34770948007053,
+      "2han_40fu": 2881.9590851958815,
+      "2han_50fu": 265.55145654998523,
+      "3han_25fu": 396.66666666666157,
+      "3han_30fu": 1015.9886407709781,
+      "3han_40fu": 2148.4223800708573,
+      "3han_50fu": 208.75949050949012,
+      "4han_25fu": 272.6666666666686,
+      "4han_30fu": 861.6579508726492,
+      "4han_40fu": 1147.6122514740023,
+      "4han_50fu": 140.3579337329335,
+      "4han_60fu": 1.9999999999999998,
+      "5han_25fu": 312.6666666666664,
+      "5han_30fu": 469.71336163837043,
+      "5han_40fu": 577.3913891663882,
+      "5han_50fu": 91.98452380952392,
+      "5han_60fu": 3.367965367965367,
+      "6han_25fu": 193.6666666666678,
+      "6han_30fu": 173.77554945054882,
+      "6han_40fu": 187.79475214328136,
+      "6han_50fu": 45.070346320346374,
+      "6han_60fu": 1.2083333333333333,
+      "7han_25fu": 75.66666666666667,
+      "7han_30fu": 63.291683643154386,
+      "7han_40fu": 59.37215007215021,
+      "7han_50fu": 20.67683982683983,
+      "7han_60fu": 0.125,
+      "8han_25fu": 34.666666666666636,
+      "8han_30fu": 22.139466089466115,
+      "8han_40fu": 14.434523809523803,
+      "8han_50fu": 10.846861471861473,
+      "8han_60fu": 0.4,
+      "9han_25fu": 7.9999999999999964,
+      "9han_30fu": 6.6083333333333325,
+      "9han_40fu": 3.8285714285714287,
+      "9han_50fu": 5.166666666666667,
+      "9han_60fu": 0.2727272727272727
+    },
+    "live_han_counts": {
+      "1": 1155.5785714285735,
+      "2": 2357.211904761902,
+      "3": 2385.3999999999965,
+      "4": 1523.5428571428502,
+      "5": 898.3547619047666,
+      "6": 349.0285714285708,
+      "7": 140.10476190476186,
+      "8": 45.826190476190476,
+      "9": 13.952380952380953,
+      "10": 3.0,
+      "11": 1.0,
+      "13": 10.0,
+      "26": 0.9999999999999999
+    },
+    "live_fu_counts": {
+      "0": 11.000000000000002,
+      "25": 585.9999999999993,
+      "30": 2265.8619047618968,
+      "40": 5459.055411255269,
+      "50": 554.2969696969692,
+      "60": 7.785714285714285
+    },
+    "live_han_fu_counts": {
+      "10han_25fu": 1.0,
+      "10han_30fu": 1.0,
+      "10han_50fu": 1.0,
+      "11han_40fu": 1.0,
+      "13han_0fu": 10.0,
+      "1han_40fu": 1059.7952380952445,
+      "1han_50fu": 95.7833333333333,
+      "26han_0fu": 0.9999999999999999,
+      "2han_30fu": 360.1952380952372,
+      "2han_40fu": 1837.2839826839643,
+      "2han_50fu": 159.732683982684,
+      "3han_25fu": 191.50000000000009,
+      "3han_30fu": 762.4666666666715,
+      "3han_40fu": 1309.0166666666644,
+      "3han_50fu": 122.41666666666664,
+      "4han_25fu": 112.16666666666666,
+      "4han_30fu": 618.2333333333345,
+      "4han_40fu": 717.9428571428606,
+      "4han_50fu": 74.20000000000003,
+      "4han_60fu": 1.0,
+      "5han_25fu": 153.0,
+      "5han_30fu": 327.5547619047616,
+      "5han_40fu": 361.0166666666661,
+      "5han_50fu": 52.28333333333336,
+      "5han_60fu": 4.5,
+      "6han_25fu": 80.33333333333333,
+      "6han_30fu": 122.24523809523805,
+      "6han_40fu": 121.2833333333332,
+      "6han_50fu": 24.499999999999996,
+      "6han_60fu": 0.6666666666666666,
+      "7han_25fu": 31.0,
+      "7han_30fu": 54.31666666666669,
+      "7han_40fu": 42.216666666666654,
+      "7han_50fu": 12.238095238095239,
+      "7han_60fu": 0.3333333333333333,
+      "8han_25fu": 13.0,
+      "8han_30fu": 15.850000000000001,
+      "8han_40fu": 6.833333333333333,
+      "8han_50fu": 9.142857142857142,
+      "8han_60fu": 1.0,
+      "9han_25fu": 4.0,
+      "9han_30fu": 4.0,
+      "9han_40fu": 2.666666666666667,
+      "9han_50fu": 3.0,
+      "9han_60fu": 0.2857142857142857
+    },
+    "wait_tile_opportunities": {
+      "ryanmen": 12376.0,
+      "kanchan": 2853.0,
+      "penchan": 575.0,
+      "shanpon": 3320.0,
+      "tanki": 209.0,
+      "chiitoitsu_tanki": 1298.0,
+      "kokushi": 41.0,
+      "other": 3562.0
+    },
+    "wait_visible_copies": {
+      "ryanmen": 46465.0,
+      "kanchan": 11041.0,
+      "penchan": 2221.0,
+      "shanpon": 6533.0,
+      "tanki": 625.0,
+      "chiitoitsu_tanki": 3890.0,
+      "kokushi": 145.0,
+      "other": 11065.0
+    },
+    "wait_live_copies": {
+      "ryanmen": 9160.0,
+      "kanchan": 2438.0,
+      "penchan": 510.0,
+      "shanpon": 1349.0,
+      "tanki": 142.0,
+      "chiitoitsu_tanki": 802.0,
+      "kokushi": 20.0,
+      "other": 2429.0
+    },
+    "eligible_hands_by_wait": {
+      "ryanmen": 6188,
+      "kanchan": 2853,
+      "penchan": 575,
+      "shanpon": 1660,
+      "tanki": 209,
+      "chiitoitsu_tanki": 1296,
+      "kokushi": 29,
+      "other": 1225
+    },
+    "eligible_hands_by_tile_type": {
+      "19": 3079,
+      "28": 4085,
+      "37": 5392,
+      "456": 10185,
+      "honor": 763
+    },
+    "eligible_hands_by_tile_and_wait": {
+      "19|ryanmen": 1876,
+      "19|kanchan": 0,
+      "19|penchan": 0,
+      "19|shanpon": 482,
+      "19|tanki": 1,
+      "19|chiitoitsu_tanki": 44,
+      "19|kokushi": 18,
+      "19|other": 658,
+      "28|ryanmen": 2098,
+      "28|kanchan": 605,
+      "28|penchan": 0,
+      "28|shanpon": 620,
+      "28|tanki": 49,
+      "28|chiitoitsu_tanki": 247,
+      "28|kokushi": 0,
+      "28|other": 466,
+      "37|ryanmen": 2214,
+      "37|kanchan": 908,
+      "37|penchan": 575,
+      "37|shanpon": 540,
+      "37|tanki": 69,
+      "37|chiitoitsu_tanki": 344,
+      "37|kokushi": 0,
+      "37|other": 742,
+      "456|ryanmen": 6188,
+      "456|kanchan": 1340,
+      "456|penchan": 0,
+      "456|shanpon": 767,
+      "456|tanki": 87,
+      "456|chiitoitsu_tanki": 593,
+      "456|kokushi": 0,
+      "456|other": 1210,
+      "honor|ryanmen": 0,
+      "honor|kanchan": 0,
+      "honor|penchan": 0,
+      "honor|shanpon": 628,
+      "honor|tanki": 3,
+      "honor|chiitoitsu_tanki": 70,
+      "honor|kokushi": 12,
+      "honor|other": 50
+    },
+    "next_draw_hit_probability_sum": {
+      "ryanmen": 397.8514552236947,
+      "kanchan": 98.3305393748407,
+      "penchan": 18.671625596625635,
+      "shanpon": 56.29706767905283,
+      "tanki": 4.583470695970695,
+      "chiitoitsu_tanki": 31.777246176670825,
+      "kokushi": 1.157142857142857,
+      "other": 97.36216875444804
+    },
+    "next_draw_hit_probability_sum_by_tile_type": {
+      "19": 91.5434722752736,
+      "28": 125.46709060955338,
+      "37": 159.68370891771602,
+      "456": 314.1721139767082,
+      "honor": 15.16433057919634
+    },
+    "next_draw_hit_probability_sum_by_tile_and_wait": {
+      "19|ryanmen": 61.335027084843205,
+      "19|kanchan": 0.0,
+      "19|penchan": 0.0,
+      "19|shanpon": 8.64074605949606,
+      "19|tanki": 0.08333333333333333,
+      "19|chiitoitsu_tanki": 1.2590952756393934,
+      "19|kokushi": 0.9029761904761904,
+      "19|other": 19.322294331485548,
+      "28|ryanmen": 64.79663253413243,
+      "28|kanchan": 21.951302925016204,
+      "28|penchan": 0.0,
+      "28|shanpon": 11.856525419025425,
+      "28|tanki": 1.0456134143634144,
+      "28|chiitoitsu_tanki": 5.543430180930178,
+      "28|kokushi": 0.0,
+      "28|other": 20.27358613608616,
+      "37|ryanmen": 69.43214687681582,
+      "37|kanchan": 29.61322309226727,
+      "37|penchan": 18.671625596625635,
+      "37|shanpon": 9.376361138861146,
+      "37|tanki": 1.6049748862248856,
+      "37|chiitoitsu_tanki": 8.612640137640136,
+      "37|kokushi": 0.0,
+      "37|other": 22.37273718928135,
+      "456|ryanmen": 202.28764872790612,
+      "456|kanchan": 46.766013357557476,
+      "456|penchan": 0.0,
+      "456|shanpon": 14.512160755910779,
+      "456|tanki": 1.8120490620490621,
+      "456|chiitoitsu_tanki": 14.341434260184277,
+      "456|kokushi": 0.0,
+      "456|other": 34.45280781310198,
+      "honor|ryanmen": 0.0,
+      "honor|kanchan": 0.0,
+      "honor|penchan": 0.0,
+      "honor|shanpon": 11.911274305759614,
+      "honor|tanki": 0.0375,
+      "honor|chiitoitsu_tanki": 2.0206463222767574,
+      "honor|kokushi": 0.25416666666666665,
+      "honor|other": 0.9407432844932845
+    },
+    "overall_next_draw_hit_probability_sum": 706.030716358449,
+    "reversal_opportunities": 23720,
+    "reversals_selected": 10488,
+    "reversals_recovered": 10478,
+    "reversal_turn_sum": 60335,
+    "reversal_recovery_turn_sum": 21926,
+    "reversal_transitions": {
+      "0->1": 371,
+      "1->2": 10117
+    },
+    "reversal_recovery_count_sum": 567162.0,
+    "reversal_recovered_ukeire_sum": 169830.17755229876,
+    "reversal_current_ukeire_sum": 125239.0,
+    "reversal_ukeire_gain_sum": 44591.177552298286,
+    "reversal_strict_score_sum": 191144.86195405156,
+    "reversal_adjusted_score_sum": 327257.5887761512
+  }
+}
